@@ -1,0 +1,101 @@
+{
+  "scheme_id": "myscheme-442fd8993bcfa9ef",
+  "scheme_name": "Scheme for Grant of Additional Scholarship to the Students Belonging to Scheduled Tribes of Andaman and Nicobar Islands for Pursuing Higher Studies Anywhere in India Post-Senior Secondary Courses (Post 10+2 Courses)",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/sgassbstaniphsaip-sscp10p2c",
+  "reviewer": "schemesetu-source-assist",
+  "review_date": "2026-09-28",
+  "overall_decision": "amended",
+  "notes": "Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "assisted": true,
+  "human_confirmed": false,
+  "clause_reviews": [
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "All courses leading to a Graduate Degree, e.g",
+      "official_clause": "1 | P a g e  \n \nANDAMAN AND NICOBAR ADMINISTRATION \nDIRECTORATE OF TRIBAL WELFARE \n********** \n \nNOTIFICATION \nPort Blair, dated the 15th January, 2021 \n \nF.No. 1-116/2020-21/Guidelines/TW/34  SCHEME FOR GRANT OF ADDITIONAL \nSCHOLARSHIP TO THE STUDEN TS BELONGING TO  SCHEDULED TRIBES (ST) OF \nANDAMAN AND NICOBAR ISLANDS FOR PURSUING HIGHER STUDIES ANYWHERE \nIN INDIA POST-SENIOR SECONDARY COURSES (",
+      "official_url": "https://scholarships.gov.in/public/schemeGuidelines/Andaman/3030_G.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://scholarships.gov.in/public/schemeGuidelines/Andaman/3030_G.pdf (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "B.A/B.Sc./B.Com. etc",
+      "official_clause": "1 | P a g e  \n \nANDAMAN AND NICOBAR ADMINISTRATION \nDIRECTORATE OF TRIBAL WELFARE \n********** \n \nNOTIFICATION \nPort Blair, dated the 15th January, 2021 \n \nF.No. 1-116/2020-21/Guidelines/TW/34  SCHEME FOR GRANT OF ADDITIONAL \nSCHOLARSHIP TO THE STUDEN TS BELONGING TO  SCHEDULED TRIBES (ST) OF \nANDAMAN AND NICOBAR ISLANDS FOR PURSUING HIGHER STUDIES ANYWHERE \nIN INDIA POST-SENIOR SECONDARY COURSES (",
+      "official_url": "https://scholarships.gov.in/public/schemeGuidelines/Andaman/3030_G.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://scholarships.gov.in/public/schemeGuidelines/Andaman/3030_G.pdf (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "All Post-Graduate Courses, e.g",
+      "official_clause": "1 | P a g e  \n \nANDAMAN AND NICOBAR ADMINISTRATION \nDIRECTORATE OF TRIBAL WELFARE \n********** \n \nNOTIFICATION \nPort Blair, dated the 15th January, 2021 \n \nF.No. 1-116/2020-21/Guidelines/TW/34  SCHEME FOR GRANT OF ADDITIONAL \nSCHOLARSHIP TO THE STUDEN TS BELONGING TO  SCHEDULED TRIBES (ST) OF \nANDAMAN AND NICOBAR ISLANDS FOR PURSUING HIGHER STUDIES ANYWHERE \nIN INDIA POST-SENIOR SECONDARY COURSES (",
+      "official_url": "https://scholarships.gov.in/public/schemeGuidelines/Andaman/3030_G.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://scholarships.gov.in/public/schemeGuidelines/Andaman/3030_G.pdf (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "M.A/M.Sc./M.Com/M.Ed/M",
+      "official_clause": "1 | P a g e  \n \nANDAMAN AND NICOBAR ADMINISTRATION \nDIRECTORATE OF TRIBAL WELFARE \n********** \n \nNOTIFICATION \nPort Blair, dated the 15th January, 2021 \n \nF.No. 1-116/2020-21/Guidelines/TW/34  SCHEME FOR GRANT OF ADDITIONAL \nSCHOLARSHIP TO THE STUDEN TS BELONGING TO  SCHEDULED TRIBES (ST) OF \nANDAMAN AND NICOBAR ISLANDS FOR PURSUING HIGHER STUDIES ANYWHERE \nIN INDIA POST-SENIOR SECONDARY COURSES (",
+      "official_url": "https://scholarships.gov.in/public/schemeGuidelines/Andaman/3030_G.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://scholarships.gov.in/public/schemeGuidelines/Andaman/3030_G.pdf (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Degree and Post-Graduate level courses including M.Phil, Ph.D and Post-Doctoral Research in Medicine (Allopathy, Indian and other recognized systems of medicines), Engineering, Technology, Planning, Architecture, Design, Fashion Technology, Agriculture, Veterinary and allied Sciences, Management, Business Finance/ Administration, Computer Science/Applications, etc",
+      "official_clause": "1 | P a g e  \n \nANDAMAN AND NICOBAR ADMINISTRATION \nDIRECTORATE OF TRIBAL WELFARE \n********** \n \nNOTIFICATION \nPort Blair, dated the 15th January, 2021 \n \nF.No. 1-116/2020-21/Guidelines/TW/34  SCHEME FOR GRANT OF ADDITIONAL \nSCHOLARSHIP TO THE STUDEN TS BELONGING TO  SCHEDULED TRIBES (ST) OF \nANDAMAN AND NICOBAR ISLANDS FOR PURSUING HIGHER STUDIES ANYWHERE \nIN INDIA POST-SENIOR SECONDARY COURSES (",
+      "official_url": "https://scholarships.gov.in/public/schemeGuidelines/Andaman/3030_G.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://scholarships.gov.in/public/schemeGuidelines/Andaman/3030_G.pdf (match_score=0.971). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Post-Graduate Diploma courses in various branches of Management and medicine, Commercial Pilot License (including helicopter pilot and multiengine rating) course, etc",
+      "official_clause": "1 | P a g e  \n \nANDAMAN AND NICOBAR ADMINISTRATION \nDIRECTORATE OF TRIBAL WELFARE \n********** \n \nNOTIFICATION \nPort Blair, dated the 15th January, 2021 \n \nF.No. 1-116/2020-21/Guidelines/TW/34  SCHEME FOR GRANT OF ADDITIONAL \nSCHOLARSHIP TO THE STUDEN TS BELONGING TO  SCHEDULED TRIBES (ST) OF \nANDAMAN AND NICOBAR ISLANDS FOR PURSUING HIGHER STUDIES ANYWHERE \nIN INDIA POST-SENIOR SECONDARY COURSES (",
+      "official_url": "https://scholarships.gov.in/public/schemeGuidelines/Andaman/3030_G.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://scholarships.gov.in/public/schemeGuidelines/Andaman/3030_G.pdf (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "C.A/I.C.W.A./C.S./I.C.F.A. etc",
+      "official_clause": "1 | P a g e  \n \nANDAMAN AND NICOBAR ADMINISTRATION \nDIRECTORATE OF TRIBAL WELFARE \n********** \n \nNOTIFICATION \nPort Blair, dated the 15th January, 2021 \n \nF.No. 1-116/2020-21/Guidelines/TW/34  SCHEME FOR GRANT OF ADDITIONAL \nSCHOLARSHIP TO THE STUDEN TS BELONGING TO  SCHEDULED TRIBES (ST) OF \nANDAMAN AND NICOBAR ISLANDS FOR PURSUING HIGHER STUDIES ANYWHERE \nIN INDIA POST-SENIOR SECONDARY COURSES (",
+      "official_url": "https://scholarships.gov.in/public/schemeGuidelines/Andaman/3030_G.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://scholarships.gov.in/public/schemeGuidelines/Andaman/3030_G.pdf (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "M.Phil, Ph.D. and Post-Doctoral Progammes (D.Litt., D.Sc. etc.)",
+      "official_clause": "1 | P a g e  \n \nANDAMAN AND NICOBAR ADMINISTRATION \nDIRECTORATE OF TRIBAL WELFARE \n********** \n \nNOTIFICATION \nPort Blair, dated the 15th January, 2021 \n \nF.No. 1-116/2020-21/Guidelines/TW/34  SCHEME FOR GRANT OF ADDITIONAL \nSCHOLARSHIP TO THE STUDEN TS BELONGING TO  SCHEDULED TRIBES (ST) OF \nANDAMAN AND NICOBAR ISLANDS FOR PURSUING HIGHER STUDIES ANYWHERE \nIN INDIA POST-SENIOR SECONDARY COURSES (",
+      "official_url": "https://scholarships.gov.in/public/schemeGuidelines/Andaman/3030_G.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://scholarships.gov.in/public/schemeGuidelines/Andaman/3030_G.pdf (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    }
+  ]
+}

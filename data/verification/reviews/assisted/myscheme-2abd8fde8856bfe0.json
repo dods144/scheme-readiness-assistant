@@ -1,0 +1,68 @@
+{
+  "scheme_id": "myscheme-2abd8fde8856bfe0",
+  "scheme_name": "Post Matric Scholarship for SC students (Delhi)",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/pmsfssd",
+  "reviewer": "schemesetu-source-assist",
+  "review_date": "2026-09-28",
+  "overall_decision": "amended",
+  "notes": "Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "assisted": true,
+  "human_confirmed": false,
+  "clause_reviews": [
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be a Student",
+      "official_clause": "GOVERNMENT OF NCT OF DELHI \nDEPARTMENT FOR THE WELFARE OF SC/ST/OBC \nB-Block, 2nd Floor, Vikas Bhawan, IP Estate, New Delhi-110002 \n1 \n \nDetails of Centrally sponsored  scholarship schemes  \nMinistry of Social Justice and Empowerment, Govt. of India \n \n1. Post Matric Scholarship for SC students \nDepartment for the Welfare of SC/ST/OBC/Min. have taken over implementation of \nCentrally Sponsored Sch",
+      "official_url": "https://scstwelfare.delhi.gov.in/sites/default/files/scstwelfare/scheme/pms_sc-201718.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://scstwelfare.delhi.gov.in/sites/default/files/scstwelfare/scheme/pms_sc-201718.pdf (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be from a Scheduled Caste",
+      "official_clause": "GOVERNMENT OF NCT OF DELHI \nDEPARTMENT FOR THE WELFARE OF SC/ST/OBC \nB-Block, 2nd Floor, Vikas Bhawan, IP Estate, New Delhi-110002 \n1 \n \nDetails of Centrally sponsored  scholarship schemes  \nMinistry of Social Justice and Empowerment, Govt. of India \n \n1. Post Matric Scholarship for SC students \nDepartment for the Welfare of SC/ST/OBC/Min. have taken over implementation of \nCentrally Sponsored Sch",
+      "official_url": "https://scstwelfare.delhi.gov.in/sites/default/files/scstwelfare/scheme/pms_sc-201718.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://scstwelfare.delhi.gov.in/sites/default/files/scstwelfare/scheme/pms_sc-201718.pdf (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The annual income of the family of the applicant should not exceed ₹2,50,000/-",
+      "official_clause": "GOVERNMENT OF NCT OF DELHI \nDEPARTMENT FOR THE WELFARE OF SC/ST/OBC \nB-Block, 2nd Floor, Vikas Bhawan, IP Estate, New Delhi-110002 \n1 \n \nDetails of Centrally sponsored  scholarship schemes  \nMinistry of Social Justice and Empowerment, Govt. of India \n \n1. Post Matric Scholarship for SC students \nDepartment for the Welfare of SC/ST/OBC/Min. have taken over implementation of \nCentrally Sponsored Sch",
+      "official_url": "https://scstwelfare.delhi.gov.in/sites/default/files/scstwelfare/scheme/pms_sc-201718.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://scstwelfare.delhi.gov.in/sites/default/files/scstwelfare/scheme/pms_sc-201718.pdf (match_score=0.833). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be enrolled in a recognized post-matriculation/post-secondary course in India",
+      "official_clause": "GOVERNMENT OF NCT OF DELHI \nDEPARTMENT FOR THE WELFARE OF SC/ST/OBC \nB-Block, 2nd Floor, Vikas Bhawan, IP Estate, New Delhi-110002 \n1 \n \nDetails of Centrally sponsored  scholarship schemes  \nMinistry of Social Justice and Empowerment, Govt. of India \n \n1. Post Matric Scholarship for SC students \nDepartment for the Welfare of SC/ST/OBC/Min. have taken over implementation of \nCentrally Sponsored Sch",
+      "official_url": "https://scstwelfare.delhi.gov.in/sites/default/files/scstwelfare/scheme/pms_sc-201718.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://scstwelfare.delhi.gov.in/sites/default/files/scstwelfare/scheme/pms_sc-201718.pdf (match_score=0.9). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should not be availing of any other scholarship for the same course from any other source",
+      "official_clause": "GOVERNMENT OF NCT OF DELHI \nDEPARTMENT FOR THE WELFARE OF SC/ST/OBC \nB-Block, 2nd Floor, Vikas Bhawan, IP Estate, New Delhi-110002 \n1 \n \nDetails of Centrally sponsored  scholarship schemes  \nMinistry of Social Justice and Empowerment, Govt. of India \n \n1. Post Matric Scholarship for SC students \nDepartment for the Welfare of SC/ST/OBC/Min. have taken over implementation of \nCentrally Sponsored Sch",
+      "official_url": "https://scstwelfare.delhi.gov.in/sites/default/files/scstwelfare/scheme/pms_sc-201718.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://scstwelfare.delhi.gov.in/sites/default/files/scstwelfare/scheme/pms_sc-201718.pdf (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    }
+  ]
+}

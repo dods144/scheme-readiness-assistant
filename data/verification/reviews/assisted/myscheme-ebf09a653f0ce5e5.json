@@ -1,0 +1,57 @@
+{
+  "scheme_id": "myscheme-ebf09a653f0ce5e5",
+  "scheme_name": "Government of Goa State Scholarship to NDA Cadets",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/ggssnc-goa",
+  "reviewer": "schemesetu-source-assist",
+  "review_date": "2026-09-28",
+  "overall_decision": "amended",
+  "notes": "Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "assisted": true,
+  "human_confirmed": false,
+  "clause_reviews": [
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The cadet should have been born in Goa and/or domiciled in Goa for a period of at least 15 years",
+      "official_clause": "��\u0011ࡱ\u001a�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000>\u0000\u0003\u0000��\t\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000^\u0000\u0000\u0000\u0001\u0000\u0000\u0000����\u0000\u0000\u0000\u0000[\u0000\u0000\u0000����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������",
+      "official_url": "https://www.goa.gov.in/wp-content/uploads/2016/12/Scheme-to-GSS-to-NDA-CAdets.doc",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://www.goa.gov.in/wp-content/uploads/2016/12/Scheme-to-GSS-to-NDA-CAdets.doc (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The income limit of the cadet’s parents/ guardians shall not exceed ₹ 15,000/- per month (₹ 1,80,000 per annum)",
+      "official_clause": "��\u0011ࡱ\u001a�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000>\u0000\u0003\u0000��\t\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000^\u0000\u0000\u0000\u0001\u0000\u0000\u0000����\u0000\u0000\u0000\u0000[\u0000\u0000\u0000����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������",
+      "official_url": "https://www.goa.gov.in/wp-content/uploads/2016/12/Scheme-to-GSS-to-NDA-CAdets.doc",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://www.goa.gov.in/wp-content/uploads/2016/12/Scheme-to-GSS-to-NDA-CAdets.doc (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "In case the cadet is SC/ST/OBC, the income limit of the cadet’s parents/ guardians shall not exceed ₹ 37,500/- per month (₹ 4,50,000 per annum)",
+      "official_clause": "��\u0011ࡱ\u001a�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000>\u0000\u0003\u0000��\t\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000^\u0000\u0000\u0000\u0001\u0000\u0000\u0000����\u0000\u0000\u0000\u0000[\u0000\u0000\u0000����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������",
+      "official_url": "https://www.goa.gov.in/wp-content/uploads/2016/12/Scheme-to-GSS-to-NDA-CAdets.doc",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://www.goa.gov.in/wp-content/uploads/2016/12/Scheme-to-GSS-to-NDA-CAdets.doc (match_score=0.909). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The cadet should not be receiving financial assistance/scholarship/freeship from any other source",
+      "official_clause": "��\u0011ࡱ\u001a�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000>\u0000\u0003\u0000��\t\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000^\u0000\u0000\u0000\u0001\u0000\u0000\u0000����\u0000\u0000\u0000\u0000[\u0000\u0000\u0000����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������",
+      "official_url": "https://www.goa.gov.in/wp-content/uploads/2016/12/Scheme-to-GSS-to-NDA-CAdets.doc",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://www.goa.gov.in/wp-content/uploads/2016/12/Scheme-to-GSS-to-NDA-CAdets.doc (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    }
+  ]
+}

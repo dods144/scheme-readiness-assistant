@@ -1,0 +1,79 @@
+{
+  "scheme_id": "myscheme-f17ece2bc7e807e3",
+  "scheme_name": "Combined Merit Scholarship",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/cms-g",
+  "reviewer": "schemesetu-source-assist",
+  "review_date": "2026-09-28",
+  "overall_decision": "amended",
+  "notes": "Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "assisted": true,
+  "human_confirmed": false,
+  "clause_reviews": [
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant must be pursuing general degree or master's degree courses in Arts, Science, or Commerce discipline in any recognized institution",
+      "official_clause": "GOVERNMENT OF ASSAM\nOFFICE OF THE DIR.ECTOR OF HIGHER EDUCATION, ASSA]\\{,\nKAHIUPARA, GTIWA}IATI. 19\nADVERTISEMENT FOR AWAR.DING SCHOIARSHIP (FRTSH) UNDER COMBINED\nMERIT (DEGREE AND MASTER) SCHOLARSHIP SCHEME 2OI8-I9\n@ Rs. 300/- per-month\n@ Rs. 500/- per month\nGENERAL CONDITI NS OF ELIGIBILITY:\nHOW TO APPLY:\nIntending students fulfilling the above mentioned criteria must apply online\nat $,ww.direct",
+      "official_url": "https://directorateofhighereducation.assam.gov.in/sites/default/files/swf_utility_folder/departments/dhe_medhassu_in_oid_4/portlet/level_1/files/Combined%20Merit%20Scholarship.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://directorateofhighereducation.assam.gov.in/sites/default/files/swf_utility_folder/departments/dhe_medhassu_in_oid_4/portlet/level_1/files/Combined%20Merit%20Scholarship.pdf (match_score=0.857). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant must be domiciled in Assam (Permanent Resident Certificate document mandatory)",
+      "official_clause": "GOVERNMENT OF ASSAM\nOFFICE OF THE DIR.ECTOR OF HIGHER EDUCATION, ASSA]\\{,\nKAHIUPARA, GTIWA}IATI. 19\nADVERTISEMENT FOR AWAR.DING SCHOIARSHIP (FRTSH) UNDER COMBINED\nMERIT (DEGREE AND MASTER) SCHOLARSHIP SCHEME 2OI8-I9\n@ Rs. 300/- per-month\n@ Rs. 500/- per month\nGENERAL CONDITI NS OF ELIGIBILITY:\nHOW TO APPLY:\nIntending students fulfilling the above mentioned criteria must apply online\nat $,ww.direct",
+      "official_url": "https://directorateofhighereducation.assam.gov.in/sites/default/files/swf_utility_folder/departments/dhe_medhassu_in_oid_4/portlet/level_1/files/Combined%20Merit%20Scholarship.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://directorateofhighereducation.assam.gov.in/sites/default/files/swf_utility_folder/departments/dhe_medhassu_in_oid_4/portlet/level_1/files/Combined%20Merit%20Scholarship.pdf (match_score=0.556). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant must have obtained minimum 60% marks in Higher Secondary examination for those applying for Combined Merit Degree Scholarship scheme",
+      "official_clause": "GOVERNMENT OF ASSAM\nOFFICE OF THE DIR.ECTOR OF HIGHER EDUCATION, ASSA]\\{,\nKAHIUPARA, GTIWA}IATI. 19\nADVERTISEMENT FOR AWAR.DING SCHOIARSHIP (FRTSH) UNDER COMBINED\nMERIT (DEGREE AND MASTER) SCHOLARSHIP SCHEME 2OI8-I9\n@ Rs. 300/- per-month\n@ Rs. 500/- per month\nGENERAL CONDITI NS OF ELIGIBILITY:\nHOW TO APPLY:\nIntending students fulfilling the above mentioned criteria must apply online\nat $,ww.direct",
+      "official_url": "https://directorateofhighereducation.assam.gov.in/sites/default/files/swf_utility_folder/departments/dhe_medhassu_in_oid_4/portlet/level_1/files/Combined%20Merit%20Scholarship.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://directorateofhighereducation.assam.gov.in/sites/default/files/swf_utility_folder/departments/dhe_medhassu_in_oid_4/portlet/level_1/files/Combined%20Merit%20Scholarship.pdf (match_score=0.812). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant must have obtained minimum 60% marks in General Degree (Three Year Degree Course) examination for those applying for Combined Merit Master Degree Scholarship scheme",
+      "official_clause": "GOVERNMENT OF ASSAM\nOFFICE OF THE DIR.ECTOR OF HIGHER EDUCATION, ASSA]\\{,\nKAHIUPARA, GTIWA}IATI. 19\nADVERTISEMENT FOR AWAR.DING SCHOIARSHIP (FRTSH) UNDER COMBINED\nMERIT (DEGREE AND MASTER) SCHOLARSHIP SCHEME 2OI8-I9\n@ Rs. 300/- per-month\n@ Rs. 500/- per month\nGENERAL CONDITI NS OF ELIGIBILITY:\nHOW TO APPLY:\nIntending students fulfilling the above mentioned criteria must apply online\nat $,ww.direct",
+      "official_url": "https://directorateofhighereducation.assam.gov.in/sites/default/files/swf_utility_folder/departments/dhe_medhassu_in_oid_4/portlet/level_1/files/Combined%20Merit%20Scholarship.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://directorateofhighereducation.assam.gov.in/sites/default/files/swf_utility_folder/departments/dhe_medhassu_in_oid_4/portlet/level_1/files/Combined%20Merit%20Scholarship.pdf (match_score=0.762). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant must possess relevant qualification from any recognized institution",
+      "official_clause": "GOVERNMENT OF ASSAM\nOFFICE OF THE DIR.ECTOR OF HIGHER EDUCATION, ASSA]\\{,\nKAHIUPARA, GTIWA}IATI. 19\nADVERTISEMENT FOR AWAR.DING SCHOIARSHIP (FRTSH) UNDER COMBINED\nMERIT (DEGREE AND MASTER) SCHOLARSHIP SCHEME 2OI8-I9\n@ Rs. 300/- per-month\n@ Rs. 500/- per month\nGENERAL CONDITI NS OF ELIGIBILITY:\nHOW TO APPLY:\nIntending students fulfilling the above mentioned criteria must apply online\nat $,ww.direct",
+      "official_url": "https://directorateofhighereducation.assam.gov.in/sites/default/files/swf_utility_folder/departments/dhe_medhassu_in_oid_4/portlet/level_1/files/Combined%20Merit%20Scholarship.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://directorateofhighereducation.assam.gov.in/sites/default/files/swf_utility_folder/departments/dhe_medhassu_in_oid_4/portlet/level_1/files/Combined%20Merit%20Scholarship.pdf (match_score=0.875). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant must have a valid bank account in their name (preferably in State Bank of India)",
+      "official_clause": "GOVERNMENT OF ASSAM\nOFFICE OF THE DIR.ECTOR OF HIGHER EDUCATION, ASSA]\\{,\nKAHIUPARA, GTIWA}IATI. 19\nADVERTISEMENT FOR AWAR.DING SCHOIARSHIP (FRTSH) UNDER COMBINED\nMERIT (DEGREE AND MASTER) SCHOLARSHIP SCHEME 2OI8-I9\n@ Rs. 300/- per-month\n@ Rs. 500/- per month\nGENERAL CONDITI NS OF ELIGIBILITY:\nHOW TO APPLY:\nIntending students fulfilling the above mentioned criteria must apply online\nat $,ww.direct",
+      "official_url": "https://directorateofhighereducation.assam.gov.in/sites/default/files/swf_utility_folder/departments/dhe_medhassu_in_oid_4/portlet/level_1/files/Combined%20Merit%20Scholarship.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://directorateofhighereducation.assam.gov.in/sites/default/files/swf_utility_folder/departments/dhe_medhassu_in_oid_4/portlet/level_1/files/Combined%20Merit%20Scholarship.pdf (match_score=0.833). Pending human dual-check before any `confirmed` decision or rule promotion."
+    }
+  ]
+}

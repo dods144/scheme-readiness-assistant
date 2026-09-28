@@ -1,0 +1,101 @@
+{
+  "scheme_id": "myscheme-8185d5e4c340bf13",
+  "scheme_name": "Banishree Scholarship",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/bs",
+  "reviewer": "schemesetu-source-assist",
+  "review_date": "2026-09-28",
+  "overall_decision": "insufficient",
+  "notes": "myScheme page fetch failed (often HTTP 403); guideline links were used when available. No usable extracted text from linked sources at review time. Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "assisted": true,
+  "human_confirmed": false,
+  "clause_reviews": [
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Pursuing primary education (Std",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/bs",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources. myScheme page was inaccessible during automated fetch."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Reading in middle &amp",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/bs",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources. myScheme page was inaccessible during automated fetch."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Not covered by Govt. of India Scholarship",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/bs",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources. myScheme page was inaccessible during automated fetch."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Reading in colleges/universities, not covered by Government of India Scholarship",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/bs",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources. myScheme page was inaccessible during automated fetch."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Reading in special schools registered under PWD, Act 1995, but not receiving grant-in-aid from State/ Central Govt",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/bs",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources. myScheme page was inaccessible during automated fetch."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Pursuing distance education through recognized universities/Govt. institutes",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/bs",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources. myScheme page was inaccessible during automated fetch."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Pursuing technical/ vocational/ professional education in any of the recognized institutes",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/bs",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources. myScheme page was inaccessible during automated fetch."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant must be a bonafide resident of Odisha",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/bs",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources. myScheme page was inaccessible during automated fetch."
+    }
+  ]
+}

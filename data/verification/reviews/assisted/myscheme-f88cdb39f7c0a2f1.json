@@ -1,0 +1,79 @@
+{
+  "scheme_id": "myscheme-f88cdb39f7c0a2f1",
+  "scheme_name": "Chief Ministergi Shotharabasingi Tengbang (CMST): Scholarship Of Students With Disabilities",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/cmstsswd",
+  "reviewer": "schemesetu-source-assist",
+  "review_date": "2026-09-28",
+  "overall_decision": "insufficient",
+  "notes": "Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "assisted": true,
+  "human_confirmed": false,
+  "clause_reviews": [
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be a Person with Disability (PwD)",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/cmstsswd",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be a Student",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/cmstsswd",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be a domicile of the State of Manipur",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/cmstsswd",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be studying in Class 1st and above",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/cmstsswd",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be enrolled in a school/college/university/institution recognized by the Govt. of Manipur",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/cmstsswd",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should not be availing scholarship under any other similar scheme from any source",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/cmstsswd",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    }
+  ]
+}

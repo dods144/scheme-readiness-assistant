@@ -1,0 +1,79 @@
+{
+  "scheme_id": "myscheme-4f3af7d1f4758e9f",
+  "scheme_name": "Academic Scholarship Scheme (Labor Welfare Board Madhya Pradesh)",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/asslwbmp",
+  "reviewer": "schemesetu-source-assist",
+  "review_date": "2026-09-28",
+  "overall_decision": "amended",
+  "notes": "Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "assisted": true,
+  "human_confirmed": false,
+  "clause_reviews": [
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be a child of a worker employed in an industrial institution/establishment covered under the M.P",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/asslwbmp",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Labour Welfare Fund Act 1982",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/asslwbmp",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be studying as a regular student in an educational institution in Madhya Pradesh",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/asslwbmp",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should have passed the previous class",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/asslwbmp",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should not be receiving a scholarship from any other department",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/asslwbmp",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be studying in Class 5th to 12th, ITI, Polytechnic, General Graduate, Engineering, MBBS, BDS, Pharmacy, Paramedical, Nursing, Law, PG Courses, M.E./M.Tech, PGDM, or other management diploma courses",
+      "official_clause": "शैᭃिणक छाᮢवृिᱫ योजना \n \nपाᮢता- मंडल कᳱ पᳯरिध मᱶ आने वाली औ ᳒ोिगक सं᭭थानᲂ/᭭थापनाᲐ मᱶ कायᭅरत ᮰िमकᲂ क े  िशᭃारत दो \nबᲬᲂ तक जो कᭃा 5 वᱭ से 12 वी एवं उᲬ िशᭃा ᮧा᳙ कर रहे हैa एवं िवगत कᭃा मᱶ उᱫीणᭅ ᱟये हᱹ,  \nको िनधाᭅᳯरत ᮧाᱨप मᱶ आवेदन करने पर जो म.ᮧ. मᱶ अ᭟ ययनरत हᱹ, को वषᭅ मᱶ एक बार छा ᮢवृिᱫ  \nलाभ अ᭠ य ᳰकसी िवभाग से छा ᮢवृिᱫ का लाभ ᮧा᭡ त न होने कᳱ दशा मᱶ ᮧदान ᳰकया जाता है। उ᭍ त \nयोजना लोक सेवा ᮧदाय कᳱ गारं",
+      "official_url": "https://shramkalyanmandal.mponline.gov.in/Images/pdf/%E0%A4%B6%E0%A5%88%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3%E0%A4%BF%E0%A4%95%20%E0%A4%9B%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%B5%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BF%20%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://shramkalyanmandal.mponline.gov.in/Images/pdf/%E0%A4%B6%E0%A5%88%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3%E0%A4%BF%E0%A4%95%20%E0%A4%9B%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%B5%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BF%20%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE.pdf (match_score=0.7). Pending human dual-check before any `confirmed` decision or rule promotion."
+    }
+  ]
+}

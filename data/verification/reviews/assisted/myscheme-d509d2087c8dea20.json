@@ -1,0 +1,79 @@
+{
+  "scheme_id": "myscheme-d509d2087c8dea20",
+  "scheme_name": "Chief Minister Scholarship Scheme",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/cmssg",
+  "reviewer": "schemesetu-source-assist",
+  "review_date": "2026-09-28",
+  "overall_decision": "insufficient",
+  "notes": "Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "assisted": true,
+  "human_confirmed": false,
+  "clause_reviews": [
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant must be a resident of Gujarat",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/cmssg",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant must be a student",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/cmssg",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant must have passed the Class 10th or Class 12th examination",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/cmssg",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant must have secured admission in a diploma course, a degree course after diploma, or a degree course after Class 12th",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/cmssg",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant must be pursuing medical, dental, engineering, technology, pharmacy, Ayurveda, homeopathy, nursing, physiotherapy, para-medical, or higher education courses",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/cmssg",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant must have a family annual income of less than or equal to ₹4,50,000/-",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/cmssg",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "scheme_id": "myscheme-8518472d8368ed09",
+  "scheme_name": "Centrally Sponsored Scheme of Post-Matric Scholarship for OBC, EBC  and DNT Students for studying in India",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/pmsoeds",
+  "reviewer": "schemesetu-source-assist",
+  "review_date": "2026-09-28",
+  "overall_decision": "amended",
+  "notes": "Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "assisted": true,
+  "human_confirmed": false,
+  "clause_reviews": [
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be from Other Backward Classes (OBC) / Economically Backward Classes (EBC) or from Denotified, Nomadic, and Semi-Nomadic Tribes (DNT)",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/pmsoeds",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be studying at the post-matriculation or post-secondary stage of education",
+      "official_clause": "12  \n(B) Centrally Sponsored Scheme of  Post-Matric Scholarship for OBC, EBC \nand DNT Students for studying in India \n \n1. OBJECTIVE \nThe objective   of   the scheme is to provide financial assistance to the OBC, EBC and DNT \nstudents studying at post -matriculation or post-secondary stage to enable them to complete \ntheir education. \n \n2. SCOPE \nThese scholarships shall be available for studies i",
+      "official_url": "https://harchhatravratti.highereduhry.ac.in/Notices/PMS%20BC%20EWS%20DNT.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://harchhatravratti.highereduhry.ac.in/Notices/PMS%20BC%20EWS%20DNT.pdf (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be permanently settled in the State/UT where they are applying",
+      "official_clause": "12  \n(B) Centrally Sponsored Scheme of  Post-Matric Scholarship for OBC, EBC \nand DNT Students for studying in India \n \n1. OBJECTIVE \nThe objective   of   the scheme is to provide financial assistance to the OBC, EBC and DNT \nstudents studying at post -matriculation or post-secondary stage to enable them to complete \ntheir education. \n \n2. SCOPE \nThese scholarships shall be available for studies i",
+      "official_url": "https://harchhatravratti.highereduhry.ac.in/Notices/PMS%20BC%20EWS%20DNT.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://harchhatravratti.highereduhry.ac.in/Notices/PMS%20BC%20EWS%20DNT.pdf (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be studying in an institution recognized by the All India Survey on Higher Education (AISHE) or Unified District Information System for Education (UDISE)",
+      "official_clause": "12  \n(B) Centrally Sponsored Scheme of  Post-Matric Scholarship for OBC, EBC \nand DNT Students for studying in India \n \n1. OBJECTIVE \nThe objective   of   the scheme is to provide financial assistance to the OBC, EBC and DNT \nstudents studying at post -matriculation or post-secondary stage to enable them to complete \ntheir education. \n \n2. SCOPE \nThese scholarships shall be available for studies i",
+      "official_url": "https://harchhatravratti.highereduhry.ac.in/Notices/PMS%20BC%20EWS%20DNT.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://harchhatravratti.highereduhry.ac.in/Notices/PMS%20BC%20EWS%20DNT.pdf (match_score=0.812). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant's institution should have National Assessment and Accreditation Council (NAAC) or National Board of Accreditation (NBA) accreditation",
+      "official_clause": "12  \n(B) Centrally Sponsored Scheme of  Post-Matric Scholarship for OBC, EBC \nand DNT Students for studying in India \n \n1. OBJECTIVE \nThe objective   of   the scheme is to provide financial assistance to the OBC, EBC and DNT \nstudents studying at post -matriculation or post-secondary stage to enable them to complete \ntheir education. \n \n2. SCOPE \nThese scholarships shall be available for studies i",
+      "official_url": "https://harchhatravratti.highereduhry.ac.in/Notices/PMS%20BC%20EWS%20DNT.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://harchhatravratti.highereduhry.ac.in/Notices/PMS%20BC%20EWS%20DNT.pdf (match_score=0.923). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should maintain Aadhaar-based attendance in the institution",
+      "official_clause": "12  \n(B) Centrally Sponsored Scheme of  Post-Matric Scholarship for OBC, EBC \nand DNT Students for studying in India \n \n1. OBJECTIVE \nThe objective   of   the scheme is to provide financial assistance to the OBC, EBC and DNT \nstudents studying at post -matriculation or post-secondary stage to enable them to complete \ntheir education. \n \n2. SCOPE \nThese scholarships shall be available for studies i",
+      "official_url": "https://harchhatravratti.highereduhry.ac.in/Notices/PMS%20BC%20EWS%20DNT.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://harchhatravratti.highereduhry.ac.in/Notices/PMS%20BC%20EWS%20DNT.pdf (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant must have a valid \"Freeship Card\" issued by the State/District Authority",
+      "official_clause": "12  \n(B) Centrally Sponsored Scheme of  Post-Matric Scholarship for OBC, EBC \nand DNT Students for studying in India \n \n1. OBJECTIVE \nThe objective   of   the scheme is to provide financial assistance to the OBC, EBC and DNT \nstudents studying at post -matriculation or post-secondary stage to enable them to complete \ntheir education. \n \n2. SCOPE \nThese scholarships shall be available for studies i",
+      "official_url": "https://harchhatravratti.highereduhry.ac.in/Notices/PMS%20BC%20EWS%20DNT.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://harchhatravratti.highereduhry.ac.in/Notices/PMS%20BC%20EWS%20DNT.pdf (match_score=0.9). Pending human dual-check before any `confirmed` decision or rule promotion."
+    }
+  ]
+}

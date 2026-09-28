@@ -39,6 +39,8 @@ class SchemeVerificationReview(BaseModel):
     review_date: str
     overall_decision: ReviewDecision
     notes: str = ""
+    assisted: bool = False
+    human_confirmed: bool = False
     clause_reviews: list[ClauseReview] = Field(default_factory=list)
 
     def has_invented_placeholders(self) -> bool:
@@ -52,16 +54,28 @@ def load_review(path: str | Path) -> SchemeVerificationReview:
     )
 
 
-def list_completed_reviews(directory: str | Path) -> list[SchemeVerificationReview]:
+def list_completed_reviews(
+    directory: str | Path,
+    *,
+    require_human_confirmed: bool = True,
+) -> list[SchemeVerificationReview]:
+    """Load reviews. By default only human-confirmed reviews count as complete."""
     root = Path(directory)
     if not root.exists():
         return []
     reviews: list[SchemeVerificationReview] = []
     for path in sorted(root.glob("*.json")):
-        if path.name == "review_template.json":
+        if path.name in {"review_template.json", "fetch_report.json"}:
             continue
-        review = load_review(path)
+        raw = json.loads(path.read_text(encoding="utf-8"))
+        if not isinstance(raw, dict) or "scheme_id" not in raw:
+            continue
+        review = SchemeVerificationReview.model_validate(raw)
         if review.has_invented_placeholders():
             raise ValueError(f"{path} still contains template placeholders")
-        reviews.append(review)
+        if require_human_confirmed:
+            if review.human_confirmed:
+                reviews.append(review)
+        else:
+            reviews.append(review)
     return reviews

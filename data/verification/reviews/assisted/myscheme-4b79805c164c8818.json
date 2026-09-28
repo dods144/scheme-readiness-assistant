@@ -1,0 +1,57 @@
+{
+  "scheme_id": "myscheme-4b79805c164c8818",
+  "scheme_name": "Providing Scholarships to Children of BOC Workers",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/pscbocw",
+  "reviewer": "schemesetu-source-assist",
+  "review_date": "2026-09-28",
+  "overall_decision": "insufficient",
+  "notes": "Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "assisted": true,
+  "human_confirmed": false,
+  "clause_reviews": [
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The worker should be registered with the AP Building & Other Construction Workers Welfare Board",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/pscbocw",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The children of workers not enrolled under Chandranna Bima are eligible",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/pscbocw",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The student should have enrolled in 9th to 12th grade or ITI/ Professional Courses (Graduation Level)",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/pscbocw",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Each family can receive scholarships for a maximum of two children",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/pscbocw",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    }
+  ]
+}

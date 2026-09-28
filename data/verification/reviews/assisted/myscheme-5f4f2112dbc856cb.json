@@ -1,0 +1,90 @@
+{
+  "scheme_id": "myscheme-5f4f2112dbc856cb",
+  "scheme_name": "Lakshadweep Scholarship Scheme",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/lkdss",
+  "reviewer": "schemesetu-source-assist",
+  "review_date": "2026-09-28",
+  "overall_decision": "amended",
+  "notes": "Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "assisted": true,
+  "human_confirmed": false,
+  "clause_reviews": [
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Both parents and the student must be born in Lakshadweep or have one parent from Lakshadweep",
+      "official_clause": "NSP : National Scholarship Portal\nGovernment of India\nMinistry of Electronics & Information Technology\nAcademic Year 2026-27\nStudent\nInstitute\nOfficer\nStudents\nStudents\nApply For One Time Registration (OTR)\nApply For Scholarship\nSchemes on NSP\nScholarship\n                                                                    Eligibility\nApplication",
+      "official_url": "https://scholarships.gov.in/",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://scholarships.gov.in/ (match_score=0.6). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The student and the Islander parent must reside in the Islands",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/lkdss",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Scholars cannot receive other scholarships, must surrender any awards, and repay funds received",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/lkdss",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Retention of concessions granted by the institution or administration is allowed",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/lkdss",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Scholars can pursue courses in Arts, Science, Engineering, Medicine, Agriculture, Law, or Commerce in recognized Indian institutions",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/lkdss",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Educational concessions on the mainland are only for studies not available in the Islands",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/lkdss",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Stipends may be granted or renewed for health reasons or disability",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/lkdss",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    }
+  ]
+}

@@ -6,6 +6,8 @@
   "review_date": "YYYY-MM-DD",
   "overall_decision": "insufficient",
   "notes": "Leave empty until a real review is completed. overall_decision must be one of: confirmed, amended, rejected, insufficient.",
+  "assisted": false,
+  "human_confirmed": false,
   "clause_reviews": [
     {
       "field_target": "family_income",

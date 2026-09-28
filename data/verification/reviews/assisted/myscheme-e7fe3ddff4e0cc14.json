@@ -1,0 +1,57 @@
+{
+  "scheme_id": "myscheme-e7fe3ddff4e0cc14",
+  "scheme_name": "Post Matric Merit Scholarship",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/pmms",
+  "reviewer": "schemesetu-source-assist",
+  "review_date": "2026-09-28",
+  "overall_decision": "amended",
+  "notes": "myScheme page fetch failed (often HTTP 403); guideline links were used when available. Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "assisted": true,
+  "human_confirmed": false,
+  "clause_reviews": [
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be a bonafide permanent resident of Mizoram, or the child/ward of a bonafide permanent resident of Mizoram",
+      "official_clause": "SCHOLARSHIP SCHEMES IMPLEMENTED UNDER \nMIZORAM SCHOLARSHIP BOARD \n \n \n \n1. Post-Matric Scholarship for Scheduled Tribes Students: The objective \nof the scheme is to provide financial assistance to students belonging to \nScheduled Tribes pursuing Post -Matriculation recognized courses in \nrecognized institutions. The scheme covers professional/ technical as well \nas non-professional and no n-tech",
+      "official_url": "https://msb.mizoram.gov.in/uploads/attachments/2022/10/a507f5ed5a716eec8d2570e22cd4ed8c/scholarship-scheme-to-be-upload.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://msb.mizoram.gov.in/uploads/attachments/2022/10/a507f5ed5a716eec8d2570e22cd4ed8c/scholarship-scheme-to-be-upload.pdf (match_score=0.75). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be pursuing regular studies in a recognized post-matric institution in India",
+      "official_clause": "SCHOLARSHIP SCHEMES IMPLEMENTED UNDER \nMIZORAM SCHOLARSHIP BOARD \n \n \n \n1. Post-Matric Scholarship for Scheduled Tribes Students: The objective \nof the scheme is to provide financial assistance to students belonging to \nScheduled Tribes pursuing Post -Matriculation recognized courses in \nrecognized institutions. The scheme covers professional/ technical as well \nas non-professional and no n-tech",
+      "official_url": "https://msb.mizoram.gov.in/uploads/attachments/2022/10/a507f5ed5a716eec8d2570e22cd4ed8c/scholarship-scheme-to-be-upload.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://msb.mizoram.gov.in/uploads/attachments/2022/10/a507f5ed5a716eec8d2570e22cd4ed8c/scholarship-scheme-to-be-upload.pdf (match_score=0.8). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should have secured at least 60% marks or a first division/class in the last Board or University examination",
+      "official_clause": "SCHOLARSHIP SCHEMES IMPLEMENTED UNDER \nMIZORAM SCHOLARSHIP BOARD \n \n \n \n1. Post-Matric Scholarship for Scheduled Tribes Students: The objective \nof the scheme is to provide financial assistance to students belonging to \nScheduled Tribes pursuing Post -Matriculation recognized courses in \nrecognized institutions. The scheme covers professional/ technical as well \nas non-professional and no n-tech",
+      "official_url": "https://msb.mizoram.gov.in/uploads/attachments/2022/10/a507f5ed5a716eec8d2570e22cd4ed8c/scholarship-scheme-to-be-upload.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://msb.mizoram.gov.in/uploads/attachments/2022/10/a507f5ed5a716eec8d2570e22cd4ed8c/scholarship-scheme-to-be-upload.pdf (match_score=0.692). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant pursuing postgraduate courses in Medicine will be eligible only if they are not allowed to practice during the course duration",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/pmms",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources. myScheme page was inaccessible during automated fetch."
+    }
+  ]
+}

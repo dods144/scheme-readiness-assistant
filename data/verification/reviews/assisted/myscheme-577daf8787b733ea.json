@@ -1,0 +1,90 @@
+{
+  "scheme_id": "myscheme-577daf8787b733ea",
+  "scheme_name": "Prabhuddha Overseas Scholarship",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/pdos",
+  "reviewer": "schemesetu-source-assist",
+  "review_date": "2026-09-28",
+  "overall_decision": "insufficient",
+  "notes": "Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "assisted": true,
+  "human_confirmed": false,
+  "clause_reviews": [
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Residency: The applicant should be a permanent resident of Karnataka state in India",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/pdos",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Age Limit: The age limit to apply for this scheme is 21 years for undergraduate courses, and 35 years for postgraduate and doctoral programs",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/pdos",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Qualifying Marks: Candidates applying for the scholarship must have scored at least 55% marks or equivalent grade in their qualifying degree exams for postgraduate and doctoral courses, and 80% marks or equivalent grade in qualifying exams (PUC/12th class) for undergraduate courses",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/pdos",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Standardized Test Scores: The candidates should have cleared standardized tests like GRE/GMAT/TOEFL/IELTS exams with minimum score marks before applying for the scholarship",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/pdos",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Admission: Applicants should have secured admission into a full-time degree program at an overseas university/college",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/pdos",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Documents: The candidates must have the necessary documents like Aadhaar Card, Caste Certificate, Latest Income Certificate, Last 2 years IT Returns, Degree/Master Degree Convocation Certificate, Degree/Master Degree All Semester Marks Card, Offer letter from the university obtained, Copy of the Passport, and Tuition fee and maintenance fee as sent by the university",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/pdos",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Field of Study: The scholarship covers various fields of study, including Engineering and Management, Pure Sciences and applied sciences, Agriculture sciences and medicine, International Commerce, Economics, Accounting Finance, Humanities, Social science, fine arts, and law",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/pdos",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "scheme_id": "myscheme-b1ab27ad1f434e67",
+  "scheme_name": "H.P. Swaran Jayanti Middle Merit Scholarship Scheme",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/hpsjmmssgs",
+  "reviewer": "schemesetu-source-assist",
+  "review_date": "2026-09-28",
+  "overall_decision": "amended",
+  "notes": "Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "assisted": true,
+  "human_confirmed": false,
+  "clause_reviews": [
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "All the students studying in Class 5th as regular students in the Government Schools are eligible to apply for the State Level examination to be conducted by the SCERT, Solan (H.P.)",
+      "official_clause": "ADVlmTISEMENT- HP SJMMSSE-2023-24 \nHP Sw~rnn Jnynntl Middle Merit Scholnrshlp Scheme Exnmlnntlon \n(hir the students ofCluss V In H.P. Govt. Primury Schools) \n, s J · I\\ 1 · 111 , I\\ . . SCERT, Sohm (H.P.) \nTh ~ ~\n11\n, ;~'~r~i ~~:i\n11\n\\\n1\n,rin\n1\n1\\~. t:s .'lent :' ~ h o lms h ip Scheme (I IP SJMMSS) sponsored by Govt. of Hlmachal Pradesh for the children studying in \nC l ass ~ 0.. ·, · · .. , : . ~",
+      "official_url": "https://himachalservices.nic.in/scert/pdf/SJMMSE_2023-24.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://himachalservices.nic.in/scert/pdf/SJMMSE_2023-24.pdf (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    }
+  ]
+}

@@ -1,0 +1,670 @@
+[
+  {
+    "scheme_id": "myscheme-38265a91e80340be",
+    "name": "AICTE – Saksham Scholarship Scheme For Specially-Abled Student (Degree)",
+    "review_path": "data/verification/reviews/assisted/myscheme-38265a91e80340be.json",
+    "overall_decision": "amended",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/sak-deg",
+        "status": 200,
+        "extracted_chars": 644,
+        "error": null
+      },
+      {
+        "url": "https://www.aicte-india.org/sites/default/files/stdc/AICTE%20Saksham%20Scheme%20Guidelines_Degree.pdf",
+        "status": 200,
+        "extracted_chars": 5067,
+        "error": null
+      },
+      {
+        "url": "https://www.aicte-india.org/sites/default/files/stdc/FAQs-Saksham%20Scheme.pdf",
+        "status": 200,
+        "extracted_chars": 12080,
+        "error": null
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-442fd8993bcfa9ef",
+    "name": "Scheme for Grant of Additional Scholarship to the Students Belonging to Scheduled Tribes of Andaman and Nicobar Islands for Pursuing Higher Studies Anywhere in India Post-Senior Secondary Courses (Post 10+2 Courses)",
+    "review_path": "data/verification/reviews/assisted/myscheme-442fd8993bcfa9ef.json",
+    "overall_decision": "amended",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/sgassbstaniphsaip-sscp10p2c",
+        "status": 200,
+        "extracted_chars": 644,
+        "error": null
+      },
+      {
+        "url": "https://scholarships.gov.in/public/schemeGuidelines/Andaman/3030_G.pdf",
+        "status": 200,
+        "extracted_chars": 12083,
+        "error": null
+      },
+      {
+        "url": "https://scholarships.gov.in/",
+        "status": 200,
+        "extracted_chars": 6093,
+        "error": null
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-4b79805c164c8818",
+    "name": "Providing Scholarships to Children of BOC Workers",
+    "review_path": "data/verification/reviews/assisted/myscheme-4b79805c164c8818.json",
+    "overall_decision": "insufficient",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/pscbocw",
+        "status": 200,
+        "extracted_chars": 644,
+        "error": null
+      },
+      {
+        "url": "https://apbocwwb.ap.nic.in/APBOCWW3/2018LETF_MS14.pdf",
+        "status": null,
+        "extracted_chars": 0,
+        "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))"
+      },
+      {
+        "url": "https://apbocwwb.ap.nic.in/apbocwwbhome.jsp",
+        "status": null,
+        "extracted_chars": 0,
+        "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))"
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-f17ece2bc7e807e3",
+    "name": "Combined Merit Scholarship",
+    "review_path": "data/verification/reviews/assisted/myscheme-f17ece2bc7e807e3.json",
+    "overall_decision": "amended",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/cms-g",
+        "status": 200,
+        "extracted_chars": 644,
+        "error": null
+      },
+      {
+        "url": "https://directorateofhighereducation.assam.gov.in/sites/default/files/swf_utility_folder/departments/dhe_medhassu_in_oid_4/portlet/level_1/files/Combined%20Merit%20Scholarship.pdf",
+        "status": 200,
+        "extracted_chars": 2920,
+        "error": null
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-dfc6438296fab715",
+    "name": "Post-Matric Scholarship Scheme-Bihar",
+    "review_path": "data/verification/reviews/assisted/myscheme-dfc6438296fab715.json",
+    "overall_decision": "insufficient",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/pmssb",
+        "status": 200,
+        "extracted_chars": 644,
+        "error": null
+      },
+      {
+        "url": "https://pmsonline.bih.nic.in/pmsedu2223/(S(05cddllei4wwdyhxtllm3h04))/pms/SamplePdf/PMSPPORTAL2021_Guidelines.pdf",
+        "status": null,
+        "extracted_chars": 0,
+        "error": "URLError(TimeoutError('timed out'))"
+      },
+      {
+        "url": "https://www.pmsonline.bih.nic.in/pmsedubcebc2223/(S(gea1x5cmci00rssuy1dqb3tu))/PMS/SamplePdf/StudentRegistration.pptx",
+        "status": null,
+        "extracted_chars": 0,
+        "error": "URLError(TimeoutError('timed out'))"
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-da65487ace65512c",
+    "name": "Scholarship to the Ward of Beneficiary (CBOCWWB)",
+    "review_path": "data/verification/reviews/assisted/myscheme-da65487ace65512c.json",
+    "overall_decision": "amended",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/swbcbocwwb",
+        "status": 200,
+        "extracted_chars": 644,
+        "error": null
+      },
+      {
+        "url": "http://labour.chd.gov.in/scholarship.aspx",
+        "status": 200,
+        "extracted_chars": 2298,
+        "error": null
+      },
+      {
+        "url": "https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&newLink=N&%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E",
+        "status": 200,
+        "extracted_chars": 218,
+        "error": null
+      },
+      {
+        "url": "http://labour.chd.gov.in/pdf/LWB.pdf",
+        "status": 200,
+        "extracted_chars": 0,
+        "error": "Cached body 8795924 exceeds 4000000 bytes; skipped extraction"
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-9d4e040cced7ed32",
+    "name": "BPL (Below Poverty Line) Student Welfare Scholarship - Technical Education",
+    "review_path": "data/verification/reviews/assisted/myscheme-9d4e040cced7ed32.json",
+    "overall_decision": "insufficient",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/bplsws",
+        "status": 200,
+        "extracted_chars": 644,
+        "error": null
+      },
+      {
+        "url": "https://cgdteraipur.cgstate.gov.in/sites/default/files/03092024scolar.pdf",
+        "status": null,
+        "extracted_chars": 0,
+        "error": "URLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))"
+      },
+      {
+        "url": "https://gpkgh.co.in/docs/Form_to_BPL_Scholarship_2017_18.pdf",
+        "status": 200,
+        "extracted_chars": 2646,
+        "error": null
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-2abd8fde8856bfe0",
+    "name": "Post Matric Scholarship for SC students (Delhi)",
+    "review_path": "data/verification/reviews/assisted/myscheme-2abd8fde8856bfe0.json",
+    "overall_decision": "amended",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/pmsfssd",
+        "status": 200,
+        "extracted_chars": 644,
+        "error": null
+      },
+      {
+        "url": "https://scstwelfare.delhi.gov.in/sites/default/files/scstwelfare/scheme/pms_sc-201718.pdf",
+        "status": 200,
+        "extracted_chars": 6408,
+        "error": null
+      },
+      {
+        "url": "https://scstwelfare.delhi.gov.in/scstwelfare/services-schemes",
+        "status": 200,
+        "extracted_chars": 6140,
+        "error": null
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-ebf09a653f0ce5e5",
+    "name": "Government of Goa State Scholarship to NDA Cadets",
+    "review_path": "data/verification/reviews/assisted/myscheme-ebf09a653f0ce5e5.json",
+    "overall_decision": "amended",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/ggssnc-goa",
+        "status": 200,
+        "extracted_chars": 644,
+        "error": null
+      },
+      {
+        "url": "https://www.goa.gov.in/wp-content/uploads/2016/12/Scheme-to-GSS-to-NDA-CAdets.doc",
+        "status": 200,
+        "extracted_chars": 49482,
+        "error": null
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-d509d2087c8dea20",
+    "name": "Chief Minister Scholarship Scheme",
+    "review_path": "data/verification/reviews/assisted/myscheme-d509d2087c8dea20.json",
+    "overall_decision": "insufficient",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/cmssg",
+        "status": 200,
+        "extracted_chars": 644,
+        "error": null
+      },
+      {
+        "url": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx",
+        "status": 200,
+        "extracted_chars": 239216,
+        "error": null
+      },
+      {
+        "url": "https://scholarships.gujarat.gov.in/Noticeboard/Important%20instruction%20for%20student%20CMSS%20Final%2024-25.pdf",
+        "status": 200,
+        "extracted_chars": 17021,
+        "error": null
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-8518472d8368ed09",
+    "name": "Centrally Sponsored Scheme of Post-Matric Scholarship for OBC, EBC  and DNT Students for studying in India",
+    "review_path": "data/verification/reviews/assisted/myscheme-8518472d8368ed09.json",
+    "overall_decision": "amended",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/pmsoeds",
+        "status": 200,
+        "extracted_chars": 644,
+        "error": null
+      },
+      {
+        "url": "https://harchhatravratti.highereduhry.ac.in/Notices/PMS%20BC%20EWS%20DNT.pdf",
+        "status": 200,
+        "extracted_chars": 31785,
+        "error": null
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-b1ab27ad1f434e67",
+    "name": "H.P. Swaran Jayanti Middle Merit Scholarship Scheme",
+    "review_path": "data/verification/reviews/assisted/myscheme-b1ab27ad1f434e67.json",
+    "overall_decision": "amended",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/hpsjmmssgs",
+        "status": 200,
+        "extracted_chars": 644,
+        "error": null
+      },
+      {
+        "url": "https://himachal.nic.in/WriteReadData/l892s/239_l892s/swaran%20jayantischeme-11691322.pdf",
+        "status": null,
+        "extracted_chars": 0,
+        "error": "URLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))"
+      },
+      {
+        "url": "https://himachalservices.nic.in/scert/pdf/SJMMSE_2023-24.pdf",
+        "status": 200,
+        "extracted_chars": 10889,
+        "error": null
+      },
+      {
+        "url": "https://himachalservices.nic.in/scert/en-IN/sjmmse.html",
+        "status": 200,
+        "extracted_chars": 4331,
+        "error": null
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-05ac5b9f5d86abf2",
+    "name": "Workers for Class 9th to 12th Through National Scholarship (JKBOCWWB)",
+    "review_path": "data/verification/reviews/assisted/myscheme-05ac5b9f5d86abf2.json",
+    "overall_decision": "amended",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/wfctnsjkbocwwb",
+        "status": 200,
+        "extracted_chars": 644,
+        "error": null
+      },
+      {
+        "url": "https://www.jkbocw.gov.in/StaticPages/SchemeInformation.aspx",
+        "status": 404,
+        "extracted_chars": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://www.jkbocw.gov.in/Index.aspx",
+        "status": 404,
+        "extracted_chars": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://scholarships.gov.in/",
+        "status": 200,
+        "extracted_chars": 6093,
+        "error": null
+      },
+      {
+        "url": "https://portal.jkbocw.gov.in/MemberRegistration.aspx",
+        "status": 200,
+        "extracted_chars": 5212,
+        "error": null
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-d4414b626cf51e08",
+    "name": "Jharkhand State Backward Classes Post-Matric Scholarship Scheme",
+    "review_path": "data/verification/reviews/assisted/myscheme-d4414b626cf51e08.json",
+    "overall_decision": "insufficient",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/jsbcpmss",
+        "status": 200,
+        "extracted_chars": 644,
+        "error": null
+      },
+      {
+        "url": "https://ekalyan.cgg.gov.in/downloads/Post_Matric_Scholarship_sankalp_2022.pdf",
+        "status": 200,
+        "extracted_chars": 0,
+        "error": "Cached body 6929591 exceeds 4000000 bytes; skipped extraction"
+      },
+      {
+        "url": "https://ekalyan.cgg.gov.in/",
+        "status": 200,
+        "extracted_chars": 4661,
+        "error": null
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-577daf8787b733ea",
+    "name": "Prabhuddha Overseas Scholarship",
+    "review_path": "data/verification/reviews/assisted/myscheme-577daf8787b733ea.json",
+    "overall_decision": "insufficient",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/pdos",
+        "status": 200,
+        "extracted_chars": 644,
+        "error": null
+      },
+      {
+        "url": "https://sw.kar.nic.in/foreignstudies/WebPages/newScheme.aspx",
+        "status": null,
+        "extracted_chars": 0,
+        "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))"
+      },
+      {
+        "url": "https://sw.kar.nic.in/foreignstudies/Pdf/1%20%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B2%AC%E0%B3%81%E0%B2%A6%E0%B3%8D%E0%B2%A7%20%E0%B2%AF%E0%B3%8B%E0%B2%9C%E0%B2%A8%E0%B3%86%E0%B2%AF%20%E0%B2%AE%E0%B2%BE%E0%B2%B0%E0%B3%8D%E0%B2%97%E0%B2%B8%E0%B3%82%E0%B2%9A%E0%B2%BF.pdf",
+        "status": null,
+        "extracted_chars": 0,
+        "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))"
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-c14f30a2f0ef9915",
+    "name": "APJ Abdul Kalam Scholarship",
+    "review_path": "data/verification/reviews/assisted/myscheme-c14f30a2f0ef9915.json",
+    "overall_decision": "insufficient",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/apjkrl",
+        "status": 200,
+        "extracted_chars": 644,
+        "error": null
+      },
+      {
+        "url": "https://www.scholarship.minoritywelfare.kerala.gov.in/dmw_ma/dmw_ind.php#dialog",
+        "status": null,
+        "extracted_chars": 0,
+        "error": "URLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)'))"
+      },
+      {
+        "url": "https://www.scholarship.minoritywelfare.kerala.gov.in/shared_area/dmw/APJAK/instruction/77353_Apjaks%20%201%20.pdf",
+        "status": null,
+        "extracted_chars": 0,
+        "error": "URLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)'))"
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-5f4f2112dbc856cb",
+    "name": "Lakshadweep Scholarship Scheme",
+    "review_path": "data/verification/reviews/assisted/myscheme-5f4f2112dbc856cb.json",
+    "overall_decision": "amended",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/lkdss",
+        "status": 200,
+        "extracted_chars": 644,
+        "error": null
+      },
+      {
+        "url": "https://scholarships.gov.in/public/schemeGuidelines/Lakshadweep/Lakshadweep_3024_G.pdf",
+        "status": 200,
+        "extracted_chars": 208,
+        "error": null
+      },
+      {
+        "url": "https://scholarships.gov.in/",
+        "status": 200,
+        "extracted_chars": 6093,
+        "error": null
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-4f3af7d1f4758e9f",
+    "name": "Academic Scholarship Scheme (Labor Welfare Board Madhya Pradesh)",
+    "review_path": "data/verification/reviews/assisted/myscheme-4f3af7d1f4758e9f.json",
+    "overall_decision": "amended",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/asslwbmp",
+        "status": 200,
+        "extracted_chars": 644,
+        "error": null
+      },
+      {
+        "url": "https://mpedistrict.gov.in/MPL/getphoto.aspx?ViewCircular=rLL1X7ZhSn8=",
+        "status": 200,
+        "extracted_chars": 11066,
+        "error": null
+      },
+      {
+        "url": "https://shramkalyanmandal.mponline.gov.in/Images/pdf/%E0%A4%B6%E0%A5%88%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3%E0%A4%BF%E0%A4%95%20%E0%A4%9B%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%B5%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BF%20%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE.pdf",
+        "status": 200,
+        "extracted_chars": 1451,
+        "error": null
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-71d3c495cf038b10",
+    "name": "Post-Matric Scholarship To VJNT Students - Maharashtra",
+    "review_path": "data/verification/reviews/assisted/myscheme-71d3c495cf038b10.json",
+    "overall_decision": "amended",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/pmsvs-maharashtra",
+        "status": 200,
+        "extracted_chars": 644,
+        "error": null
+      },
+      {
+        "url": "https://sjsa.maharashtra.gov.in/en/scheme-category/education-training?&Submit=Submit&page=1",
+        "status": 404,
+        "extracted_chars": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://mahadbt.maharashtra.gov.in/",
+        "status": 200,
+        "extracted_chars": 29003,
+        "error": null
+      },
+      {
+        "url": "https://sjsa.maharashtra.gov.in/sites/default/files/vjntscheme/eng/2-01.pdf",
+        "status": 404,
+        "extracted_chars": 0,
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-f88cdb39f7c0a2f1",
+    "name": "Chief Ministergi Shotharabasingi Tengbang (CMST): Scholarship Of Students With Disabilities",
+    "review_path": "data/verification/reviews/assisted/myscheme-f88cdb39f7c0a2f1.json",
+    "overall_decision": "insufficient",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/cmstsswd",
+        "status": 200,
+        "extracted_chars": 644,
+        "error": null
+      },
+      {
+        "url": "https://ukhrul.nic.in/scheme/chief-ministergi-shotharabasingi-tengbang-cmst/",
+        "status": 404,
+        "extracted_chars": 0,
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://socialwelfare.mn.gov.in/media/filer_public/b6/cc/b6cceaf1-4162-45aa-80dc-5568908138ee/cmst_schoolership.pdf",
+        "status": 200,
+        "extracted_chars": 1,
+        "error": null
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-cc9fa8a98cb88dc9",
+    "name": "Border Areas Scholarship",
+    "review_path": "data/verification/reviews/assisted/myscheme-cc9fa8a98cb88dc9.json",
+    "overall_decision": "amended",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/bas",
+        "status": 403,
+        "extracted_chars": 0,
+        "error": "Skipped automated fetch: myScheme currently returns HTTP 403 to non-browser clients."
+      },
+      {
+        "url": "https://megbad.gov.in/guidelines/scholarship%20guidelines.pdf",
+        "status": 200,
+        "extracted_chars": 2291,
+        "error": null
+      },
+      {
+        "url": "https://megeducation.gov.in/",
+        "status": 200,
+        "extracted_chars": 17671,
+        "error": null
+      },
+      {
+        "url": "https://meghalaya.gov.in/sites/default/files/forms/5border_area.pdf",
+        "status": 200,
+        "extracted_chars": 5097,
+        "error": null
+      },
+      {
+        "url": "https://meghalaya.gov.in/index.php/schemes/content/37489",
+        "status": 200,
+        "extracted_chars": 2694,
+        "error": null
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-e7fe3ddff4e0cc14",
+    "name": "Post Matric Merit Scholarship",
+    "review_path": "data/verification/reviews/assisted/myscheme-e7fe3ddff4e0cc14.json",
+    "overall_decision": "amended",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/pmms",
+        "status": 403,
+        "extracted_chars": 0,
+        "error": "Skipped automated fetch: myScheme currently returns HTTP 403 to non-browser clients."
+      },
+      {
+        "url": "https://msb.mizoram.gov.in/uploads/attachments/2022/10/a507f5ed5a716eec8d2570e22cd4ed8c/scholarship-scheme-to-be-upload.pdf",
+        "status": 200,
+        "extracted_chars": 17117,
+        "error": null
+      },
+      {
+        "url": "https://msb.mizoram.gov.in/",
+        "status": 200,
+        "extracted_chars": 1410,
+        "error": null
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-5cebbee53b647e00",
+    "name": "Nagaland State Merit Scholarship",
+    "review_path": "data/verification/reviews/assisted/myscheme-5cebbee53b647e00.json",
+    "overall_decision": "amended",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/nsms",
+        "status": 403,
+        "extracted_chars": 0,
+        "error": "Skipped automated fetch: myScheme currently returns HTTP 403 to non-browser clients."
+      },
+      {
+        "url": "https://highereducation.nagaland.gov.in/wp-content/uploads/2017/07/Merit2021-22.pdf",
+        "status": 200,
+        "extracted_chars": 8842,
+        "error": null
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-8185d5e4c340bf13",
+    "name": "Banishree Scholarship",
+    "review_path": "data/verification/reviews/assisted/myscheme-8185d5e4c340bf13.json",
+    "overall_decision": "insufficient",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/bs",
+        "status": 403,
+        "extracted_chars": 0,
+        "error": "Skipped automated fetch: myScheme currently returns HTTP 403 to non-browser clients."
+      },
+      {
+        "url": "https://ssepd.odisha.gov.in/sites/default/files/2024-04/Banishree_Scholarship_merged.pdf",
+        "status": null,
+        "extracted_chars": 0,
+        "error": "URLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))"
+      }
+    ]
+  },
+  {
+    "scheme_id": "myscheme-3ede6e653be8b65e",
+    "name": "Award of Attendance Scholarship to Girl Students in the Middle Stage of Education",
+    "review_path": "data/verification/reviews/assisted/myscheme-3ede6e653be8b65e.json",
+    "overall_decision": "amended",
+    "fetches": [
+      {
+        "url": "https://www.myscheme.gov.in/schemes/aasgsmse",
+        "status": 403,
+        "extracted_chars": 0,
+        "error": "Skipped automated fetch: myScheme currently returns HTTP 403 to non-browser clients."
+      },
+      {
+        "url": "https://schooledn.py.gov.in/Welfare/InnerPages/edu_AttendanceScholarship.html",
+        "status": 200,
+        "extracted_chars": 2617,
+        "error": null
+      },
+      {
+        "url": "https://edistrict.py.gov.in/Help.rar",
+        "status": 200,
+        "extracted_chars": 0,
+        "error": "Skipped download: Content-Length 9458670 exceeds 4000000 bytes"
+      },
+      {
+        "url": "https://edistrict.py.gov.in/User/TrackApplication.aspx",
+        "status": 200,
+        "extracted_chars": 442,
+        "error": null
+      }
+    ]
+  }
+]

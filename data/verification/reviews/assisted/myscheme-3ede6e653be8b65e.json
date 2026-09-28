@@ -1,0 +1,101 @@
+{
+  "scheme_id": "myscheme-3ede6e653be8b65e",
+  "scheme_name": "Award of Attendance Scholarship to Girl Students in the Middle Stage of Education",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/aasgsmse",
+  "reviewer": "schemesetu-source-assist",
+  "review_date": "2026-09-28",
+  "overall_decision": "amended",
+  "notes": "myScheme page fetch failed (often HTTP 403); guideline links were used when available. Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "assisted": true,
+  "human_confirmed": false,
+  "clause_reviews": [
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be a citizen of India",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/aasgsmse",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources. myScheme page was inaccessible during automated fetch."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be a native of the Union Territory of Puducherry by birth or by continuous residence for not less than five years",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/aasgsmse",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources. myScheme page was inaccessible during automated fetch."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be a Girl",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/aasgsmse",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources. myScheme page was inaccessible during automated fetch."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be a Student",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/aasgsmse",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources. myScheme page was inaccessible during automated fetch."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be in the age group of 11 to 14 years",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/aasgsmse",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources. myScheme page was inaccessible during automated fetch."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be studying in a Government, Government Aided or a Government-recognized Private School in Puducherry",
+      "official_clause": "Government Of Puducherry—SED\nHome\nAbout Us\nSchool Education\nNon-Formal Edn\nYouth Services\nTraining\nWho's Who\nSecretariat\nDirectorate\nSchools\nGovernment\nState Govt\nCentral Govt\nPrivate\nGovt Aided\nUn-Aided\nAdmission\nSchool\nHSC Group\nExams\nHSC\nResult Analysis\nSSLC\nResult Analysis\nWelfare\nStudents\nTeachers\nBeneficiaries\nStatistics\nGovt Schools\nPrivate Schools\nActs & Rules\nActs\nRules\nSamagra Shiksha\nIn",
+      "official_url": "https://schooledn.py.gov.in/Welfare/InnerPages/edu_AttendanceScholarship.html",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://schooledn.py.gov.in/Welfare/InnerPages/edu_AttendanceScholarship.html (match_score=0.818). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should not belong to the Scheduled Caste or Scheduled Tribes Category",
+      "official_clause": "Government Of Puducherry—SED\nHome\nAbout Us\nSchool Education\nNon-Formal Edn\nYouth Services\nTraining\nWho's Who\nSecretariat\nDirectorate\nSchools\nGovernment\nState Govt\nCentral Govt\nPrivate\nGovt Aided\nUn-Aided\nAdmission\nSchool\nHSC Group\nExams\nHSC\nResult Analysis\nSSLC\nResult Analysis\nWelfare\nStudents\nTeachers\nBeneficiaries\nStatistics\nGovt Schools\nPrivate Schools\nActs & Rules\nActs\nRules\nSamagra Shiksha\nIn",
+      "official_url": "https://schooledn.py.gov.in/Welfare/InnerPages/edu_AttendanceScholarship.html",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://schooledn.py.gov.in/Welfare/InnerPages/edu_AttendanceScholarship.html (match_score=0.625). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should have an annual family income of ₹75,000/- or below",
+      "official_clause": "Government Of Puducherry—SED\nHome\nAbout Us\nSchool Education\nNon-Formal Edn\nYouth Services\nTraining\nWho's Who\nSecretariat\nDirectorate\nSchools\nGovernment\nState Govt\nCentral Govt\nPrivate\nGovt Aided\nUn-Aided\nAdmission\nSchool\nHSC Group\nExams\nHSC\nResult Analysis\nSSLC\nResult Analysis\nWelfare\nStudents\nTeachers\nBeneficiaries\nStatistics\nGovt Schools\nPrivate Schools\nActs & Rules\nActs\nRules\nSamagra Shiksha\nIn",
+      "official_url": "https://schooledn.py.gov.in/Welfare/InnerPages/edu_AttendanceScholarship.html",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://schooledn.py.gov.in/Welfare/InnerPages/edu_AttendanceScholarship.html (match_score=0.571). Pending human dual-check before any `confirmed` decision or rule promotion."
+    }
+  ]
+}

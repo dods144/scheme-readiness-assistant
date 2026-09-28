@@ -1,0 +1,57 @@
+{
+  "scheme_id": "myscheme-c14f30a2f0ef9915",
+  "scheme_name": "APJ Abdul Kalam Scholarship",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/apjkrl",
+  "reviewer": "schemesetu-source-assist",
+  "review_date": "2026-09-28",
+  "overall_decision": "insufficient",
+  "notes": "Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "assisted": true,
+  "human_confirmed": false,
+  "clause_reviews": [
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "BPL (Below Poverty Line) category applicants will be given preference",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/apjkrl",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "30% of the scholarships are reserved for girls",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/apjkrl",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "If the specified percentage of girls is not met, eligible boys will also be considered for the scholarship",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/apjkrl",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The selection of minority students is based on family annual income and marks, proportionate to the population",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/apjkrl",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    }
+  ]
+}

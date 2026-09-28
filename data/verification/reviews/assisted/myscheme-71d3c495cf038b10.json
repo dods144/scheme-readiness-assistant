@@ -1,0 +1,101 @@
+{
+  "scheme_id": "myscheme-71d3c495cf038b10",
+  "scheme_name": "Post-Matric Scholarship To VJNT Students - Maharashtra",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/pmsvs-maharashtra",
+  "reviewer": "schemesetu-source-assist",
+  "review_date": "2026-09-28",
+  "overall_decision": "amended",
+  "notes": "Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "assisted": true,
+  "human_confirmed": false,
+  "clause_reviews": [
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Applicants have to pass the previous year&#39",
+      "official_clause": "Skip To Main Content\nSkip To Navigation\nHome\nA+\nA=\nA-\nमराठी\nBenefit\nSchemes\nPost Matric\nScholarship\nSocial Justice and Special Assistance Department\nTribal Development Department\nDirectorate of Higher Education\nDirectorate of Technical Education\nSchool Education and Sports Department\nOBC, SEBC, VJNT & SBC Welfare Department\nDirectorate of Medical Education and Research\nMinority Development Departm",
+      "official_url": "https://mahadbt.maharashtra.gov.in/",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://mahadbt.maharashtra.gov.in/ (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "In the case of VJNT, if the applicant fails for a year then the applicant is not paid any reimbursement for that particular year",
+      "official_clause": "Skip To Main Content\nSkip To Navigation\nHome\nA+\nA=\nA-\nमराठी\nBenefit\nSchemes\nPost Matric\nScholarship\nSocial Justice and Special Assistance Department\nTribal Development Department\nDirectorate of Higher Education\nDirectorate of Technical Education\nSchool Education and Sports Department\nOBC, SEBC, VJNT & SBC Welfare Department\nDirectorate of Medical Education and Research\nMinority Development Departm",
+      "official_url": "https://mahadbt.maharashtra.gov.in/",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://mahadbt.maharashtra.gov.in/ (match_score=0.75). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "For Group A – If an applicant pursuing the Group-A course fails in the examination for the 1st time the award may be renewed",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/pmsvs-maharashtra",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "sub sequent failure in any class, the Applicant shall bear his / her own expenses until he/she secures promotion to the next higher class",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/pmsvs-maharashtra",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "For Group B,C,D,E - he/she has to secure promotion to a higher class (For second &amp",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/pmsvs-maharashtra",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "subsequent failure in any class the applicant shall bear his / her own expenses until he/she secures promotion to the next higher class.)",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/pmsvs-maharashtra",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "If due to any medical condition or due to any unforeseeable event the Applicant cannot appear in the annual examination, the headmaster of the college can approve or certify that if the Applicant would have appeared in the annual examination, he would have been able to pass the examination",
+      "official_clause": "Skip To Main Content\nSkip To Navigation\nHome\nA+\nA=\nA-\nमराठी\nBenefit\nSchemes\nPost Matric\nScholarship\nSocial Justice and Special Assistance Department\nTribal Development Department\nDirectorate of Higher Education\nDirectorate of Technical Education\nSchool Education and Sports Department\nOBC, SEBC, VJNT & SBC Welfare Department\nDirectorate of Medical Education and Research\nMinority Development Departm",
+      "official_url": "https://mahadbt.maharashtra.gov.in/",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://mahadbt.maharashtra.gov.in/ (match_score=0.577). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "This will be only allowed if the head of the institution is satisfied by the submission of medical proof or any other required sufficient proof that the Applicant presents to the college",
+      "official_clause": "Skip To Main Content\nSkip To Navigation\nHome\nA+\nA=\nA-\nमराठी\nBenefit\nSchemes\nPost Matric\nScholarship\nSocial Justice and Special Assistance Department\nTribal Development Department\nDirectorate of Higher Education\nDirectorate of Technical Education\nSchool Education and Sports Department\nOBC, SEBC, VJNT & SBC Welfare Department\nDirectorate of Medical Education and Research\nMinority Development Departm",
+      "official_url": "https://mahadbt.maharashtra.gov.in/",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://mahadbt.maharashtra.gov.in/ (match_score=0.556). Pending human dual-check before any `confirmed` decision or rule promotion."
+    }
+  ]
+}

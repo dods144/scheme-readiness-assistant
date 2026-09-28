@@ -87,12 +87,23 @@ The supplied CSV produced **1,104** records from 4,670 source rows. See `data/im
 
 ## Manual verification
 
-Use `data/verification/README.md` and `data/verification/review_template.json` to record clause-level reviews (exact clause, URL, review date, reviewer decision). Do not invent verification outcomes. Completed reviews belong in `data/verification/reviews/`.
+Use `data/verification/README.md` and `data/verification/review_template.json` to record clause-level reviews (exact clause, URL, review date, reviewer decision). Do not invent verification outcomes.
+
+Generate assisted drafts for the 25-scheme pilot (never auto-confirms):
+
+```bash
+pip install -e ".[dev]"   # includes pypdf for guideline PDFs
+PYTHONPATH=src python -m schemesetu.verify_sources \
+  --catalog data/pilot_education_schemes.json \
+  --reviewer "your-id"
+```
+
+Assisted output lands in `data/verification/reviews/assisted/` with `human_confirmed: false`. Human-final reviews belong in `data/verification/reviews/`. The evaluation set under `data/evaluation/` stays empty until human-confirmed reviews exist. Note: automated myScheme page fetches currently receive HTTP 403; guideline links from `references_text` are used when available.
 
 ## Next implementation steps
 
-- Complete 25–40 human clause reviews and promote only confirmed rules
+- Human dual-check assisted pilot reviews; promote only confirmed clauses
+- Populate `data/evaluation/` from human-confirmed reviews, then measure keyword vs embedding retrieval
 - Add `schemes_faqs.csv` passages once available locally
-- Build an independently reviewed evaluation set, then measure keyword vs embedding retrieval
 - Add source-conflict detection across dataset and official documents
 - Optional reranking after passage retrieval

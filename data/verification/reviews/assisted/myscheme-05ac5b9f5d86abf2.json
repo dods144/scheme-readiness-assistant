@@ -1,0 +1,90 @@
+{
+  "scheme_id": "myscheme-05ac5b9f5d86abf2",
+  "scheme_name": "Workers for Class 9th to 12th Through National Scholarship (JKBOCWWB)",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/wfctnsjkbocwwb",
+  "reviewer": "schemesetu-source-assist",
+  "review_date": "2026-09-28",
+  "overall_decision": "amended",
+  "notes": "Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "assisted": true,
+  "human_confirmed": false,
+  "clause_reviews": [
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be a resident of Jammu & Kashmir",
+      "official_clause": "NSP : National Scholarship Portal\nGovernment of India\nMinistry of Electronics & Information Technology\nAcademic Year 2026-27\nStudent\nInstitute\nOfficer\nStudents\nStudents\nApply For One Time Registration (OTR)\nApply For Scholarship\nSchemes on NSP\nScholarship\n                                                                    Eligibility\nApplication",
+      "official_url": "https://scholarships.gov.in/",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://scholarships.gov.in/ (match_score=0.8). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be a Building/ Construction Worker",
+      "official_clause": "Labour Management Information System\nHome\nGet UserId and Password\nSitemap\nFeedback\nSkip to Main Content\nScreen Reader Access\nJ&K Building and Other Construction Workers Welfare Board\nGovernment of Jammu & Kashmir\nAnantnag :- 0193-2222571 | Bandipora :- 01957-225122 | Baramulla :- 01952-236437 | Budgam :- 0195-1255015 | Doda :- 0199-6234560 | Ganderbal :- 0194-2416004 | Jammu :- 0191-565068 | Kathu",
+      "official_url": "https://portal.jkbocw.gov.in/MemberRegistration.aspx",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://portal.jkbocw.gov.in/MemberRegistration.aspx (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be between 18 and 60 years",
+      "official_clause": "Labour Management Information System\nHome\nGet UserId and Password\nSitemap\nFeedback\nSkip to Main Content\nScreen Reader Access\nJ&K Building and Other Construction Workers Welfare Board\nGovernment of Jammu & Kashmir\nAnantnag :- 0193-2222571 | Bandipora :- 01957-225122 | Baramulla :- 01952-236437 | Budgam :- 0195-1255015 | Doda :- 0199-6234560 | Ganderbal :- 0194-2416004 | Jammu :- 0191-565068 | Kathu",
+      "official_url": "https://portal.jkbocw.gov.in/MemberRegistration.aspx",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://portal.jkbocw.gov.in/MemberRegistration.aspx (match_score=0.75). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should have engaged in any building or other construction work for at least 90 days during the preceding 12 months",
+      "official_clause": "Labour Management Information System\nHome\nGet UserId and Password\nSitemap\nFeedback\nSkip to Main Content\nScreen Reader Access\nJ&K Building and Other Construction Workers Welfare Board\nGovernment of Jammu & Kashmir\nAnantnag :- 0193-2222571 | Bandipora :- 01957-225122 | Baramulla :- 01952-236437 | Budgam :- 0195-1255015 | Doda :- 0199-6234560 | Ganderbal :- 0194-2416004 | Jammu :- 0191-565068 | Kathu",
+      "official_url": "https://portal.jkbocw.gov.in/MemberRegistration.aspx",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://portal.jkbocw.gov.in/MemberRegistration.aspx (match_score=0.846). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be registration is renewed annually",
+      "official_clause": "Labour Management Information System\nHome\nGet UserId and Password\nSitemap\nFeedback\nSkip to Main Content\nScreen Reader Access\nJ&K Building and Other Construction Workers Welfare Board\nGovernment of Jammu & Kashmir\nAnantnag :- 0193-2222571 | Bandipora :- 01957-225122 | Baramulla :- 01952-236437 | Budgam :- 0195-1255015 | Doda :- 0199-6234560 | Ganderbal :- 0194-2416004 | Jammu :- 0191-565068 | Kathu",
+      "official_url": "https://portal.jkbocw.gov.in/MemberRegistration.aspx",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://portal.jkbocw.gov.in/MemberRegistration.aspx (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "One of the student's parents must be a registered member of the Building and Other Construction Workers (BOC) Welfare Board",
+      "official_clause": "Labour Management Information System\nHome\nGet UserId and Password\nSitemap\nFeedback\nSkip to Main Content\nScreen Reader Access\nJ&K Building and Other Construction Workers Welfare Board\nGovernment of Jammu & Kashmir\nAnantnag :- 0193-2222571 | Bandipora :- 01957-225122 | Baramulla :- 01952-236437 | Budgam :- 0195-1255015 | Doda :- 0199-6234560 | Ganderbal :- 0194-2416004 | Jammu :- 0191-565068 | Kathu",
+      "official_url": "https://portal.jkbocw.gov.in/MemberRegistration.aspx",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://portal.jkbocw.gov.in/MemberRegistration.aspx (match_score=0.636). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant must be studying in classes 9th to 12th",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/wfctnsjkbocwwb",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources."
+    }
+  ]
+}

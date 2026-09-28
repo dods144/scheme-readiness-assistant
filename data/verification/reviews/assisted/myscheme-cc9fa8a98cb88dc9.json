@@ -1,0 +1,68 @@
+{
+  "scheme_id": "myscheme-cc9fa8a98cb88dc9",
+  "scheme_name": "Border Areas Scholarship",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/bas",
+  "reviewer": "schemesetu-source-assist",
+  "review_date": "2026-09-28",
+  "overall_decision": "amended",
+  "notes": "myScheme page fetch failed (often HTTP 403); guideline links were used when available. Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "assisted": true,
+  "human_confirmed": false,
+  "clause_reviews": [
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should be a student residing in a village notified as a Border Area village by the Border Areas Department",
+      "official_clause": "GOVERNMENT OF MEGHALAYA \n \n[Revised Application Form (Fresh/Renewal) for the Students residing in the notified border village of the \nState] \n \nApplication for scholarship to Border Area Students of Meghalaya reading in Schools/Colleges during \n \nNote – This application should be submitted to the Director, Higher & Technical Education through the Head of \nInstitutions on or before ____________",
+      "official_url": "https://meghalaya.gov.in/sites/default/files/forms/5border_area.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://meghalaya.gov.in/sites/default/files/forms/5border_area.pdf (match_score=0.833). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "s father and mother should have income derived entirely from the Border Area",
+      "official_clause": "Revised Guidelines \nSc\"eme for granting subsidy to students from B~. rder Area,S under Border Areas Developme'lt \no • IProgramme. \t . \nConsequent upon the partition of India in 1947, the people inhabiting the Indo-Bangladesh Bord r \nsuffered acute economic distress due to closure of normal trade channels with our neighbouri, g \ncountry. The people of those areas have been experiencing great diffic",
+      "official_url": "https://megbad.gov.in/guidelines/scholarship%20guidelines.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://megbad.gov.in/guidelines/scholarship%20guidelines.pdf (match_score=0.8). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should pass year-wise promotion examinations to continue receiving the scholarship",
+      "official_clause": "",
+      "official_url": "https://www.myscheme.gov.in/schemes/bas",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "No sufficiently matching official text was extracted from available sources. myScheme page was inaccessible during automated fetch."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should maintain good conduct, regular attendance, and satisfactory academic progress",
+      "official_clause": "Department of Education | Government of Meghalaya\nHome\nWho’s Who\nDirectorates\nDirectorate of School Education and Literacy\nDirectorate of Higher and Technical Education\nDirectorate of Educational Research and Training\nInstitutions\nUniversities\nColleges\nEngineering and Polytechnics\nInstitutes of National Importance\nHigher Secondary Schools\nLinks of Institutions\nNotifications\nOrders by the Governor",
+      "official_url": "https://megeducation.gov.in/",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://megeducation.gov.in/ (match_score=0.6). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should not leave studies before completing the course",
+      "official_clause": "Revised Guidelines \nSc\"eme for granting subsidy to students from B~. rder Area,S under Border Areas Developme'lt \no • IProgramme. \t . \nConsequent upon the partition of India in 1947, the people inhabiting the Indo-Bangladesh Bord r \nsuffered acute economic distress due to closure of normal trade channels with our neighbouri, g \ncountry. The people of those areas have been experiencing great diffic",
+      "official_url": "https://megbad.gov.in/guidelines/scholarship%20guidelines.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://megbad.gov.in/guidelines/scholarship%20guidelines.pdf (match_score=0.571). Pending human dual-check before any `confirmed` decision or rule promotion."
+    }
+  ]
+}

@@ -8,3 +8,5 @@ build/
 .env
 data/raw/
 data/imported/
+data/verification/cache/
+.DS_Store

@@ -1,0 +1,90 @@
+{
+  "scheme_id": "myscheme-da65487ace65512c",
+  "scheme_name": "Scholarship to the Ward of Beneficiary (CBOCWWB)",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/swbcbocwwb",
+  "reviewer": "schemesetu-source-assist",
+  "review_date": "2026-09-28",
+  "overall_decision": "amended",
+  "notes": "Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "assisted": true,
+  "human_confirmed": false,
+  "clause_reviews": [
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The worker/beneficiary should be working in the Establishment, registered under the Punjab Labour Welfare Fund Act, 1965 and his contribution towards labour welfare fund should regularly been received by the Board",
+      "official_clause": "CHD LABOUR DEPARTMENT\nYou don't have javascript enabled. Good luck with that.\nSkip To Main Content\n|\nWelcome Guest\n|\nUserlogin\n|\nDeptLogin\nHome\nLabour Policy\nLabour Laws\nOnline Services\nHow To Apply\nRTI\nslideshow\nSCHOLARSHIP TO THE WARD OF BENEFICIARY\nBrief Description:\nScholarship shall be granted on the basis of percentage of marks obtained in 10th, 12th & Graduation.\nClass\nPercentage of marks o",
+      "official_url": "http://labour.chd.gov.in/scholarship.aspx",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with http://labour.chd.gov.in/scholarship.aspx (match_score=0.955). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Any worker/beneficiary will be eligible to avail the benefit of the scheme only after 06 months of becoming the beneficiary member of the Chandigarh Building and Other Construction Workers Welfare Board at least for the last six months",
+      "official_clause": "CHD LABOUR DEPARTMENT\nYou don't have javascript enabled. Good luck with that.\nSkip To Main Content\n|\nWelcome Guest\n|\nUserlogin\n|\nDeptLogin\nHome\nLabour Policy\nLabour Laws\nOnline Services\nHow To Apply\nRTI\nslideshow\nSCHOLARSHIP TO THE WARD OF BENEFICIARY\nBrief Description:\nScholarship shall be granted on the basis of percentage of marks obtained in 10th, 12th & Graduation.\nClass\nPercentage of marks o",
+      "official_url": "http://labour.chd.gov.in/scholarship.aspx",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with http://labour.chd.gov.in/scholarship.aspx (match_score=0.826). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The scholarship application will not be entertained on getting a compartment in any of the subjects",
+      "official_clause": "CHD LABOUR DEPARTMENT\nYou don't have javascript enabled. Good luck with that.\nSkip To Main Content\n|\nWelcome Guest\n|\nUserlogin\n|\nDeptLogin\nHome\nLabour Policy\nLabour Laws\nOnline Services\nHow To Apply\nRTI\nslideshow\nSCHOLARSHIP TO THE WARD OF BENEFICIARY\nBrief Description:\nScholarship shall be granted on the basis of percentage of marks obtained in 10th, 12th & Graduation.\nClass\nPercentage of marks o",
+      "official_url": "http://labour.chd.gov.in/scholarship.aspx",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with http://labour.chd.gov.in/scholarship.aspx (match_score=0.857). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "In case a scholarship is granted to the children of the workers from any other institution then he will not be entitled to get a scholarship from the Board",
+      "official_clause": "CHD LABOUR DEPARTMENT\nYou don't have javascript enabled. Good luck with that.\nSkip To Main Content\n|\nWelcome Guest\n|\nUserlogin\n|\nDeptLogin\nHome\nLabour Policy\nLabour Laws\nOnline Services\nHow To Apply\nRTI\nslideshow\nSCHOLARSHIP TO THE WARD OF BENEFICIARY\nBrief Description:\nScholarship shall be granted on the basis of percentage of marks obtained in 10th, 12th & Graduation.\nClass\nPercentage of marks o",
+      "official_url": "http://labour.chd.gov.in/scholarship.aspx",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with http://labour.chd.gov.in/scholarship.aspx (match_score=0.929). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "If any student who placed at 1st, 2nd, and 3rd place in National/International games/sports then he will be granted a scholarship without taking into consideration the percentage of marks",
+      "official_clause": "CHD LABOUR DEPARTMENT\nYou don't have javascript enabled. Good luck with that.\nSkip To Main Content\n|\nWelcome Guest\n|\nUserlogin\n|\nDeptLogin\nHome\nLabour Policy\nLabour Laws\nOnline Services\nHow To Apply\nRTI\nslideshow\nSCHOLARSHIP TO THE WARD OF BENEFICIARY\nBrief Description:\nScholarship shall be granted on the basis of percentage of marks obtained in 10th, 12th & Graduation.\nClass\nPercentage of marks o",
+      "official_url": "http://labour.chd.gov.in/scholarship.aspx",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with http://labour.chd.gov.in/scholarship.aspx (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The scholarship will be given upto two children of the worker",
+      "official_clause": "CHD LABOUR DEPARTMENT\nYou don't have javascript enabled. Good luck with that.\nSkip To Main Content\n|\nWelcome Guest\n|\nUserlogin\n|\nDeptLogin\nHome\nLabour Policy\nLabour Laws\nOnline Services\nHow To Apply\nRTI\nslideshow\nSCHOLARSHIP TO THE WARD OF BENEFICIARY\nBrief Description:\nScholarship shall be granted on the basis of percentage of marks obtained in 10th, 12th & Graduation.\nClass\nPercentage of marks o",
+      "official_url": "http://labour.chd.gov.in/scholarship.aspx",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with http://labour.chd.gov.in/scholarship.aspx (match_score=0.667). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant should apply for a Scholarship within three months from the date of issue of the mark sheet of the student",
+      "official_clause": "CHD LABOUR DEPARTMENT\nYou don't have javascript enabled. Good luck with that.\nSkip To Main Content\n|\nWelcome Guest\n|\nUserlogin\n|\nDeptLogin\nHome\nLabour Policy\nLabour Laws\nOnline Services\nHow To Apply\nRTI\nslideshow\nSCHOLARSHIP TO THE WARD OF BENEFICIARY\nBrief Description:\nScholarship shall be granted on the basis of percentage of marks obtained in 10th, 12th & Graduation.\nClass\nPercentage of marks o",
+      "official_url": "http://labour.chd.gov.in/scholarship.aspx",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with http://labour.chd.gov.in/scholarship.aspx (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    }
+  ]
+}

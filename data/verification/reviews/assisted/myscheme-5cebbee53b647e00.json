@@ -1,0 +1,57 @@
+{
+  "scheme_id": "myscheme-5cebbee53b647e00",
+  "scheme_name": "Nagaland State Merit Scholarship",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/nsms",
+  "reviewer": "schemesetu-source-assist",
+  "review_date": "2026-09-28",
+  "overall_decision": "amended",
+  "notes": "myScheme page fetch failed (often HTTP 403); guideline links were used when available. Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "assisted": true,
+  "human_confirmed": false,
+  "clause_reviews": [
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The student must be a permanent resident or citizen of Nagaland state",
+      "official_clause": "State Merit Scholarship 2021 -Page 1/4 \n \nGOVERNMENT OF NAGALAND \nDIRECTORATE OF HIGHER EDUCATION \nNAGALAND: KOHIMA \n \n \nNAGALAND STATE MERIT SCHOLARSHIP \n(Sponsored by the Government of Nagaland) \n \nGuidelines for Nagaland State Merit Scholarship, 2021-22. \nhttps://scholarship.nagaland.gov.in \nOnline application: 9th August to 31st October 2021. \nLast date of submission of Merit Form hardcopy: 30",
+      "official_url": "https://highereducation.nagaland.gov.in/wp-content/uploads/2017/07/Merit2021-22.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://highereducation.nagaland.gov.in/wp-content/uploads/2017/07/Merit2021-22.pdf (match_score=0.857). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The applicant must be a student in a Post-matric class",
+      "official_clause": "State Merit Scholarship 2021 -Page 1/4 \n \nGOVERNMENT OF NAGALAND \nDIRECTORATE OF HIGHER EDUCATION \nNAGALAND: KOHIMA \n \n \nNAGALAND STATE MERIT SCHOLARSHIP \n(Sponsored by the Government of Nagaland) \n \nGuidelines for Nagaland State Merit Scholarship, 2021-22. \nhttps://scholarship.nagaland.gov.in \nOnline application: 9th August to 31st October 2021. \nLast date of submission of Merit Form hardcopy: 30",
+      "official_url": "https://highereducation.nagaland.gov.in/wp-content/uploads/2017/07/Merit2021-22.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://highereducation.nagaland.gov.in/wp-content/uploads/2017/07/Merit2021-22.pdf (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "The student must secure 70% or 80% marks in the last year’s exam for getting a scholarship renewal",
+      "official_clause": "State Merit Scholarship 2021 -Page 1/4 \n \nGOVERNMENT OF NAGALAND \nDIRECTORATE OF HIGHER EDUCATION \nNAGALAND: KOHIMA \n \n \nNAGALAND STATE MERIT SCHOLARSHIP \n(Sponsored by the Government of Nagaland) \n \nGuidelines for Nagaland State Merit Scholarship, 2021-22. \nhttps://scholarship.nagaland.gov.in \nOnline application: 9th August to 31st October 2021. \nLast date of submission of Merit Form hardcopy: 30",
+      "official_url": "https://highereducation.nagaland.gov.in/wp-content/uploads/2017/07/Merit2021-22.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://highereducation.nagaland.gov.in/wp-content/uploads/2017/07/Merit2021-22.pdf (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+    },
+    {
+      "field_target": "eligibility_unstructured",
+      "dataset_passage": "Students in the ST category will also be given scholarship enrollment",
+      "official_clause": "State Merit Scholarship 2021 -Page 1/4 \n \nGOVERNMENT OF NAGALAND \nDIRECTORATE OF HIGHER EDUCATION \nNAGALAND: KOHIMA \n \n \nNAGALAND STATE MERIT SCHOLARSHIP \n(Sponsored by the Government of Nagaland) \n \nGuidelines for Nagaland State Merit Scholarship, 2021-22. \nhttps://scholarship.nagaland.gov.in \nOnline application: 9th August to 31st October 2021. \nLast date of submission of Merit Form hardcopy: 30",
+      "official_url": "https://highereducation.nagaland.gov.in/wp-content/uploads/2017/07/Merit2021-22.pdf",
+      "section": "eligibility",
+      "review_date": "2026-09-28",
+      "decision": "amended",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Automated textual overlap with https://highereducation.nagaland.gov.in/wp-content/uploads/2017/07/Merit2021-22.pdf (match_score=0.571). Pending human dual-check before any `confirmed` decision or rule promotion."
+    }
+  ]
+}
