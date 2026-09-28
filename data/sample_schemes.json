@@ -1,0 +1,59 @@
+[
+  {
+    "scheme_id": "maha-girls-engineering-demo",
+    "name": "Maharashtra Girls Engineering Scholarship Demo",
+    "description": "Illustrative scholarship record for female undergraduate engineering students in Maharashtra.",
+    "level": "state",
+    "states": ["Maharashtra"],
+    "categories": ["education", "scholarship", "women", "engineering"],
+    "benefits": "Illustrative tuition assistance.",
+    "eligibility_rules": [
+      {"field": "state", "operator": "equals", "value": "Maharashtra", "description": "Applicant must be a Maharashtra resident."},
+      {"field": "gender", "operator": "equals", "value": "female", "description": "Applicant must be female."},
+      {"field": "age", "operator": "lte", "value": 25, "description": "Applicant must be 25 years old or younger."},
+      {"field": "education_level", "operator": "equals", "value": "undergraduate", "description": "Applicant must be an undergraduate student."},
+      {"field": "course", "operator": "equals", "value": "engineering", "description": "Applicant must be studying engineering."},
+      {"field": "family_income", "operator": "lte", "value": 400000, "description": "Annual family income must not exceed INR 400,000."}
+    ],
+    "required_documents": ["aadhaar_card", "marksheet", "income_certificate", "domicile_certificate"],
+    "application_url": "https://example.invalid/apply",
+    "official_source_url": null,
+    "verified": false
+  },
+  {
+    "scheme_id": "national-merit-demo",
+    "name": "National Undergraduate Merit Scholarship Demo",
+    "description": "Illustrative all-India merit scholarship for undergraduate students.",
+    "level": "central",
+    "states": ["All India"],
+    "categories": ["education", "scholarship", "merit"],
+    "benefits": "Illustrative annual scholarship payment.",
+    "eligibility_rules": [
+      {"field": "education_level", "operator": "equals", "value": "undergraduate", "description": "Applicant must be an undergraduate student."},
+      {"field": "age", "operator": "lte", "value": 24, "description": "Applicant must be 24 years old or younger."},
+      {"field": "family_income", "operator": "lte", "value": 800000, "description": "Annual family income must not exceed INR 800,000."}
+    ],
+    "required_documents": ["aadhaar_card", "marksheet", "income_certificate", "bank_passbook"],
+    "application_url": "https://example.invalid/apply",
+    "official_source_url": null,
+    "verified": false
+  },
+  {
+    "scheme_id": "pg-single-girl-demo",
+    "name": "Postgraduate Scholarship for Single Girl Child Demo",
+    "description": "Illustrative scholarship for female postgraduate students who are a single girl child.",
+    "level": "central",
+    "states": ["All India"],
+    "categories": ["education", "scholarship", "women", "postgraduate"],
+    "benefits": "Illustrative postgraduate education assistance.",
+    "eligibility_rules": [
+      {"field": "gender", "operator": "equals", "value": "female", "description": "Applicant must be female."},
+      {"field": "education_level", "operator": "equals", "value": "postgraduate", "description": "Applicant must be enrolled in postgraduate study."},
+      {"field": "age", "operator": "lte", "value": 30, "description": "Applicant must be 30 years old or younger."}
+    ],
+    "required_documents": ["aadhaar_card", "admission_letter", "single_girl_child_affidavit"],
+    "application_url": "https://example.invalid/apply",
+    "official_source_url": null,
+    "verified": false
+  }
+]
