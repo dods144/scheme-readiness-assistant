@@ -35,6 +35,12 @@ class Scheme(BaseModel):
     required_documents: list[str] = Field(default_factory=list)
     application_url: str | None = None
     official_source_url: str | None = None
+    dataset_source_url: str | None = None
+    eligibility_text: str = ""
+    documents_text: str = ""
+    exclusions_text: str = ""
+    references_text: str = ""
+    application_process_text: str = ""
     verified: bool = False
 
 
@@ -78,8 +84,9 @@ class SchemeAssessment(BaseModel):
     missing_information: list[str]
     clarification_questions: list[str]
     missing_documents: list[str]
-    readiness_score: float
+    readiness_score: float | None
     source_url: str | None = None
+    verified: bool = False
 
 
 class AnalysisRequest(BaseModel):

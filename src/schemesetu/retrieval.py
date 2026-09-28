@@ -45,6 +45,7 @@ class KeywordRetriever:
                     scheme.name,
                     scheme.description,
                     scheme.benefits,
+                    scheme.eligibility_text,
                     " ".join(scheme.categories),
                     " ".join(scheme.states),
                 ]

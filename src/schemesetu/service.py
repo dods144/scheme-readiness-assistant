@@ -44,8 +44,9 @@ class SchemeSetuService:
                     missing_information=missing_fields,
                     clarification_questions=questions,
                     missing_documents=missing_documents,
-                    readiness_score=readiness_score,
+                    readiness_score=(readiness_score if scheme.required_documents else None),
                     source_url=scheme.official_source_url,
+                    verified=scheme.verified,
                 )
             )
 

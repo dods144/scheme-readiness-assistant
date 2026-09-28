@@ -90,7 +90,11 @@ class EligibilityEngine:
         failed = [result for result in results if result.status == RuleStatus.FAILED]
         unknown = [result for result in results if result.status == RuleStatus.UNKNOWN]
 
-        if failed:
+        if not scheme.eligibility_rules:
+            # Dataset prose is for discovery until a reviewer translates and
+            # verifies every relevant condition as a rule.
+            status = EligibilityStatus.POSSIBLY_ELIGIBLE
+        elif failed:
             status = EligibilityStatus.INELIGIBLE
         elif unknown:
             status = EligibilityStatus.POSSIBLY_ELIGIBLE
