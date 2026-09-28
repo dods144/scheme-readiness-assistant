@@ -45,6 +45,7 @@ PYTHONPATH=src python -m schemesetu.verify_sources \
 - `reviews/assisted/` — machine-assisted drafts (`human_confirmed: false`)
 - `reviews/*.json` — human-confirmed reviews only
 - `fetch_report.json` — HTTP status / extraction summary from the last assist run
+- `review_packets/first-five.md` — AI-assisted comparison of the first five pilot schemes with official documents; includes source age and conflicts, not human decisions
 - `cache/` — local HTTP cache (gitignored)
 
 ## What not to do

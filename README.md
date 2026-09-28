@@ -89,6 +89,8 @@ The supplied CSV produced **1,104** records from 4,670 source rows. See `data/im
 
 Use `data/verification/README.md` and `data/verification/review_template.json` to record clause-level reviews (exact clause, URL, review date, reviewer decision). Do not invent verification outcomes.
 
+`data/verification/review_packets/first-five.md` records an AI-assisted source comparison of the first five pilot schemes. It identifies older guidelines, unavailable links, and a material Assam eligibility mismatch; it is not a human-confirmed review or evaluation set.
+
 Generate assisted drafts for the 25-scheme pilot (never auto-confirms):
 
 ```bash
