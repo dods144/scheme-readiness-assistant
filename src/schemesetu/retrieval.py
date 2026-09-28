@@ -115,6 +115,9 @@ class KeywordPassageRetriever:
                     source_url=passage.source_url,
                     score=round(score, 4),
                     retrieval_method=self.method,
+                    source_type=passage.source_type,
+                    academic_year=passage.academic_year,
+                    page=passage.page,
                 )
             )
         return sorted(scored, key=lambda item: (-item.score, item.scheme_id, item.section))[:top_k]
@@ -232,7 +235,7 @@ class EmbeddingPassageRetriever:
         if passages is not None and (
             self._cache is None
             or len(passages) != len(self._passages)
-            or any(a.scheme_id != b.scheme_id or a.section != b.section for a, b in zip(passages, self._passages))
+            or any(a != b for a, b in zip(passages, self._passages))
         ):
             self.index(passages)
         if self._cache is None:
@@ -254,6 +257,9 @@ class EmbeddingPassageRetriever:
                     source_url=passage.source_url,
                     score=round(float(score), 4),
                     retrieval_method=f"{self.method}:{self.provider.name}",
+                    source_type=passage.source_type,
+                    academic_year=passage.academic_year,
+                    page=passage.page,
                 )
             )
         return sorted(scored, key=lambda item: (-item.score, item.scheme_id, item.section))[:top_k]
@@ -275,8 +281,8 @@ class HybridSchemeRetriever:
         self.passages_per_scheme = passages_per_scheme
         self._passages: list[SourcePassage] = []
 
-    def prepare(self, schemes: list[Scheme]) -> None:
-        self._passages = build_passages(schemes)
+    def prepare(self, schemes: list[Scheme], guideline_passages: list[SourcePassage] | None = None) -> None:
+        self._passages = [*build_passages(schemes), *(guideline_passages or [])]
         if self.method.startswith("embedding"):
             self.embedding_passages.index(self._passages)
 
@@ -300,12 +306,12 @@ class HybridSchemeRetriever:
         enriched_query = " ".join([query, *[v for v in profile_terms if v]])
 
         if self.method in {"keyword", "keyword_passages"}:
-            evidence = self.keyword_passages.search(enriched_query, self._passages, top_k=top_k * 4)
+            evidence = self.keyword_passages.search(enriched_query, self._passages, top_k=max(top_k * 8, 40))
             if self.method == "keyword" and not evidence:
                 # Fall back to legacy scheme scoring when passages do not match.
                 return self.keyword_schemes.search(query, profile, schemes, top_k=top_k)
         elif self.method.startswith("embedding"):
-            evidence = self.embedding_passages.search(enriched_query, self._passages, top_k=top_k * 4)
+            evidence = self.embedding_passages.search(enriched_query, self._passages, top_k=max(top_k * 8, 40))
         else:
             raise ValueError(f"Unknown retrieval method: {self.method}")
 
@@ -329,6 +335,10 @@ class HybridSchemeRetriever:
             top_evidence = tuple(
                 sorted(items, key=lambda item: (-item.score, item.section))[: self.passages_per_scheme]
             )
+            official = next((hit for hit in sorted(items, key=lambda item: -item.score)
+                             if hit.source_type == "official_guideline"), None)
+            if official and official not in top_evidence:
+                top_evidence = (*top_evidence[: self.passages_per_scheme - 1], official)
             if score > 0:
                 scored.append(
                     RetrievedScheme(
@@ -345,13 +355,14 @@ def compare_retrieval_methods(
     schemes: list[Scheme],
     top_k: int = 5,
     embedding_provider: EmbeddingProvider | None = None,
+    guideline_passages: list[SourcePassage] | None = None,
 ) -> dict[str, object]:
     """Return side-by-side top scheme IDs for keyword vs embedding passage retrieval.
 
     Does not invent evaluation metrics; only reports overlapping IDs from the
     current catalog for manual review.
     """
-    passages = build_passages(schemes)
+    passages = [*build_passages(schemes), *(guideline_passages or [])]
     keyword = KeywordPassageRetriever().search(query, passages, top_k=top_k * 3)
     embedding = EmbeddingPassageRetriever(embedding_provider or get_embedding_provider()).search(
         query, passages, top_k=top_k * 3

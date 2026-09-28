@@ -83,6 +83,9 @@ class SourcePassage(BaseModel):
     section: str
     text: str
     source_url: str | None = None
+    source_type: str = "dataset"
+    academic_year: str | None = None
+    page: int | None = None
 
 
 class RetrievedEvidence(BaseModel):
@@ -93,6 +96,9 @@ class RetrievedEvidence(BaseModel):
     source_url: str | None = None
     score: float
     retrieval_method: str
+    source_type: str = "dataset"
+    academic_year: str | None = None
+    page: int | None = None
 
 
 class Explanation(BaseModel):
@@ -118,6 +124,7 @@ class SchemeAssessment(BaseModel):
     eligibility_text: str = ""
     documents_text: str = ""
     evidence: list[RetrievedEvidence] = Field(default_factory=list)
+    source_warnings: list[str] = Field(default_factory=list)
     explanation: Explanation | None = None
 
 

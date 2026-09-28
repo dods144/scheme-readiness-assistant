@@ -50,7 +50,7 @@ def _template_explanation(
     assessment: SchemeAssessment,
     evidence: list[RetrievedEvidence],
 ) -> Explanation:
-    caveats = _conflict_caveats(evidence)
+    caveats = [*_conflict_caveats(evidence), *assessment.source_warnings]
     if not evidence:
         return Explanation(
             summary=(
@@ -183,14 +183,19 @@ class ExplanationService:
                     "scheme_id": item.scheme_id,
                     "section": item.section,
                     "source_url": item.source_url,
+                    "source_type": item.source_type,
+                    "academic_year": item.academic_year,
+                    "page": item.page,
                     "text": item.text[:1200],
                 }
                 for item in evidence[:6]
             ],
             "instructions": (
                 "If verified is false, you must not claim the applicant is eligible. "
-                "If passages are empty or conflicting, say insufficient information or not verified."
+                "If passages are empty or conflicting, say insufficient information or not verified. "
+                "Treat dated guideline passages as historical unless verified for the current cycle."
             ),
+            "source_warnings": assessment.source_warnings,
         }
         body = {
             "model": self.model,

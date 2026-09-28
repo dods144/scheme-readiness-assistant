@@ -16,6 +16,8 @@ Public datasets are treated as retrieval sources, not as unquestioned ground tru
 - JSON repository with a small illustrative dataset
 - Keyword and embedding passage retrieval (configurable provider)
 - Source passages attributed by scheme ID, section, and source URL
+- Dated official PDF passages with page citations and source-age warnings
+- Explicit source discrepancy alerts from the AI-assisted review packet
 - Deterministic eligibility evaluation (unverified schemes never return definite eligible)
 - Optional grounded explanations (`include_explanation`; OpenAI when `OPENAI_API_KEY` is set)
 - Missing-information questions
@@ -90,6 +92,22 @@ The supplied CSV produced **1,104** records from 4,670 source rows. See `data/im
 Use `data/verification/README.md` and `data/verification/review_template.json` to record clause-level reviews (exact clause, URL, review date, reviewer decision). Do not invent verification outcomes.
 
 `data/verification/review_packets/first-five.md` records an AI-assisted source comparison of the first five pilot schemes. It identifies older guidelines, unavailable links, and a material Assam eligibility mismatch; it is not a human-confirmed review or evaluation set.
+
+## Official guideline passages
+
+`data/guidelines/aicte_saksham_degree_2021_22.json` contains page-linked passages extracted from the supplied AICTE PDF. Its SHA-256 and academic year are stored with the source URL. The API combines these passages with the dataset for retrieval; every hit carries `source_type`, `academic_year`, and `page`. When an older guideline is retrieved, `source_warnings` and explanation caveats say its current eligibility terms are unconfirmed. The PDF's presence does not set `verified: true` or add eligibility rules. Dataset prose is attributed to the Kaggle dataset where its URL is known, rather than to the myScheme page linked by the dataset.
+
+To ingest another official PDF (the year must appear in the document):
+
+```bash
+PYTHONPATH=src python -m schemesetu.guidelines /path/to/guideline.pdf \
+  --scheme-id myscheme-38265a91e80340be \
+  --source-url 'https://official.example.gov.in/guideline.pdf' \
+  --academic-year 2021-22 \
+  --output data/guidelines/example.json
+```
+
+`SCHEMESETU_GUIDELINES` can point to a different guideline directory. `data/source_alerts.json` holds explicitly recorded AI-assisted source discrepancies, currently the Assam notice mismatch. These warnings are leads for review, not verified current-year rules. Neither PDF extraction nor retrieval automatically infers contradictions from free text.
 
 Generate assisted drafts for the 25-scheme pilot (never auto-confirms):
 

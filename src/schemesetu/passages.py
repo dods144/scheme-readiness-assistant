@@ -19,7 +19,9 @@ def build_passages(schemes: list[Scheme]) -> list[SourcePassage]:
     """Split scheme prose into attributable passages."""
     passages: list[SourcePassage] = []
     for scheme in schemes:
-        source_url = scheme.official_source_url or scheme.dataset_source_url
+        # These strings came from the public dataset, even when that row links
+        # to an official page. Do not misattribute the prose to that page.
+        source_url = scheme.dataset_source_url or scheme.official_source_url
         for section, attr in PASSAGE_SECTIONS:
             text = (getattr(scheme, attr) or "").strip()
             if not text:

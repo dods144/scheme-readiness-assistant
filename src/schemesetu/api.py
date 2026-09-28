@@ -16,6 +16,8 @@ DATA_PATH = (DATA_DIR / "imported" / "education_schemes.json"
 service = SchemeSetuService(
     SchemeRepository.from_json(os.environ.get("SCHEMESETU_CATALOG", DATA_PATH)),
     retriever=HybridSchemeRetriever(method=os.environ.get("SCHEMESETU_RETRIEVAL", "keyword")),
+    guideline_directory=os.environ.get("SCHEMESETU_GUIDELINES", str(DATA_DIR / "guidelines")),
+    source_alert_path=os.environ.get("SCHEMESETU_SOURCE_ALERTS", str(DATA_DIR / "source_alerts.json")),
 )
 
 app = FastAPI(title="SchemeSetu API", version="0.1.0")
