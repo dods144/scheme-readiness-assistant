@@ -4,54 +4,65 @@
   "catalog_source_url": "https://www.myscheme.gov.in/schemes/sak-deg",
   "reviewer": "schemesetu-source-assist",
   "review_date": "2026-09-28",
-  "overall_decision": "amended",
-  "notes": "Automated assist draft only. No clause is marked confirmed. A human must dual-check before promoting executable rules or setting verified=true.",
+  "overall_decision": "insufficient",
+  "notes": "User supplied the official AICTE PDF. Its cover explicitly says July 2021 and 2021-22. Historical clauses are available, but current-year applicability has not been established. AI-assisted draft only; no human confirmation, executable rule or evaluation label follows from it. Sections 2 and 8 contain conditions beyond the dataset eligibility excerpt. NSP lists Saksham Technical Degree as open for 2026-27 (01 June to 31 October 2026), but its linked Specifications PDF is marked 2020-21. The listing establishes the application window, not current detailed clause validity. NSP listing: https://scholarships.gov.in/All-Scholarships ; linked PDF: https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2012_G.pdf .",
   "assisted": true,
   "human_confirmed": false,
   "clause_reviews": [
     {
-      "field_target": "eligibility_unstructured",
-      "dataset_passage": "The candidate should be admitted to the First year of the Degree level course OR the Second year of the Degree level course through lateral entry in any of the AICTE-approved institutions of the respective year",
-      "official_clause": "Page 1 of 6  \n  \n  \n  \nSAKSHAM SCHOLARSHIP SCHEME   \nFrequently Asked Questions (FAQs)   \nQ.1 Who is eligible for SAKSHAM Scholarship?  \nAns: Eligibility criteria under SAKSHAM Scholarship scheme:  \nEligibility for Saksham- Degree Level Eligibility for Saksham –Diploma Level \n1.  Differently-abled Students having equal or more than \n40% disability. \n1.     Differently-abled Students having equal",
-      "official_url": "https://www.aicte.gov.in/sites/default/files/stdc/FAQs-Saksham%20Scheme.pdf",
-      "section": "eligibility",
+      "field_target": "admission_year_and_institution",
+      "dataset_passage": "The candidate should be admitted to the First year of the Degree level course OR the Second year of the Degree level course through lateral entry in any of the AICTE-approved institutions of the respective year.",
+      "official_clause": "The candidate should be admitted to First year of Degree level course OR Second year of Degree level course through lateral entry in any of the AICTE approved Institution of respective year.",
+      "official_url": "https://www.aicte.gov.in/sites/default/files/stdc/AICTE%20Saksham%20Scheme%20Guidelines_Degree.pdf",
+      "section": "2.0 Eligibility for Scholarship, item 1 (PDF page 2)",
       "review_date": "2026-09-28",
-      "decision": "amended",
+      "decision": "insufficient",
       "reviewer": "schemesetu-source-assist",
-      "rationale": "Automated textual overlap with https://www.aicte-india.org/sites/default/files/stdc/FAQs-Saksham%20Scheme.pdf (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+      "rationale": "The clause is in the 2021-22 guideline; applicability to the current cycle is unconfirmed."
     },
     {
-      "field_target": "eligibility_unstructured",
-      "dataset_passage": "Specially-abled students have a disability of not less than 40%",
-      "official_clause": "July 2021 \n \n \n \n \n \n \nGUIDELINES FOR \nAICTE – SAKSHAM SCHOLARSHIP \nSCHEME FOR SPECIALLY-ABLED \nSTUDENT (DEGREE) \n \n \n \n2021-22 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n \n \nGUIDELINES FOR AICTE - SAKSHAM SCHOLARSHIP SCHEME FOR SPECIALLY- \nABLED STUDENT (DEGREE) \n \n \n \n1.0 OBJECTIVE OF THE SCHEME: \n \nSaksham is a MHRD Scheme being implemented by AICTE aimed at providing encouragement  \nand support to sp",
+      "field_target": "disability_percentage",
+      "dataset_passage": "Specially-abled students have a disability of not less than 40%.",
+      "official_clause": "Specially-abled student, having disability of not less than 40%.",
       "official_url": "https://www.aicte.gov.in/sites/default/files/stdc/AICTE%20Saksham%20Scheme%20Guidelines_Degree.pdf",
-      "section": "eligibility",
+      "section": "2.0 Eligibility for Scholarship, item 2 (PDF page 2)",
       "review_date": "2026-09-28",
-      "decision": "amended",
+      "decision": "insufficient",
       "reviewer": "schemesetu-source-assist",
-      "rationale": "Automated textual overlap with https://www.aicte-india.org/sites/default/files/stdc/AICTE%20Saksham%20Scheme%20Guidelines_Degree.pdf (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+      "rationale": "The clause is in the 2021-22 guideline; applicability to the current cycle is unconfirmed."
     },
     {
-      "field_target": "eligibility_unstructured",
-      "dataset_passage": "Family income from all sources should not be more than Rs. 8 lakh per annum during the current financial year",
-      "official_clause": "July 2021 \n \n \n \n \n \n \nGUIDELINES FOR \nAICTE – SAKSHAM SCHOLARSHIP \nSCHEME FOR SPECIALLY-ABLED \nSTUDENT (DEGREE) \n \n \n \n2021-22 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n \n \nGUIDELINES FOR AICTE - SAKSHAM SCHOLARSHIP SCHEME FOR SPECIALLY- \nABLED STUDENT (DEGREE) \n \n \n \n1.0 OBJECTIVE OF THE SCHEME: \n \nSaksham is a MHRD Scheme being implemented by AICTE aimed at providing encouragement  \nand support to sp",
+      "field_target": "family_income_and_certificate",
+      "dataset_passage": "Family income from all sources should not be more than Rs. 8 lakh per annum during the current financial year. A valid income certificate issued by State /UT Government needs to be enclosed.",
+      "official_clause": "Family income from all sources should not be more than Rs. 8 lakh per annum during the current financial year. A valid income certificate issued by State /UT Government need to be enclosed.",
       "official_url": "https://www.aicte.gov.in/sites/default/files/stdc/AICTE%20Saksham%20Scheme%20Guidelines_Degree.pdf",
-      "section": "eligibility",
+      "section": "2.0 Eligibility for Scholarship, item 3 (PDF page 2)",
       "review_date": "2026-09-28",
-      "decision": "amended",
+      "decision": "insufficient",
       "reviewer": "schemesetu-source-assist",
-      "rationale": "Automated textual overlap with https://www.aicte-india.org/sites/default/files/stdc/AICTE%20Saksham%20Scheme%20Guidelines_Degree.pdf (match_score=1.0). Pending human dual-check before any `confirmed` decision or rule promotion."
+      "rationale": "The clause is in the 2021-22 guideline; applicability to the current cycle is unconfirmed."
     },
     {
-      "field_target": "eligibility_unstructured",
-      "dataset_passage": "A valid income certificate issued by State /UT Government needs to be enclosed",
-      "official_clause": "July 2021 \n \n \n \n \n \n \nGUIDELINES FOR \nAICTE – SAKSHAM SCHOLARSHIP \nSCHEME FOR SPECIALLY-ABLED \nSTUDENT (DEGREE) \n \n \n \n2021-22 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n \n \nGUIDELINES FOR AICTE - SAKSHAM SCHOLARSHIP SCHEME FOR SPECIALLY- \nABLED STUDENT (DEGREE) \n \n \n \n1.0 OBJECTIVE OF THE SCHEME: \n \nSaksham is a MHRD Scheme being implemented by AICTE aimed at providing encouragement  \nand support to sp",
+      "field_target": "qualifying_exam_gap",
+      "dataset_passage": "The dataset exclusion text mentions a maximum two-year gap between the qualifying examination and degree admission.",
+      "official_clause": "The gap period between the year of passing the qualifying examination and the session of admission in degree course should not be more than two years.",
       "official_url": "https://www.aicte.gov.in/sites/default/files/stdc/AICTE%20Saksham%20Scheme%20Guidelines_Degree.pdf",
-      "section": "eligibility",
+      "section": "8.0 Terms and Conditions, item 1 (PDF page 3)",
       "review_date": "2026-09-28",
-      "decision": "amended",
+      "decision": "insufficient",
       "reviewer": "schemesetu-source-assist",
-      "rationale": "Automated textual overlap with https://www.aicte-india.org/sites/default/files/stdc/AICTE%20Saksham%20Scheme%20Guidelines_Degree.pdf (match_score=0.875). Pending human dual-check before any `confirmed` decision or rule promotion."
+      "rationale": "Historical additional condition, not present in the dataset eligibility excerpt; current applicability is unconfirmed."
+    },
+    {
+      "field_target": "other_financial_assistance",
+      "dataset_passage": "The dataset exclusion text mentions a restriction on financial assistance from another source.",
+      "official_clause": "The grant of scholarship is subject to the condition that the student does not receive any financial assistance in shape of scholarship/any emoluments, salary, stipend etc. from any other source during her/ his course of study in the Institute.",
+      "official_url": "https://www.aicte.gov.in/sites/default/files/stdc/AICTE%20Saksham%20Scheme%20Guidelines_Degree.pdf",
+      "section": "8.0 Terms and Conditions, item 5 (PDF page 3)",
+      "review_date": "2026-09-28",
+      "decision": "insufficient",
+      "reviewer": "schemesetu-source-assist",
+      "rationale": "Historical additional condition; the remainder of item 5 describes discontinuation and refund. Current applicability is unconfirmed."
     }
   ]
 }
