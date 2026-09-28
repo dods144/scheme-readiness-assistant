@@ -1,0 +1,26 @@
+{
+  "input_rows": 4670,
+  "imported_schemes": 1104,
+  "columns": {
+    "name": "scheme_name",
+    "slug": "slug",
+    "description": "brief_description",
+    "detailed_description": "detailed_description",
+    "category": "categories",
+    "sub_categories": "sub_categories",
+    "benefits": "benefits",
+    "eligibility": "eligibility",
+    "documents": "documents_required",
+    "exclusions": "exclusions",
+    "references": "references",
+    "application_process": "application_process",
+    "scheme_close_date": "scheme_close_date",
+    "url": "source_url",
+    "state": "state",
+    "level": "level"
+  },
+  "with_government_source_url": 1104,
+  "source_sha256": "eb2a6afc5eadcfe1b5a6f978e8091631193ff6ca09a36d999221665ab56199d4",
+  "dataset_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+  "verified_schemes": 0
+}

@@ -31,12 +31,15 @@ FIELDS = {
     "exclusions": ("exclusions",),
     "references": ("references",),
     "application_process": ("application_process",),
+    "scheme_close_date": ("scheme_close_date",),
     "url": ("scheme_url", "url", "source_url", "link"),
     "application_url": ("application_url", "apply_url", "application_link"),
     "state": ("state", "states", "state_ut"),
     "level": ("level", "scheme_level", "government_level"),
 }
-EDUCATION_TERMS = re.compile(r"\b(education|learning|scholarship|student|fellowship|tuition)\b", re.I)
+EDUCATION_TITLE = re.compile(
+    r"\b(scholarship|education(?:al)? loan|student stipend|stipend to .+ students)\b", re.I
+)
 
 
 def _header_key(value: str) -> str:
@@ -45,6 +48,10 @@ def _header_key(value: str) -> str:
 
 def _text(value: str | None) -> str:
     return (value or "").strip()
+
+
+def _list(value: str) -> list[str]:
+    return [part.strip() for part in value.split(";") if part.strip()]
 
 
 def _url(value: str | None) -> str | None:
@@ -102,9 +109,10 @@ def import_csv(path: Path, mapping: dict[str, str] | None = None) -> tuple[list[
             category = get("category")
             description = get("description") or get("detailed_description")
             eligibility = get("eligibility")
-            # Filter by descriptive content as well as the category column;
-            # scheme titles often mention scholarship even when category is blank.
-            if not name or not EDUCATION_TERMS.search(" ".join((name, category, get("sub_categories"), description))):
+            # Prefer publisher category; admit explicitly named scholarships
+            # even when categorized under social welfare or another sector.
+            if not name or not ("Education & Learning" in _list(category)
+                                or EDUCATION_TITLE.search(name)):
                 continue
             source_url = _government_url(get("url"))
             identity = get("slug") or source_url or name.casefold()
@@ -117,14 +125,16 @@ def import_csv(path: Path, mapping: dict[str, str] | None = None) -> tuple[list[
                 name=name,
                 description=description,
                 level=get("level") or "unknown",
-                states=[get("state")] if get("state") else [],
-                categories=[value for value in (category, get("sub_categories")) if value],
+                states=[get("state")] if get("state") and get("state").casefold() != "none" else [],
+                categories=_list(category) + _list(get("sub_categories")),
                 benefits=get("benefits"),
                 eligibility_text=eligibility,
+                detailed_description=get("detailed_description"),
                 documents_text=get("documents"),
                 exclusions_text=get("exclusions"),
                 references_text=get("references"),
                 application_process_text=get("application_process"),
+                scheme_close_date=get("scheme_close_date"),
                 application_url=_url(get("application_url")),
                 official_source_url=source_url,
                 dataset_source_url=DATASET_URL,

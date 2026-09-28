@@ -25,7 +25,8 @@ class MySchemeImportTest(unittest.TestCase):
                     "documents_required": "Income certificate", "source_url": "https://www.myscheme.gov.in/schemes/student",
                     "state": "Maharashtra", "exclusions": "Already receiving aid", "references": "Guideline link",
                 })
-                writer.writerow({"scheme_name": "Housing Support", "categories": "Housing"})
+                writer.writerow({"scheme_name": "Housing Support", "categories": "Housing",
+                                 "brief_description": "Helps families with students"})
                 writer.writerow({"slug": "student", "scheme_name": "Student Scholarship", "categories": "Education & Learning",
                                  "source_url": "https://www.myscheme.gov.in/schemes/student"})
 
@@ -46,6 +47,7 @@ class MySchemeImportTest(unittest.TestCase):
                              EligibilityStatus.POSSIBLY_ELIGIBLE)
             self.assertIsNone(response.assessments[0].readiness_score)
             self.assertFalse(response.assessments[0].verified)
+            self.assertEqual(response.assessments[0].eligibility_text, "Income below a threshold")
 
     def test_non_government_url_is_not_presented_as_official(self):
         with tempfile.TemporaryDirectory() as directory:

@@ -37,10 +37,12 @@ class Scheme(BaseModel):
     official_source_url: str | None = None
     dataset_source_url: str | None = None
     eligibility_text: str = ""
+    detailed_description: str = ""
     documents_text: str = ""
     exclusions_text: str = ""
     references_text: str = ""
     application_process_text: str = ""
+    scheme_close_date: str = ""
     verified: bool = False
 
 
@@ -87,6 +89,8 @@ class SchemeAssessment(BaseModel):
     readiness_score: float | None
     source_url: str | None = None
     verified: bool = False
+    eligibility_text: str = ""
+    documents_text: str = ""
 
 
 class AnalysisRequest(BaseModel):

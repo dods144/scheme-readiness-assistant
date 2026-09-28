@@ -59,7 +59,9 @@ PYTHONPATH=src python -m unittest discover -s tests -v
 
 ## Import the public myScheme dataset
 
-Download `schemes.csv` from [MyScheme India: 4670 Govt Welfare Schemes](https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes). The publisher lists the dataset under CC0 and describes 4,670 schemes and a separate `schemes_faqs.csv`. The scheme CSV is not committed to this repository. The FAQ file is reserved for the next RAG milestone.
+The default API catalog contains 25 real, unverified scholarship records from [MyScheme India: 4670 Govt Welfare Schemes](https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes), one per state/UT where possible. It is a pilot for browsing, not an evaluation set. The publisher lists the dataset under CC0 and describes 4,670 schemes and a separate `schemes_faqs.csv`. The original CSV is not committed to this repository. The FAQ file is reserved for the next RAG milestone.
+
+To use the full education catalog, download `schemes.csv` and run:
 
 ```bash
 PYTHONPATH=src python -m schemesetu.import_myscheme /path/to/schemes.csv --inspect
@@ -67,7 +69,9 @@ PYTHONPATH=src python -m schemesetu.import_myscheme /path/to/schemes.csv
 SCHEMESETU_CATALOG=data/imported/education_schemes.json uvicorn schemesetu.api:app --reload
 ```
 
-The importer reports rows read, education schemes imported, mapped columns, and government source links. If the publisher uses different headers, pass `--map mapping.json`, for example `{"name": "Scheme Title", "category": "Sector", "eligibility": "Who Can Apply", "url": "Scheme Link"}`. Only matching education and scholarship records are imported. Their eligibility and document text is retained for discovery, but no numerical rules or document checklist is inferred automatically; imported records have `verified: false` and cannot be marked eligible solely because the dataset mentioned them. Review each scheme against the linked government page before adding rule objects and an evaluation case.
+The importer reports rows read, education schemes imported, mapped columns, and government source links. If the publisher uses different headers, pass `--map mapping.json`, for example `{"name": "Scheme Title", "category": "Sector", "eligibility": "Who Can Apply", "url": "Scheme Link"}`. The API automatically uses the full imported catalog when it exists; otherwise it uses the 25-record pilot. The filter includes the dataset's `Education & Learning` category plus schemes explicitly named as scholarships, education loans, or student stipends. Eligibility and document text is retained for discovery, but no numerical rules or document checklist is inferred automatically; imported records have `verified: false` and cannot be marked eligible solely because the dataset mentioned them. Review each scheme against the linked government page before adding rule objects and an evaluation case.
+
+The supplied CSV produced **1,104** records from 4,670 source rows. See `data/import_report.json` for the column mapping and SHA-256 of that input. The pilot is derived from the same file; it contains unverified source material and must not be used as an evaluation set. A locally generated full catalog stays under `data/imported/`, which is excluded from Git.
 
 ## Next implementation steps
 

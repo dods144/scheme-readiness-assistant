@@ -1,0 +1,686 @@
+[
+  {
+    "scheme_id": "myscheme-38265a91e80340be",
+    "name": "AICTE – Saksham Scholarship Scheme For Specially-Abled Student (Degree)",
+    "description": "Saksham is a Scholarship Scheme by the Ministry of Education, implemented by AICTE, aimed at providing encouragement and support to specially-abled children to pursue technical education. This is an attempt to give every young specially-abled student the opportunity to study further.",
+    "level": "Central",
+    "states": [],
+    "categories": [
+      "Education & Learning",
+      "Scholarships and student finance"
+    ],
+    "benefits": "- ₹50,000/- per annum for every year of study i.e. maximum 4 years for the first year admitted students and maximum 3 years for the second year admitted students through lateral entry as lump sum amount towards payment of college fee, purchase of computer, stationeries, books, equipment, software, etc. | - After selection, the awardee will be paid a scholarship through DBT mode on annual basis. | - The scholarship will be renewed for the next year of study on receipt of renewal through National Scholarship Portal by submitting a passing certificate/ mark sheet along with letter from the Head of the Institution on the online portal",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/sak-deg",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "The candidate should be admitted to the First year of the Degree level course OR the Second year of the Degree level course through lateral entry in any of the AICTE-approved institutions of the respective year.; Specially-abled students have a disability of not less than 40%.; Family income from all sources should not be more than Rs. 8 lakh per annum during the current financial year. A valid income certificate issued by State /UT Government needs to be enclosed.",
+    "detailed_description": "Saksham is a Scholarship Scheme by the Ministry of Education, implemented by AICTE, aimed at providing encouragement and support to specially-abled children to pursue technical education. This is an attempt to give every young student, who is otherwise specially abled, the opportunity to study further and prepare for a successful future through technical education/ knowledge. ₹50,000/- per annum for every year of study i.e. maximum 4 years for the first year admitted students and maximum 3 years for the second year admitted students through lateral entry as lump sum amount towards payment of college fee, purchase of computer, stationeries, books, equipment, software, etc. The candidate should be admitted to the First year of the Degree level course OR the Second year of the Degree level course through lateral entry in any of the AICTE-approved institutions of the respective year. Family income from all sources should not be more than Rs. 8 lakh per annum during the current financial year.",
+    "documents_text": "",
+    "exclusions_text": "- Students failing to get promoted to the next class/ level would forfeit the scholarship. | - The gap period between the year of passing the qualifying examination and the session of admission in the degree course should not be more than two years. | - If a candidate failed/drops out in a subsequent year, she/ he will not be eligible for further scholarship. | - The grant of scholarship is subject to the condition that the student does not receive any financial assistance in the shape of scholarship/any emoluments, salary, stipend, etc. from any other source during her/ his course of study in the Institute. In case of receipt of any financial assistance from any other sources, the scholarship shall be discontinued and the entire amount of the scholarship will have to be refunded to AICTE by D/Draft drawn in favor of “Member Secretary, AICTE” payable at New Delhi.",
+    "references_text": "https://www.aicte-india.org/sites/default/files/stdc/AICTE%20Saksham%20Scheme%20Guidelines_Degree.pdf; https://www.aicte-india.org/sites/default/files/stdc/FAQs-Saksham%20Scheme.pdf",
+    "application_process_text": "Step 1: Keep ready the soft copies of the required documents. | Go to the Official Website. and click “New Registration”. | Guidelines for Registration will appear. Scroll to the bottom. | Read carefully the undertaking. Accept the Terms. Click “Continue”.  |  Step 2: A Registration Form will appear. (The fields marked as are compulsory) | Fill in the details and click “Register”. | Your Application ID and password will be displayed. | The same will also be sent as an SMS on your registered mobile number.  |  Step 3: Go to the Login page. | Click on “Login to Apply”. Enter your Application ID and password. | Type the Captcha and click “Login”. | On the next screen, provide the OTP received on your registered mobile number. You will be directed to the Password Reset screen. | Create a new password and confirm. | Click “Submit”. You will be directed to the “Applicant’s Dashboard”.  |  Step 4: On the left pane, click “Application Form”. The fields marked as are compulsory. Fill the details and upload the documents. | You can either click on “Save as Draft” to com",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-442fd8993bcfa9ef",
+    "name": "Scheme for Grant of Additional Scholarship to the Students Belonging to Scheduled Tribes of Andaman and Nicobar Islands for Pursuing Higher Studies Anywhere in India Post-Senior Secondary Courses (Post 10+2 Courses)",
+    "description": "The objective of the scheme is to provide additional financial assistance (scholarship) to the ST students pursuing higher education after Senior Secondary i.e. 12th Standard in the Colleges/Universities anywhere in India, as an incentive to supplement the cost of their education.",
+    "level": "State",
+    "states": [
+      "Andaman and Nicobar Islands"
+    ],
+    "categories": [
+      "Education & Learning",
+      "Scholarships and student finance",
+      "Universities and higher education"
+    ],
+    "benefits": "Value of Additional Scholarship: | - Under this scheme of additional scholarships for Scheduled Tribe Students, an amount of ₹1000/- per month shall be given to the eligible students. | Payment and mode of disbursal of additional scholarship: | - The additional scholarship shall be payable for ten months in an academic session. | - The additional scholarship shall be normally admissible to the pass-out students of the previous academic session. | - The additional scholarship money shall be directly released to the bank account of the beneficiaries by the Directorate of Tribal Welfare.",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/sgassbstaniphsaip-sscp10p2c",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "All courses leading to a Graduate Degree, e.g. B.A/B.Sc./B.Com. etc.; All Post-Graduate Courses, e.g. M.A/M.Sc./M.Com/M.Ed/M. Pharma. etc.; Degree and Post-Graduate level courses including M.Phil, Ph.D and Post-Doctoral Research in Medicine (Allopathy, Indian and other recognized systems of medicines), Engineering, Technology, Planning, Architecture, Design, Fashion Technology, Agriculture, Veterinary and allied Sciences, Management, Business Finance/ Administration, Computer Science/Applications, etc.; Post-Graduate Diploma courses in various branches of Management and medicine, Commercial Pilot License (including helicopter pilot and multiengine rating) course, etc.; C.A/I.C.W.A./C.S./I.C.F.A. etc.; M.Phil, Ph.D. and Post-Doctoral Progammes (D.Litt., D.Sc. etc.); Graduate/Post-Graduate Courses leading to Degree, Diploma, Certificate in areas like Pharmacy (B. Pharm), Nursing (B. Nursing), LLB, BFS, other paramedical branches like Rehabilitation Diagnostics, etc., Mass Communication, Hotel Management &amp; Catering, Travel/ Tourism/ Hospitality Management, Interior Decoration, Nutrition &amp; Dietetics, Commercial Art, Financial Services(e.g. Banking, Insurance, Taxation etc.) for which educational qualification is minimum Sr. Secondary (10+2).; All post-matriculation level non-degree courses for which educational qualification is the vocational stream, ITI course, 3 years Diploma Course in Polytechnic, etc.",
+    "detailed_description": "The scheme “Scheme for Grant of Additional Scholarship to the Students Belonging to Scheduled Tribes of Andaman and Nicobar Islands for Pursuing Higher Studies Anywhere in India Post-Senior Secondary Courses (Post 10+2 Courses)” was started by the Department of Tribal Welfare, Union Territory of Andaman and Nicobar Islands. The objective of the scheme is to provide additional financial assistance (scholarship) to the ST students pursuing higher education after Senior Secondary i.e. 12th Standard in the Colleges/Universities anywhere in India, as an incentive to supplement the cost of their education. | Scope: | This additional scholarship shall be provided by the Directorate of Tribal Welfare, Union Territory of Andaman and Nicobar Islands Administration to the students belonging to Scheduled Tribes of Union Territory of Andaman and Nicobar Islands for undertaking studies anywhere in India and shall be in addition to the Scholarship/maintenance cost being awarded to the ST students by the Department of Education, Andaman &amp; Nicobar Administration and Ministry of Tribal Affairs, Government of India. | Funding pattern of the scheme: | The scheme shall be implemented by the Directorate of Tribal Welfare, Union Territory of Andaman and Nicobar Islands Administration through the funds made available under the Union Territory Plan. | Duration of Scholarship: | The award of additional scholarship once made shall be tenable from the stage at which it is given to the student till the completion of the course, subject to good conduct and regularity in attendance, as certified by the Head of the Institution.",
+    "documents_text": "Passport-size photograph; Copy of Aadhaar Card; Certificates of Class X/XII Diploma/Degree etc., in respect of the qualifying examination; Copy of marks statement duly counter-signed by the Head of the Institution concerned for renewal of scholarship; Caste certificate; Residence proof/domicile certificate; First page of bank passbook; Any other documents, as required",
+    "exclusions_text": "- Students who, after passing one stage of education are studying in the same stage of education in a different subject, e.g. B.Sc after B.A. or B.Com after B.A or, M.A in a subject after pursuing an M.A or its equivalent in another subject, etc. shall not be eligible. | - Students who, after having completed their educational career in one professional course, apply for another professional course, e.g. LLB after B.T/B.Ed etc. shall also not be eligible for this scholarship.",
+    "references_text": "https://scholarships.gov.in/public/schemeGuidelines/Andaman/3030_G.pdf; https://scholarships.gov.in/",
+    "application_process_text": "Step 01: The students applying for the scholarship for the first time need to &quot;Register&quot; using the icon “New Registration” at the NSP Portal URL - https://scholarships.gov.in/, by providing accurate and correct information as per their documents. | Step 02: After successfully get registration done, students will get their “Student Registration ID”. | Step 03: Through “Student Registration ID” students will be able to login into the account using the icon “Fresh Application” at NSP Portal. | Step 04: After successful login to the portal, the welcome page appeared. On clicking the “Application Form” icon, students will be directed to the application screen. | Step 05: Now, the students may fill out the complete application form and on clicking the “Final Submit” button, the application is finally submitted. | Step 06: On successful submission of the application, a system-generated registration number is sent to the students which can be used for future reference. | Note 01: The UT Administration may announce the details of the scheme and invite applications every year, through the National Scholarship Portal (NSP) by issuing advertisements in the leading newspaper and through other suitable media. | Note 02: All the eligible Scheduled Tribes students will be given additional scholarships subject to fulfillment of instructions prescribed in this scheme.",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-4b79805c164c8818",
+    "name": "Providing Scholarships to Children of BOC Workers",
+    "description": "The Andhra Pradesh Building & Other Construction Workers Welfare Board provides scholarships to children of registered workers. The scheme covers up to two children per family. Students of 9th to 12th grade (Intermediate), ITI and Graduation level will receive financial assistance.",
+    "level": "State/ UT",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "categories": [
+      "Social welfare & Empowerment",
+      "Education & Learning",
+      "Scholarships and student finance",
+      "Financial assistance"
+    ],
+    "benefits": "- 9th to 12th Grade or ITI: ₹1,200/- per year- Professional Courses at the Graduation Level: ₹5,000/- per year",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/pscbocw",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "The worker should be registered with the AP Building & Other Construction Workers Welfare Board.; The children of workers not enrolled under Chandranna Bima are eligible.; The student should have enrolled in 9th to 12th grade or ITI/ Professional Courses (Graduation Level).; Each family can receive scholarships for a maximum of two children.",
+    "detailed_description": "The \"Providing Scholarships to Children of BOC Workers\" welfare scheme by the Andhra Pradesh Building & Other Construction Workers LET&F (Labour) Department. The scheme provides scholarships to children of registered workers who are not enrolled under Chandranna Bima. This scheme is aimed at supporting the education of construction workers' children in addition to any other government scholarships.",
+    "documents_text": "Aadhaar Card of the worker and their child.; BOCW ID Card.; Age Proof Certificate.; Study Certificate.; Marks Memo.; Two Passport-size Photographs of the student.; Bank Account Details of the student.; ID Card from the college (for professional courses).",
+    "exclusions_text": "",
+    "references_text": "https://apbocwwb.ap.nic.in/APBOCWW3/2018LETF_MS14.pdf; https://apbocwwb.ap.nic.in/apbocwwbhome.jsp",
+    "application_process_text": "Step-1: The interested applicant should visit (during office hours) the A.P. Building & Other Construction Workers Welfare Board and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications. | Step-2: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required). | Step-3: Submit the duly filled and signed application form along with the documents to the Assistant Labour Officer/Assistant Commissioner of Labour. | Step-4: Request a receipt or acknowledgement from the Assistant Labour Officer/Assistant Commissioner of Labour to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).  |  NOTE: Applications must be submitted within 3 months from the start of the academic year.",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-f17ece2bc7e807e3",
+    "name": "Combined Merit Scholarship",
+    "description": "The scheme aims to provide merit-based scholarship to students of Assam studying in first semester degree and master degree courses in recognized institutions. It benefits academically meritorious students who have obtained at least 60% marks in their last qualifying examination.",
+    "level": "State/ UT",
+    "states": [
+      "Assam"
+    ],
+    "categories": [
+      "Education & Learning",
+      "Scholarships and student finance"
+    ],
+    "benefits": "Financial Assistance | - For Degree Courses: ₹300/- per month. | - For Master Degree Courses: ₹500/- per month. | - The scheme provides 200 scholarships for degree students (three years duration) and 100 scholarships for master degree students (two years duration). | Selection: Based on merit and budget allocation. | Coverage: Students pursuing general degree and master degree courses in Arts, Science, and Commerce disciplines. | Mode of Disbursement | Mode: Direct Benefit Transfer system. | Conditions: Subject to selection by the selection committee and financial sanction approval. | Conditions for Availment | - The applicant must maintain enrollment in the respective degree or master's degree course throughout the scholarship period. | - Academic performance standards must be maintained as per institutional and scheme requirements. | - Regular attendance and compliance with all institutional rules and regulations. | - Bank account must remain active and updated for Direct Benefit Transfer disbursement.",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/cms-g",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "The applicant must be pursuing general degree or master's degree courses in Arts, Science, or Commerce discipline in any recognized institution.; The applicant must be domiciled in Assam (Permanent Resident Certificate document mandatory).; The applicant must have obtained minimum 60% marks in Higher Secondary examination for those applying for Combined Merit Degree Scholarship scheme.; The applicant must have obtained minimum 60% marks in General Degree (Three Year Degree Course) examination for those applying for Combined Merit Master Degree Scholarship scheme.; The applicant must possess relevant qualification from any recognized institution.; The applicant must have a valid bank account in their name (preferably in State Bank of India).",
+    "detailed_description": "The scheme \"Combined Merit Scholarship\" by the Higher Education Department, Government of Assam, aims to provide financial assistance to students of Assam studying in first semester degree courses and master's degree courses in any recognized colleges or universities in the state and other states of the country, focusing on students with uniformly good academic records and at least 60% marks in last qualifying examinations. The scheme provides access to poor students of the state and helps them achieve the benefits of higher education through merit-based scholarship support for undergraduate and postgraduate studies. The applicant must be selected and admitted in degree or master's degree courses in any recognized universities or colleges and must be domiciled in Assam. The scheme is implemented by Higher Education Department. The applications for this scheme are accepted online.",
+    "documents_text": "Permanent Resident Certificate from District Collector or Sub Divisional Officer as Proof of Domicile of State of Assam (scanned copy); Certificate from the Registrar or Head of the Institution in which the candidate is at present studying (scanned copy); Final Mark Sheet of Last Qualifying Examinations (Higher Secondary for degree applicants or Three Year Degree Course for master degree applicants) (scanned copy); Recent Photograph (scanned copy); Signature of the Applicant (scanned copy); Valid Bank Account Details (Bank Name, Account Number, Branch Name, Indian Financial System Code); Hard copies of online application form along with all relevant certificates and testimonials; All documents to be submitted under seal and signature of Registrar, Principal, or Head of the Institution to Directorate of Higher Education, Assam",
+    "exclusions_text": "",
+    "references_text": "https://directorateofhighereducation.assam.gov.in/sites/default/files/swf_utility_folder/departments/dhe_medhassu_in_oid_4/portlet/level_1/files/Combined%20Merit%20Scholarship.pdf",
+    "application_process_text": "Step 1: _Online Application Submission_ | Visit the official website of the Directorate of Higher Education, Government of Assam, and complete the online application form within the specified application period with all required personal, academic, and bank account details. | Step 2: _Document Upload and Verification_ | Upload scanned copies of all required documents including Permanent Resident Certificate, mark sheets, institutional certificate, photograph, and signature as per the prescribed format and specifications. | Step 3: _Application Form Printout_ | After successful online submission, take a printout of the completed application form and ensure all information is accurate and complete before proceeding to the next step. | Step 4: _Physical Submission to Institution_ | Submit the printed application form along with necessary copies of certificates and testimonials to the Registrar, Principal, or Head of the Institution where currently enrolled for verification and forwarding. | Step 5: _Institutional Verification and Forwarding_ | The Registrar, Principal, or Head of the Institution will collect, verify, and submit the hard copies of online forms along with all relevant certificates and testimonials under their seal and signature to the Directorate of Higher Education, Assam, Kahilipara, Guwahati - 781019. | Step 6: _Selection Process_ | The selection committee will evaluate applications strictly on the basis of merit in all cases and selection will be restricted as per budget allocation for the respective categories. | Step 7: _Benefit Disbursement_ | Selected beneficiaries will receive scholarship amounts through Direct Benefit Transfer system directly to their registered bank accounts on a monthly basis. | _*Applicants are advised to save a copy of the submitted application form and any acknowledgment received for future reference and correspondence with the implementing authorities._",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-dfc6438296fab715",
+    "name": "Post-Matric Scholarship Scheme-Bihar",
+    "description": "The “Post-Matric Scholarship Scheme-Bihar” aims to provide financial assistance to eligible students from Extremely Backward Classes (EBC) and Other Backward Classes (OBC) for their post-secondary education.",
+    "level": "State/ UT",
+    "states": [
+      "Bihar"
+    ],
+    "categories": [
+      "Education & Learning",
+      "Scholarships and student finance"
+    ],
+    "benefits": "- Scholarship and maintenance allowance will be payable on the basis of the criteria prescribed in the resolution issued by the Government of India from time to time.",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/pmssb",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "Extremely Backward Classes (EBC): ₹2,50,000/-.; Other Backward Classes (OBC): ₹3,00,000/-.",
+    "detailed_description": "The “Post-Matric Scholarship Scheme-Bihar” is designed to support students from disadvantaged communities by covering their educational expenses for post-secondary courses. The scholarship is intended for students belonging to categories from Extremely Backward Classes (EBC) and Other Backward Classes (OBC). This initiative promotes access to higher education and helps reduce the financial burden on families from these communities.",
+    "documents_text": "Proof of identity (Aadhaar Card).; Caste certificate.; Domicile certificate.; Income certificate of the family.; Bank account details.; Admission letter and fee receipt from the educational institution.; Bonafide certificate.; Last Exam Passing Marksheet.; Passport-size photographs.; Any other documents (if required).",
+    "exclusions_text": "- After passing one level course, studying in another equivalent course will not be entitled to scholarship, for example, after passing I.S.C. examination, studying in I.A., after passing B.A. examination, studying in B.Com. and after doing M.Sc., studying in M.A. class will not be given scholarship.",
+    "references_text": "https://pmsonline.bih.nic.in/pmsedu2223/(S(05cddllei4wwdyhxtllm3h04))/pms/SamplePdf/PMSPPORTAL2021_Guidelines.pdf; https://www.pmsonline.bih.nic.in/pmsedubcebc2223/(S(gea1x5cmci00rssuy1dqb3tu))/PMS/SamplePdf/StudentRegistration.pptx",
+    "application_process_text": "Registration: | Step 1: Visit the official Post-Matric Scholarship Portal)/PMS/StudentDefault.aspx). | Step 2: Click on “New Students Registration”. | Step 3: Verify your Aadhaar details and mobile number. | Login: | Step 1: Visit the official Post-Matric Scholarship Portal)/PMS/StudentDefault.aspx). | Step 2: Click on “Login For Already Registered Students”. Log in using the required credentials. | Step 3: After getting the applied scholarship details, enter personal details, mobile verification and bank account details. Also, it will be mandatory to enter the details of the institute, course and certificates correctly. | Step 4: Verify all details and submit the application. | Step 5: Download and print the submitted application for future reference. | Helpdesk: | Mobile: | +91-9534547098 | +91-8986294256 | Mail: postmatricbiharhelp2223@gmail.com",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-da65487ace65512c",
+    "name": "Scholarship to the Ward of Beneficiary (CBOCWWB)",
+    "description": "Under this scheme, financial assistance in the form of scholarship shall be granted to the children/wards of workers who are registered under the CBOCWWB on the basis of the percentage of marks obtained in 10th, 12th & Graduation.",
+    "level": "State/ UT",
+    "states": [
+      "Chandigarh"
+    ],
+    "categories": [
+      "Education & Learning",
+      "Social welfare & Empowerment",
+      "Scholarships and student finance"
+    ],
+    "benefits": "Rate of scholarship on the basis of percentage of marks obtained in 10th, 12th & Graduation: | ClassPercentage of marks obtainedAmount of Scholarship10th 75% &amp;amp;amp; above₹5,000/-10th60% &amp;amp;amp; above₹4,000/-10th50% &amp;amp;amp; above₹3,000/-10+275%₹5,000/-10+260% &amp;amp;amp; above₹4,000/-10+250 % &amp;amp;amp; above₹3,000/-Graduation or equivalent (from recognized university)60% &amp;amp;amp; above₹7,500/- (one time)Note:- No further scholarship shall be granted thereafter.",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/swbcbocwwb",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "The worker/beneficiary should be working in the Establishment, registered under the Punjab Labour Welfare Fund Act, 1965 and his contribution towards labour welfare fund should regularly been received by the Board.; Any worker/beneficiary will be eligible to avail the benefit of the scheme only after 06 months of becoming the beneficiary member of the Chandigarh Building and Other Construction Workers Welfare Board at least for the last six months.; The scholarship application will not be entertained on getting a compartment in any of the subjects.; In case a scholarship is granted to the children of the workers from any other institution then he will not be entitled to get a scholarship from the Board.; If any student who placed at 1st, 2nd, and 3rd place in National/International games/sports then he will be granted a scholarship without taking into consideration the percentage of marks.; The scholarship will be given upto two children of the worker.; The applicant should apply for a Scholarship within three months from the date of issue of the mark sheet of the student.",
+    "detailed_description": "The scheme “Scholarship to the Ward of Beneficiary” was started by the Chandigarh Building and Other Construction Workers Welfare Board (CBOCWWB), Labour Department, Chandigarh. Under this scheme, financial assistance in the form of scholarship shall be granted to the children/wards of workers who are registered under the CBOCWWB on the basis of the percentage of marks obtained in 10th, 12th &amp; Graduation.",
+    "documents_text": "Passport size photograph; Filled-in/signed form of CBOCW Board; A copy of Aadhaar Card of the applicant; BOCW Card, if any; Copy of Aadhaar Card of the nominee; Bank details; Receipt of payment file; Any other relevant documents; Passport-size photograph of the applicant; Copy of Aadhaar card of the registered beneficiary worker; Bonafide certificate from school/college; Copy of BOCW Card along with validity page; Hostel living proof, if applicable; A copy of Aadhaar card of the student; Pass out Certificate/Mark sheets of the previous Class; Worker Bank account details with latest entry/Bank Passbook; Copy of salary slip; Any other relevant documents",
+    "exclusions_text": "",
+    "references_text": "http://labour.chd.gov.in/scholarship.aspx; https://serviceonline.gov.in/serviceLinkHome.html?serviceToken=H2qU46F5a8&newLink=N&%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E; http://labour.chd.gov.in/pdf/LWB.pdf",
+    "application_process_text": "Registration Process under Chandigarh Building and Other Construction Workers Welfare Board: | Step 01: Applicants need to visit the official website of the Labour Department Chandigarh: http://labour.chd.gov.in/ | Step 02: On the home page, click on ‘Click Here for Registration’ and a registration page will open. Fill in all the mandatory details and click on the ‘Submit’ button. | Step 03: After submitting the details, an OTP is sent to the registered email-id and mobile number, enter the OTP and then submit. Note down your ‘User ID’ and ‘Password’ for future correspondence. | Step 04: After registering yourself successfully, visit on Login page and click on ‘Login’. Fill up the Login ID &amp; Password and click on ‘Login’. | Step 05: After the login page click on ‘Apply for Services’ and click on (view all available services). In the search box type (BOCW) and click on (BOCW Application for Registration as a New Member /Renewal). | Step 06: Download the CBOCW form and fill up the requisite information and upload this form on the next step. | Step 07: Fill up the details for ‘New Member’ and click on the ‘Submit’ button. Now, click on &#39;Attach Annexure&#39; and attach all mandatory annexures and save the annexure. | Step 08: Click on &#39;Make Payment&#39; and complete the payment process. Finally, click on the &#39;Proceed&#39; button and an acknowledgement receipt is generated by the system. | Note 01: Attach a clear picture on both sides of the Aadhaar Card. | Note 02: Attach a clear picture of the Bank Passbook. | Note 03: Attach a clear picture of all the pages which have been filled on the BOCW Copy issued by the Board. | (User Manual) | Application Process to apply under the scheme: | Step 01: Applicants need to visit the official website of Labour Department Chandigarh: http://labour.chd.gov.in/ | Step 02: On the home page, select the scheme ‘SCHOLARSHIP TO THE WARD OF BENEFICIARY’ under the Grant of Welfare Schemes to the workers of Chandigarh Labour Welfare Board. | Step 03: Read the scheme details and on the bottom of the page click on ‘Click here to Apply/Register’. (The applicant may also read the user manual by clicking on the ‘Click here for User Manual’.) | Step 04: If the applicant not register, click on ‘register yourself’. A ‘ServicePlus’ window/page will open and fill in all the details to register. | Step 05: Now, to apply for the scheme, click on ‘Apply for Service’ and use ‘ServicePlus’ credentials to Login i.e. ‘User ID’ &amp; ‘Password’. | Step 06: After successful Login, you will be redirected automatically to the online application page by clicking on the ‘Apply for Service’ tab. | Step 07: In the application form, fill in Applicant&#39;s Personal Details, select the scheme (Scholarship) &amp; Work Place Details. After furnishing all the mandatory details click on ‘Self-Declaration’ and fill in additional details. | Step 08: Enter the verification code/Captcha and click on the ‘Submit’ button. | Step 09: Preview all the filled details and click on ‘Attach Annexure’. | Step 10: Upload all the mandatory documents and click on ‘Save Annexure’. | Step 11: After verifying all the details, click on the ‘Submit’ button. | Step 12: Take a printout of the generated ‘Acknowledgement Receipt’ for future reference. | Step 13: To track the application status, the applicant can visit the official website of Labour Department and login through their ‘User ID’ &amp; ‘Password’. | Step 14: Click on ‘Track Application Status’ and fill in all the details. Now click on ‘Get Data’ to know the status of your application.",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-9d4e040cced7ed32",
+    "name": "BPL (Below Poverty Line) Student Welfare Scholarship - Technical Education",
+    "description": "The scheme aims to provide financial assistance in the form of scholarships to the economically weaker students studying in government engineering and polytechnic colleges of Chhattisgarh. The scheme offers financial aid to students enrolled in professional courses.",
+    "level": "State/ UT",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "categories": [
+      "Education & Learning",
+      "Scholarships and student finance"
+    ],
+    "benefits": "- The scholarship amount is ₹1,000/- per month for B.E. (Bachelor of Engineering) students. | - The scholarship amount is ₹500/- per month for Diploma students. | - The scholarship is payable for a maximum of 10 months in an academic year. | - If the actual study period is less, the scholarship will be provided for the actual study period. | - The scholarship is provided for each semester. | - Scholarship renewals are subject to the student passing the previous semester. | - Scholarship payments will be made to the students through cheques by the respective institutions.",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/bplsws",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "The applicant must be a native resident of Chhattisgarh.; The applicant should not be receiving benefits from any other scholarship.; The applicant must be a regular student in a government engineering or polytechnic institution in Chhattisgarh.; The applicant must belong to the \"General Category\".; The family of the applicant must be \"Below Poverty Line\".; The applicant's parent/guardian must possess a BPL (Below Poverty Line) card issued by the state government.; The applicant's name must be mentioned on the BPL card.; **For B.E. First Semester Students:** Scholarship is determined by the marks/rank obtained in the PET (Pre-Engineering Test) examination conducted by the Chhattisgarh Professional Examination Board.    - **For Polytechnic First Semester Students:** Scholarship is determined by the percentage of total marks obtained in the qualifying examination for admission.    - **For Diploma Holders Admitted to B.E. through Lateral Entry:** Merit is determined by the percentage of marks obtained in the final year of the diploma.    - **For Students in Higher Classes:** Scholarship is granted based on the merit list prepared from the marks of the previous passed semester examination.    - **Post-Selection Conditions:** The scholarship is subject to satisfactory academic progress and regular attendance of the student.",
+    "detailed_description": "Launched in 2007, the scheme \"BPL (Below Poverty Line) Student Welfare Scholarship - Technical Education\" is a scholarship scheme by the Technical Education Department, Government of Chhattisgarh. The scheme aims to provide financial assistance in the form of scholarships to the economically weaker students studying in government engineering and polytechnic colleges of Chhattisgarh. The scheme offers financial aid to students enrolled in professional courses. The applicant must be a domicile of Chhattisgarh and should not be receiving benefits from any other scholarship. Applications for this scheme are accepted in both semesters.",
+    "documents_text": "BPL (Below Poverty Line) Card/Certificate (attested photocopy); Previous Semester Mark Sheet (attested photocopy) (for renewal); All Previous Passed Mark Sheets (for students who did not receive a scholarship in previous semesters)",
+    "exclusions_text": "",
+    "references_text": "https://cgdteraipur.cgstate.gov.in/sites/default/files/03092024scolar.pdf; https://gpkgh.co.in/docs/Form_to_BPL_Scholarship_2017_18.pdf",
+    "application_process_text": "Step 1: The interested applicant should take print of the prescribed format of the application form. | Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required). | Step 3: Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to the Principal of the Institution. The Principal will verify the documents and forward the application to the Directorate for approval (New applications) or process the renewal (for existing beneficiaries). | Step 4: Request a receipt or acknowledgement from the staff to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).  |  Post-Application Processes | Step 1: The principals of the institutions will send the BPL scholarship proposals to the Directorate for each semester (odd and even). The first proposal should be sent in September, and the second proposal in February. | Step 2: The Directorate will approve the BPL scholarships based on merit in a fair and transparent manner. The scholarship amount will be provided to the concerned institution for disbursement to the students through cheques.",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-2abd8fde8856bfe0",
+    "name": "Post Matric Scholarship for SC students (Delhi)",
+    "description": "The scheme \"Post Matric Scholarship for SC Students\" aims to support SC students financially for post-matriculation studies. Benefits include fee reimbursement and monthly allowances. Intended beneficiaries are SC students with a family income below ₹2,50,000/- annually.",
+    "level": "State/ UT",
+    "states": [
+      "Delhi"
+    ],
+    "categories": [
+      "Education & Learning",
+      "Scholarships and student finance"
+    ],
+    "benefits": "Maintenance Allowance (per month) | Group 1 (e.g., Medicine, Engineering): Hostellers ₹1,200/-, Day Scholars ₹550/- | Group 2 (e.g., Pharmacy, Nursing): Hostellers ₹820/-, Day Scholars ₹530/- | Group 3 (e.g., BA/BSc): Hostellers ₹570/, Day Scholars ₹300/- | Group 4 (e.g., ITI, Polytechnic): Hostellers ₹380/-, Day Scholars ₹230/- | Other Benefits | - Reimbursement of Compulsory Non-refundable Fees. | - Study Tour Charges. | - Thesis Typing/Printing Charges for Research Scholars. | - Book Allowance for Correspondence Courses. | - Book Bank Facility for Specified Courses. | - Additional Allowance for Students With Disabilities. | Conditions | - Benefits are for the complete duration of the course. | - Hostel rent is provided as per scheme guidelines.",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/pmsfssd",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "The applicant should be a Student.; The applicant should be from a Scheduled Caste.; The annual income of the family of the applicant should not exceed ₹2,50,000/-.; The applicant should be enrolled in a recognized post-matriculation/post-secondary course in India.; The applicant should not be availing of any other scholarship for the same course from any other source.",
+    "detailed_description": "The scheme \"Post Matric Scholarship for SC Students\" by the Department for the Welfare of SC/ST/OBC, Government of NCT of Delhi, aims to provide financial assistance to SC students pursuing post-matriculation or post-secondary education in recognized institutions within India. The scheme covers maintenance allowance, tuition fees, and additional allowances for specific needs. Two significant benefits include the reimbursement of compulsory non-refundable fees and monthly maintenance allowances ranging from ₹230 to ₹1,200, depending on the course group. Eligibility criteria include an annual family income limit of ₹2,50,000/- and enrollment in a recognized institution. The scheme is implemented by the Department for the Welfare of SC/ST/OBC, Government of NCT of Delhi.",
+    "documents_text": "Aadhaar Card; Bank Account Details (Aadhaar-seeded); Previous Year Mark Sheet; Original Fee Receipts; Fee Structure (on institute letterhead with stamp/signature); Income Certificate (issued by SDM, Delhi); Caste Certificate (issued by Govt. of NCT of Delhi); Institution Certificate (confirming no other scholarship availed); Admission/Completion Date Proof; Degree/Diploma Certificates (for all prior qualifications); Institute Verification Page (for institutions outside Delhi)",
+    "exclusions_text": "- Students availing other scholarships/stipends (e.g., merit scholarships). | - Students repeating the same stage of education (e.g., B.Com after B.A). | - Students pursuing two professional courses (exceptions apply post-1980).",
+    "references_text": "https://scstwelfare.delhi.gov.in/sites/default/files/scstwelfare/scheme/pms_sc-201718.pdf; https://scstwelfare.delhi.gov.in/scstwelfare/services-schemes",
+    "application_process_text": "Registration | Step 1: Visit the e-District Portal of the Govt. of NCT of Delhi. | Step 2: On the top right corner of the homepage, click “Login/Register”, then click “Register\". You will be taken to the \"Citizen Registration Form\". Carefully read the “Guidelines for Online Registration” provided at the bottom of the page. | Step 3: In the Citizen Registration Form, select \"Aadhaar Card\" as the Document Type, and provide the Aadhaar Number. Fill in the captcha code and click “Continue”. | Step 4: On the next page, fill in all the mandatory fields. If required, verify your Email ID and Mobile Number via OTP. Enter the Captcha code and click “Continue to Register”. You will receive your Login ID and Password on the Mobile Number/Email Address provided during the registration. | Application | Step 1: Visit the e-District Portal of the Govt. of NCT of Delhi. | Step 2: On the top right corner of the homepage, click “Login/Register”, you will be taken to the “Citizen Login Form” | Step 3: Provide your Login ID and Password, enter the Captcha code and click “Login”. | Step 4: Go to the home page and click “Apply Service”. Navigate to the scheme that you intend to apply for. Click on the name of the scheme. You will be taken to the scheme's online application form. | Step 5: In the application form, fill in all the mandatory fields and upload all the mandatory documents in the specified format and size. Carefully review all the information provided and the documents uploaded. Make any necessary corrections. Acknowledge and agree to the terms and conditions and/or declaration (if any), then click \"Finish”. | Step 6: An OTP will be received on the registered mobile number. Provide the OTP and click “Submit”. An acknowledgement of successful submission shall be sent over Email/SMS/Both. | Track Application Status | Step 1: Visit the \"Track Your Application\" page. | Step 2: Fill in all the mandatory fields. Enter the Captcha Code, and click \"Submit\". | Your current application status will be displayed.",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-ebf09a653f0ce5e5",
+    "name": "Government of Goa State Scholarship to NDA Cadets",
+    "description": "The scheme supports NDA cadets from humble financial backgrounds undergoing training at NDA. The scheme aims to attract cadets from economically disadvantaged sections of society opting to serve the country by taking up such challenging jobs/training.",
+    "level": "State",
+    "states": [
+      "Goa"
+    ],
+    "categories": [
+      "Education & Learning",
+      "Scholarships and student finance"
+    ],
+    "benefits": "- Scholarship of ₹ 1,000/- per month during the period of training (subject to a maximum of 24 months or duration of the course whichever is less).1. One Time Outfit Allowance of ₹ 12,000/-.",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/ggssnc-goa",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "The cadet should have been born in Goa and/or domiciled in Goa for a period of at least 15 years.; The income limit of the cadet’s parents/ guardians shall not exceed ₹ 15,000/- per month (₹ 1,80,000 per annum).; In case the cadet is SC/ST/OBC, the income limit of the cadet’s parents/ guardians shall not exceed ₹ 37,500/- per month (₹ 4,50,000 per annum).; The cadet should not be receiving financial assistance/scholarship/freeship from any other source.",
+    "detailed_description": "The scheme &quot;State Scholarship to NDA Cadets&quot; is a Scholarship Scheme by the Directorate of Higher Education, Government of Goa. The objective of the scheme is to support NDA cadets from humble financial backgrounds undergoing training at the National Defence Academy, Khadakwasla, Pune. The scheme provides financial assistance to the underprivileged cadets hailing from Goa who have opted to serve the country by joining the Defence Services. The scheme aims to attract cadets from economically disadvantaged sections of society opting to serve the country by taking up such challenging jobs/training.",
+    "documents_text": "Passport Sized Photograph; ID Proof of National Defence Academy (NDA); Birth Certificate / Domicile Certificate; Caste Certificate (if applicable); Income Certificate",
+    "exclusions_text": "",
+    "references_text": "https://www.goa.gov.in/wp-content/uploads/2016/12/Scheme-to-GSS-to-NDA-CAdets.doc",
+    "application_process_text": "Step 1: The interested applicant should visit the Directorate of Higher Education, Government of Goa, DTE Building, Alto-Porvorim, Bardez, Goa 403521. | Step 2: Take a print of the proforma of the application form, or request a hard copy from the concerned authority. | Step 3: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required). | Step 4: Submit the duly filled and signed application form along with the documents to the concerned authority.",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-d509d2087c8dea20",
+    "name": "Chief Minister Scholarship Scheme",
+    "description": "The scheme \"Chief Minister Scholarship Scheme\" by the Education Department, Government of Gujarat, aims to provide financial assistance to meritorious students for pursuing medical, engineering, diploma, and higher education courses.",
+    "level": "State/ UT",
+    "states": [
+      "Gujarat"
+    ],
+    "categories": [
+      "Education & Learning",
+      "Scholarships and student finance"
+    ],
+    "benefits": "Benefit TypeDetails of AssistanceNumber of BeneficiariesFinancial Assistance for Medical and Dental CoursesUp to ₹5,00,000/-250 StudentsFinancial Assistance for Engineering/Technology, Pharmacy Diploma to Degree, Ayurveda/Homeopathy, Nursing, Physiotherapy, Para-medical CoursesUp to ₹1,00,000/-1,130 StudentsFinancial Assistance for Diploma CoursesUp to ₹50,000/-120 StudentsFinancial Assistance for Higher Education CoursesUp to ₹10,000/-1,000 Students",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/cmssg",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "The applicant must be a resident of Gujarat.; The applicant must be a student.; The applicant must have passed the Class 10th or Class 12th examination.; The applicant must have secured admission in a diploma course, a degree course after diploma, or a degree course after Class 12th.; The applicant must be pursuing medical, dental, engineering, technology, pharmacy, Ayurveda, homeopathy, nursing, physiotherapy, para-medical, or higher education courses.; The applicant must have a family annual income of less than or equal to ₹4,50,000/-.",
+    "detailed_description": "The scheme \"Chief Minister Scholarship Scheme\" by the Education Department, Government of Gujarat, aims to encourage higher education by providing financial assistance to meritorious students who have passed Class 10th or Class 12th and secured admission in diploma, degree, or higher education courses. The scheme provides varying amounts of financial support based on the course type and merit.",
+    "documents_text": "Class 10th/12th Marksheet.; Diploma/Degree Admission Proof (as applicable).; Income Certificate (showing annual family income ≤ ₹4,50,000).; Proof of Residence (Aadhaar Card/Voter ID/any valid Government ID).; Bank Account Details (for DBT).; Caste Certificate (if applicable and required for merit consideration).; Recent Passport Size Photograph.; Any other details as required.",
+    "exclusions_text": "",
+    "references_text": "https://mariyojana.gujarat.gov.in/Schemeatoz.aspx; https://scholarships.gujarat.gov.in/Noticeboard/Important%20instruction%20for%20student%20CMSS%20Final%2024-25.pdf",
+    "application_process_text": "Step 1: Students must register on the Official Website using their Standard 10th or Standard 12th seat number. Do not use any spaces or special characters when entering the seat number. | Step 2: Students applying for a Diploma to Degree course should use their Diploma enrollment number for registration. | Step 3: The student's name must be entered exactly as it appears on their Standard 10 or 12 original marksheet. | Step 4: Enter the passing year according to the marksheet (e.g., 2024). | Provide a personal mobile number that will remain active throughout the entire course of study, as important updates will be sent via SMS to this number. | Step 5: Enter and verify your 12-digit Aadhaar card number. | Step 6: Fill in the correct ration card details, including the ration card number and the student's member ID number. | Step 7: Provide accurate bank account details and an active email ID. | Step 8: Enter the percentage from the marksheet; if percentages are not available, calculate them according to the rules of the university or board. | Step 9: When selecting a stream, students from Arts and Commerce streams should choose \"General Stream,\" while Science students should select \"Science Stream\".",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-8518472d8368ed09",
+    "name": "Centrally Sponsored Scheme of Post-Matric Scholarship for OBC, EBC  and DNT Students for studying in India",
+    "description": "\"Centrally Sponsored Scheme of Post-Matric Scholarship for OBC, EBC and DNT Students for studying in India\" aims at providing financial assistance to OBC, EWS and DNT students to support their education. The scholarship covers tuition fees, maintenance allowances, and other academic expenses.",
+    "level": "State/ UT",
+    "states": [
+      "Haryana"
+    ],
+    "categories": [
+      "Education & Learning",
+      "Scholarships and student finance",
+      "Universities and higher education"
+    ],
+    "benefits": "Components of the Scholarship | - Maintenance allowance for the complete duration of the course. | - Reimbursement of compulsory non-refundable fees. | - Study tour charges (if applicable). | - Thesis typing/printing charges (for research scholars). | - Book allowance for students pursuing correspondence courses. | - Additional allowances for students with disabilities. | Financial Support Breakdown | Category of CoursesAcademic Allowance (Yearly in ₹)Tuition Fee (Yearly in ₹)Total (Yearly in ₹)Group 1: Degree and Post Graduate level professional courses10,00010,00020,000Group 2: Other Professional Courses leading to Degree, Diploma, Certificate8,0005,00013,000Group 3: Graduate and Post Graduate courses not covered under Group 1 &amp;amp;amp; Group 26,0002,0008,000Group 4: All post-matriculation (Post Class X level) non-degree courses5,00005,000_Students pursuing C.A./I.C.W.A./C.S./I.C.F.A. shall be treated as day scholars for academic allowance purposes._ | _Students studying through correspondence/online courses shall not be eligible for academic allowance._ | _Tuition fees shall be paid to online/correspondence students._ | _The State Governments may, if they decide, top up the academic allowance from their own resources._ | _The scholarship amount will be disbursed annually to the bank account of the beneficiary._ | _The scholarship continues for the duration of the course, subject to satisfactory academic progress._",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/pmsoeds",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "The applicant should be from Other Backward Classes (OBC) / Economically Backward Classes (EBC) or from Denotified, Nomadic, and Semi-Nomadic Tribes (DNT).; The applicant should be studying at the post-matriculation or post-secondary stage of education.; The applicant should be permanently settled in the State/UT where they are applying.; The applicant should be studying in an institution recognized by the All India Survey on Higher Education (AISHE) or Unified District Information System for Education (UDISE).; The applicant's institution should have National Assessment and Accreditation Council (NAAC) or National Board of Accreditation (NBA) accreditation.; The applicant should maintain Aadhaar-based attendance in the institution.; The applicant must have a valid \"Freeship Card\" issued by the State/District Authority.",
+    "detailed_description": "The \"Centrally Sponsored Scheme of Post-Matric Scholarship for OBC, EBC and DNT Students for studying in India\" aims at providing financial assistance to students from the Backward Classes (BC), Economically Weaker Sections (EWS), and Denotified, Nomadic, and Denotified, Nomadic Tribes (DNTs) to pursue higher education. This scholarship aims to alleviate the financial burden on students belonging to these marginalized communities, enabling them to continue their studies and enhance their skills. The scholarship covers tuition fees, maintenance allowances, and other academic expenses. The financial support is extended to students studying in both government and private institutions.",
+    "documents_text": "Aadhaar Card; Caste Certificate; Domicile Certificate; Admission Letter from the Recognized Institution; Fee Receipt; Freeship Card, issued by State/District Authority; Bank Account Details, for Direct Benefit Transfer; Previous Academic Marksheets; Accreditation Proof of Institution (For verification of NAAC/NBA accreditation)",
+    "exclusions_text": "- Scholarships are not applicable for studies outside India. | - Institutions without AISHE/UDISE codes are not eligible under the scheme.",
+    "references_text": "https://harchhatravratti.highereduhry.ac.in/Notices/PMS%20BC%20EWS%20DNT.pdf",
+    "application_process_text": "Registration | Step 1: Visit the Official Website of the \"Centralized Scholarship Portal\" of the Department of Higher Education, Haryana. | Step 2: In the menu ribbon, click \"Student > Student Registration\". | Step 3: On the next page, provide your Parivar Pehchan Patra (Family ID) and click \"Search\". | _Parivar Pehchan Patra (PPP) is mandatory for availing of any Scholarship benefit. Students are advised to ensure their all particulars such as Name, DOB, Aadhar No. etc are fully updated in PPP before applying for any scholarship scheme._ | Step 4: A List of the members of your family will be displayed. Select the checkbox against your name and click \"Generate OTP\". Enter the OTP received on your registered Mobile Number and click on \"Verify OTP\". | Step 5: After OTP verification, you will be taken to the registration page. In the registration form, all the mandatory fields get auto-filled. You only need to cross-check the information. | Step 6: Select your Department and College. Create a Password and click \"Register\". | Application | Step 1: Visit the Official Website of the \"Centralized Scholarship Portal\" of the Department of Higher Education, Haryana. | Step 2: In the right corner of the menu ribbon, click \"User Login\". Use the username and password created during your registration to log in. | Step 3: Navigate to the online form of the scheme you intend to apply for. In the form, fill in all the mandatory fields and upload all the mandatory documents in the specified format and size. Carefully review all the information provided and the documents uploaded. Make any necessary corrections. | Step 4:** Click \"Apply\" to submit your application. You'll receive a confirmation message.",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-b1ab27ad1f434e67",
+    "name": "H.P. Swaran Jayanti Middle Merit Scholarship Scheme",
+    "description": "The “H.P. Swaran Jayanti Middle Merit Scholarship Scheme” scheme was launched by the Department of Elementary Education, Government of Himachal Pradesh for students studying in Class V is meant to identify the talent and nurture it at an early stage.",
+    "level": "State",
+    "states": [
+      "Himachal Pradesh"
+    ],
+    "categories": [
+      "Education & Learning",
+      "Scholarships and student finance"
+    ],
+    "benefits": "The selected students may be eligible for the scholarship as given below: | Scholarship Amount ₹4000/- per month (for 12 months, in 6th class)Scholarship Amount ₹5000/- per month (for 12 months, in 7th class)Scholarship Amount ₹6000/- per month (for 12 months, in 8th class)Note: The period of the scholarship shall be for three years (Class 6th to Class 8th).",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/hpsjmmssgs",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "All the students studying in Class 5th as regular students in the Government Schools are eligible to apply for the State Level examination to be conducted by the SCERT, Solan (H.P.).",
+    "detailed_description": "The scheme “H.P. Swaran Jayanti Middle Merit Scholarship Scheme&quot; for Govt. Schools was launched by the Department of Elementary Education, Government of Himachal Pradesh for students studying in Class V is meant to identify the talent and nurture it at an early stage. The meritorious students for the award of benefits under the scheme will be selected through a state-level examination. The examination will be conducted every year at the state level by the SCERT, Solan (H.P.). A total of 100 scholarships can be distributed among twelve districts of the State, determining the district quota based on an average of the last three years&#39; enrollment in class five (as per UDISE data of the latest three years) of the Government Schools in the State. The main objective of this scheme is to select Top 100 Students for scholarship after passing class Vth. | - Important Dates: | Tentative dates for submission of the application form and conduct of examination etc. are given below: | Sl. No.Important DatesDate1Date of advertisement\tfor the examinationWill be fixed by SCERT2Date of applying for creation of login ID of Primary Schools for the examinationWill be fixed by SCERT3Last Date of SubmissionWill be fixed by SCERT4Date of Issuing of Roll NumberWill be fixed by SCERT5Date of ExaminationFirst Sunday of the month of November 6Declaration of ResultIn the month of December | - The pattern of Examination: | The state-level examination will comprise one test of 100 marks consisting of 100 multiple-choice questions of one mark each. The question paper will cover mental ability tests, scholastic aptitude tests, and language tests with the following distribution of marks: | Sl. No.Question PaperNumber of Questions1Mental Ability test40 questions2Environment Science Scholastic Aptitude Test20 questions3Mathematics20 questions4Language TestHindi10 questionsEnglish10 questions | - Mental Ability Test: | It will be for testing verbal and non-verbal Metacognitive abilities like reasoning and critical thinking. The question in the test may be on analogy, classification, numerical series, pattern perception, hidden figures, etc. | - Scholastic Aptitude Test: | It will cover subjects mainly Mathematics &amp; Environment Science as taught up to 5th Class in the Govt. Schools of the State. | - Language Test: | It will test the general understanding of Hindi and English language according to the curriculum of Class 1 to Class 5 of the Govt. Primary Schools in Himachal Pradesh. | - Duration of Examination: | The test will be of two &amp; half hours (150 minutes) in duration. Children with a disability may be given half an hour of extra time. | - Process of examination: | The centers of examination, important dates, and other details regarding the examination for the scholarship scheme will be notified through advertisements in daily newspapers. The information will also be available on the official website of SCERT, Solan (H.P.). SCERT will prepare and print the question paper and OMR sheets for the examination. | Note: There will be no negative marking in the examination.",
+    "documents_text": "Identity proof i.e. School ID Card etc.; Caste Certificate (If applicable); Disability certificate (If applicable); Educational Documents; Passport-size photograph; Any other documents as asked by the school authority",
+    "exclusions_text": "",
+    "references_text": "https://himachal.nic.in/WriteReadData/l892s/239_l892s/swaran%20jayantischeme-11691322.pdf; https://himachalservices.nic.in/scert/pdf/SJMMSE_2023-24.pdf; https://himachalservices.nic.in/scert/en-IN/sjmmse.html",
+    "application_process_text": "- All the interested eligible students may contact their Class Teacher in the school and collect the application form for the scholarship scheme. | - The eligible students may fill the forms and submit well in time. | - The class teacher of the school may obtain the application form from the website of HP State Council of Educational Research and Training. 1. All the complete application form for examination will be submitted to the CHT of the school much before the last date of submission. The CHT will verify the documents, eligibility and details of the applicant. | - After confirmation of the details of the applicant on online portal, the CHTs will be able to download and print the admit cards of the candidates with technical support from BRC (Primary). | - The class teacher will collect the admit card for their respective students from CHTs. Further, the admit cards will be given to the respective students and the students may appear in the exam on scheduled date &amp; time. | Result: | SCERT will prepare the result and merit list within a month after the examination is over following the quota of scholarships per district based on their enrollment in 5th class of the Government Schools in H.P. | Award of Scholarship: | As soon as the result is declared by the SCERT, the benefit will be released in favor of the candidate, in his Bank account through e.vitaran or any mode as per the directions issued by the Government, from time to time. The scholarship may be disbursed to the meritorious students by the SCERT.",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-05ac5b9f5d86abf2",
+    "name": "Workers for Class 9th to 12th Through National Scholarship (JKBOCWWB)",
+    "description": "Launched on 1st January 2018, the \"Workers for Class 9th to 12th\" scheme, under the MUHAFIZ Scheme by the Building and Other Construction Workers Welfare Board, Labour Dept., J&K, provides ₹1,200 per year for up to two children of registered BOC workers through the National Scholarship Portal.",
+    "level": "State/ UT",
+    "states": [
+      "Jammu and Kashmir"
+    ],
+    "categories": [
+      "Education & Learning",
+      "Scholarships and student finance"
+    ],
+    "benefits": "An annual scholarship of ₹1,200 per child (up to two children)",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/wfctnsjkbocwwb",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "The applicant should be a resident of Jammu & Kashmir.; The applicant should be a Building/ Construction Worker.; The applicant should be between 18 and 60 years.; The applicant should have engaged in any building or other construction work for at least 90 days during the preceding 12 months.; The applicant should be registration is renewed annually.; One of the student's parents must be a registered member of the Building and Other Construction Workers (BOC) Welfare Board.; The applicant must be studying in classes 9th to 12th.",
+    "detailed_description": "Launched on 1st January 2018, The \"Workers for Class 9th to 12th\" scheme by the Building and Other Construction Workers Welfare Board, The scheme provides annual financial assistance of ₹1,200 per child (up to two children) for the education of registered BOC workers' children through the national scholarship portal.",
+    "documents_text": "Aadhaar Card of the worker and their child.; BOCW ID Card.; Age Proof Certificate.; Study Certificate..; Two Passport-size Photographs of the student.; Bank Account Details of the student.; Student ID Card",
+    "exclusions_text": "",
+    "references_text": "https://www.jkbocw.gov.in/StaticPages/SchemeInformation.aspx; https://www.jkbocw.gov.in/Index.aspx; https://scholarships.gov.in/; https://portal.jkbocw.gov.in/MemberRegistration.aspx",
+    "application_process_text": "Registration of a Construction Worker under JKBOCWWB: | Step 1: Go to the J&K Building and Other Construction Workers Welfare Board (JKBOCWWB) official website. | Step 2: On the homepage, find and click the \"Labour Registration\" link. | Step 3:If you're a new user, click on \"Apply for New Registration.\" | Step 4: Complete the registration form with your details, submit the form, and send the OTP to your registered mobile number. Enter the OTP and click \"Verify OTP & Submit.\" | Step 5: After the OTP is verified, a confirmation message with your Login ID and password will be sent to your registered mobile number. | Step 6:Use the Login ID, password, and captcha to log in (remember, the username and password are case-sensitive). filled are case sensitive)Read all the instruction carefully and Click to continue | Step 7: Once logged in, choose the \"Construction Worker’s Registration\" option and click on \"Registration Form.\" | Step 8: A dashboard will appear. Complete the form by entering all required details (marked with ). | Step 9: Upload all the important documents, such as ID proof and other relevant certificates. | Step 10: Once the form is completed and documents uploaded, click \"Submit\" and pay the application fee online. You will receive a registration number after successful payment and submission.  |  Registration | Step1: Go to national scholarship portal and click on \"Student\" and then \"One Time Registration (OTR)\". | Step2: Read the guidelines, check the box to provide the undertaking, and click \"Continue\". | Step3: Enter your mobile number, receive an OTP, and verify it by entering the OTP | Step4: Provide necessary documents like Aadhaar and Bank Account details to complete the registration. | Step5: Ensure all the details you entered are correct, then click \"Verified\". | Step6: After verification, you will receive your registration number on the registered mobile number.  |  Steps to Apply for Scheme Benefits: | Step1: Visit the national scholarship portal . | Step2: Click on the \"Student\" option and select \"Apply For Scholarship.\" | Step3: Enter your OTR (One Time Registration) number, password, CAPTCHA, and click \"Login.\" | Step 4: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required). | Step 5: Once the form is completed and documents uploaded, click \"Submit\" and pay the application fee online. You will receive a registration number after successful payment and submission. | Step 6:** Print your application form for future reference.",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-d4414b626cf51e08",
+    "name": "Jharkhand State Backward Classes Post-Matric Scholarship Scheme",
+    "description": "The \"Jharkhand State Backward Classes Post-Matric Scholarship Scheme\" aims to promote higher education among OBC students in Jharkhand. The scheme provides financial assistance to students pursuing professional and academic courses at the post-matriculation level.",
+    "level": "State/ UT",
+    "states": [
+      "Jharkhand"
+    ],
+    "categories": [
+      "Education & Learning",
+      "International education",
+      "Scholarships and student finance",
+      "Universities and higher education"
+    ],
+    "benefits": "Covers tuition fees, academic allowance, and maintenance fees: | Course GroupHosteller (₹)Day-scholar (₹)Group- 1 &amp;amp;quot;A&amp;amp;quot;1,00,00090,000Group- 1 &amp;amp;quot;B&amp;amp;quot;90,00085,000Group- 1 &amp;amp;quot;C&amp;amp;quot;85,00080,000Group- 2 &amp;amp;quot;A&amp;amp;quot;75,00070,000Group- 2 &amp;amp;quot;B&amp;amp;quot;70,000 65,000 | Group- 2 &amp;amp;quot;C&amp;amp;quot;65,00060,000Group- 345,00040,000Group- 435,00030,000 | NOTE: | - The amount is directly credited to the Aadhaar-linked bank account through DBT (Direct Benefit Transfer). | - 60% funding by the Ministry of Social Justice and Empowerment, Government of India, and 40% by the Jharkhand State Government. | - The student must adhere to the attendance system prescribed by their educational institution or university to qualify for the scholarship. | - If a student switches courses mid-way, they are eligible for the scholarship in the new course only if they did not receive a scholarship for the previous course in the same academic year.",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/jsbcpmss",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "The student should be a native of Jharkhand.; The student belongs to the Other Backward Class category.; The student's family annual income should not exceed ₹2,50,000/-.; The student must be enrolled in a recognized educational institution that complies with the rules of the scheme and is registered on the departmental scholarship portal. The student should be pursuing a post-matric course (Degree, Diploma, Certificate, or equivalent).; The student should not be receiving any other scholarship or financial assistance from the central or state government.",
+    "detailed_description": "The \"Jharkhand State Backward Classes Post-Matric Scholarship Scheme\" was launched by the Department of Scheduled Tribe, Scheduled Caste, Minority and Backward Class Welfare, Government of Jharkhand. The scheme aims to promote higher education among OBC students in Jharkhand and provides financial assistance to students pursuing professional and academic courses at the post-matriculation level. The scheme covers a wide range of courses, including professional, technical, and academic programs.",
+    "documents_text": "Caste Certificate (issued by the competent authority); Income Certificate; Academic Records; Aadhaar Card; Bank Account Details; Residential Proof; Domicile Certificate",
+    "exclusions_text": "",
+    "references_text": "https://ekalyan.cgg.gov.in/downloads/Post_Matric_Scholarship_sankalp_2022.pdf; https://ekalyan.cgg.gov.in/",
+    "application_process_text": "Student Registration: | - Students must apply online on the scholarship e-Kalyan portal designated by the Department of Scheduled Tribes, Scheduled Castes, Minorities, and Backward Classes Welfare.- Students must first enter their Aadhaar number, name, date of birth, gender, mobile number while filling out the online registration form. | After Registration: | - After validation, an application ID will be generated by the portal, which must be used to complete further steps of the application. | - Students must provide the details of their Aadhaar-linked bank account under their name. | - Students must upload the following documents to the portal. | NOTE: Applications with bank account details in another person’s name will be rejected.  |  Verification by Educational Institutions: | After submitting the online application, it will be verified by the respective educational institution or college through the departmental portal. | Applications not verified by the institution/college will be deemed invalid.  |  NOTE: Offline applications will not be accepted under any circumstances.  |  Instruction for Educational Institutions under the Post-Matric Scholarship Scheme: | - All educational institutions must register on the departmental scholarship portal within the stipulated time to be covered under the scheme. | - Institutions/colleges must submit the required documents as specified by the Tribal Welfare Commissioner, Jharkhand, Ranchi. | - A prescribed form for registration will be made available on the scholarship portal by the Commissioner. | - Only those institutions that maintain the prescribed academic standards are eligible under this scheme. | - Institutions/colleges must possess a valid AISHE (All India Survey on Higher Education) or U-DISE (Unified District Information System for Education) code to qualify. | - Institutions/colleges must register once on the portal, and the registration will remain valid for the duration of the course's recognition period. | - Institutions must update their NAAC (National Assessment and Accreditation Council) or NBA (National Board of Accreditation) details on the portal. | - The Tribal Welfare Commissioner will verify these details via the NAAC/NBA portal. | - Institutions must submit a self-audited report every six months in a prescribed format to the Tribal Welfare Commissioner. | - Each institution must designate a Nodal Officer (Institute Nodal Officer - INO) to handle all scholarship-related tasks and provide necessary information to the District Welfare Officer. | - Institutions and hostels housing students benefiting from the scheme must upload geo-tagged photographs to the departmental scholarship portal. | - A two-member inspection team constituted by the Tribal Welfare Commissioner will conduct physical inspections of out-of-state institutions every three years. | - If irregularities or errors are found during inspections, the Commissioner has the authority to take necessary actions.",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-577daf8787b733ea",
+    "name": "Prabhuddha Overseas Scholarship",
+    "description": "The PRABHUDDHA OVERSEAS SCHOLARSHIP scheme selects around 250 undergraduate and 150 postgraduate and PhD students from the SC/ST communities, providing them with financial assistance. The initiative aims to support deserving students in pursuing their academic aspirations.",
+    "level": "State",
+    "states": [
+      "Karnataka"
+    ],
+    "categories": [
+      "Education & Learning",
+      "International education"
+    ],
+    "benefits": "",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/pdos",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "Residency: The applicant should be a permanent resident of Karnataka state in India.; Age Limit: The age limit to apply for this scheme is 21 years for undergraduate courses, and 35 years for postgraduate and doctoral programs.; Qualifying Marks: Candidates applying for the scholarship must have scored at least 55% marks or equivalent grade in their qualifying degree exams for postgraduate and doctoral courses, and 80% marks or equivalent grade in qualifying exams (PUC/12th class) for undergraduate courses.; Standardized Test Scores: The candidates should have cleared standardized tests like GRE/GMAT/TOEFL/IELTS exams with minimum score marks before applying for the scholarship.; Admission: Applicants should have secured admission into a full-time degree program at an overseas university/college.; Documents: The candidates must have the necessary documents like Aadhaar Card, Caste Certificate, Latest Income Certificate, Last 2 years IT Returns, Degree/Master Degree Convocation Certificate, Degree/Master Degree All Semester Marks Card, Offer letter from the university obtained, Copy of the Passport, and Tuition fee and maintenance fee as sent by the university.; Field of Study: The scholarship covers various fields of study, including Engineering and Management, Pure Sciences and applied sciences, Agriculture sciences and medicine, International Commerce, Economics, Accounting Finance, Humanities, Social science, fine arts, and law.",
+    "detailed_description": "The PRABHUDDHA OVERSEAS SCHOLARSHIP scheme aims to provide financial assistance to students belonging to the SC/ST communities who wish to pursue their undergraduate, postgraduate, and doctoral (PhD) programs in various fields of study. The scholarship is available for students studying in the fields of Engineering and Management, Pure Sciences and applied sciences, Agriculture sciences and medicine, International Commerce, Economics, Accounting Finance, Humanities, Social science, fine arts, and law.  |  The scholarship will be granted to around 250 undergraduate and 150 postgraduate and PhD students from the SC/ST communities based on their family's annual income. Students whose family income is below Rs 8 lakh will receive 100% scholarship, while those whose family income is between Rs 8 to 15 lakh will receive a 50% scholarship. Students whose family income is above Rs 15 lakh will receive a 33% scholarship. The scholarship quota also includes a reservation of 33% for women and 5% for Physically Handicapped Candidates.  |  To be eligible for the PRABHUDDHA OVERSEAS SCHOLARSHIP scheme, the applicant should be a permanent resident of Karnataka State and have a valid passport. The age limit for applying to this scheme is 35 years for PhD and postgraduate courses and 21 years for undergraduate courses. Candidates must have passed GRE/GMAT/TOEFL/IELTS exams with minimum scores before applying for the scholarship. They should have secured admission to a full-time degree program at an overseas university/college. Candidates are also required to meet the eligibility criteria set by the scheme, including marks or equivalent grades in relevant qualifying exams.",
+    "documents_text": "",
+    "exclusions_text": "",
+    "references_text": "https://sw.kar.nic.in/foreignstudies/WebPages/newScheme.aspx; https://sw.kar.nic.in/foreignstudies/Pdf/1%20%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B2%AC%E0%B3%81%E0%B2%A6%E0%B3%8D%E0%B2%A7%20%E0%B2%AF%E0%B3%8B%E0%B2%9C%E0%B2%A8%E0%B3%86%E0%B2%AF%20%E0%B2%AE%E0%B2%BE%E0%B2%B0%E0%B3%8D%E0%B2%97%E0%B2%B8%E0%B3%82%E0%B2%9A%E0%B2%BF.pdf",
+    "application_process_text": "",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-c14f30a2f0ef9915",
+    "name": "APJ Abdul Kalam Scholarship",
+    "description": "The scheme aims to provide financial assistance to minority students pursuing Polytechnic Diploma courses. Through this scheme, scholarships are provided to eligible minority students. The scheme is implemented by the Directorate of Minority Welfare.",
+    "level": "State/ UT",
+    "states": [
+      "Kerala"
+    ],
+    "categories": [
+      "Education & Learning",
+      "Scholarships and student finance"
+    ],
+    "benefits": "- Financial support of ₹6,000/- per annum for selected scholars. | - The scholarship is intended for students pursuing three-year diploma courses in government, aided, or government-approved self-financing polytechnic institutions. | Frequency of Disbursement: | The scholarship is a one-time benefit.",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/apjkrl",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "BPL (Below Poverty Line) category applicants will be given preference.; 30% of the scholarships are reserved for girls. If the specified percentage of girls is not met, eligible boys will also be considered for the scholarship.; The selection of minority students is based on family annual income and marks, proportionate to the population.",
+    "detailed_description": "The A.P.J. Abdul Kalam Scholarship (APJAK) is administered by the Minority Welfare Department of Kerala for the academic year. This scholarship program aims to support students from various religious minority groups (Muslim, Christian (all denominations), Sikh, Buddhist, Jain, Parsi) in Kerala. The scheme is implemented by the Directorate of Minority Welfare. | Note: The last date to apply for fresh applications is February 3, 2025.",
+    "documents_text": "Applicant's Registration Printout.; SSLC (Secondary School Leaving Certificate), Plus Two/VHSE (Vocational Higher Secondary Education) Mark List Copy.; Allotment Memo Copy.; Applicant's Own Bank Passbook First Page Copy (including name, account number, branch code, and branch address).; Aadhaar Card Copy or NPR (National Population Register) Card Copy.; Nativity Certificate Copy.; Community Certificate Copy or Minority Certificate Copy.; Income Certificate (Original) from the Village Office.; Ration Card Copy.",
+    "exclusions_text": "- The scholarship is provided only once to an eligible student. Students who received the scholarship in the previous year should not apply again.",
+    "references_text": "https://www.scholarship.minoritywelfare.kerala.gov.in/dmw_ma/dmw_ind.php#dialog; https://www.scholarship.minoritywelfare.kerala.gov.in/shared_area/dmw/APJAK/instruction/77353_Apjaks%20%201%20.pdf",
+    "application_process_text": "Step 1: Visit the official website of the Directorate of Minority Welfare. | Step 2: Locate and click on the \"Scholarship\". | Step 3: Navigate to the \"Scholarship\" menu link and click on \"APJ Abdul Kalam (APJAK)\". | Step 4: Click on \"Apply Online\". | Step 5: For new scholarship applicants, first complete one-time registration and log in with your candidate details. | Step 6: In the Registration Form, carefully enter the details step-by-step under Examination details (register number/roll number), Personal details, and Scholarship details tabs. | Step 7: In the Upload details tab, upload the required documents (Photo, Signature, SSLC Certificate, Income Certificate, Ration Card Copy, Allotment Memo) in JPEG format under 100 KB size each. | Step 8: Only after uploading all required documents, the registration process will be considered complete. | Step 9: After completing the application submission, use the View/Print Application link to take a printout of the application form. | Submission of Application Printout | - After submitting the scholarship application (either through new registration or login), click on \"View/Print Application\" to get a printout of your registration form. | - Submit the printout of the registration form along with all the required supporting documents to the head of the institution where you are studying, within the specified deadline.",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-5f4f2112dbc856cb",
+    "name": "Lakshadweep Scholarship Scheme",
+    "description": "The Lakshadweep Scholarship Scheme is a government initiative aimed at providing financial assistance to students from Lakshadweep pursuing higher education.",
+    "level": "State",
+    "states": [
+      "Lakshadweep"
+    ],
+    "categories": [
+      "Education & Learning",
+      "Scholarships and student finance"
+    ],
+    "benefits": "Name of the CoursesScholarship AmountPre-degree courses, Post Matric certificate courses, Post Matric Diploma courses, Degree Courses in Arts, Science, commerce, B.Ed., LLB etc.Rate of monthly scholarship ₹ 1,800/-, Rate of lump sum grant ₹ 1,500/-Post Graduate course in Arts, Science, Commerce, Law etc.Rate of monthly scholarship ₹ 2,100/-, Rate of lump sum grant ₹ 1,800/-MBBS, BDS, Engineering Degree, MBA, BVSC, BSC(Agriculture) etc.Rate of monthly scholarship ₹ 2,100/-, Rate of lump sum grant ₹ 3,600/-Post Graduate Course in Medicine, Engineering and Veterinary Science, Agriculture etc. and Research Studies like Ph.D.Rate of monthly scholarship ₹ 3,000/- , Rate of lump sum grant ₹ 9,000/-High school courses or equivalent.₹ 1,200/- per monthPrimary school courses (1 to VIII) ₹ 600/- per monthSecondary school courses (VIII to X)₹ 200/- per monthPlus two students to whom course facilities are available in the island of which the student is native₹ 450/- per monthStudents of Bitra Island studying in Secondary Std. in other Island₹ 450/- per monthStudents of Plus 2 courses who belong to other islands than where the Institutions is situated and staying outside hostel for want of hostel accommodation₹ 750/- per month Students of high school staying outside hostel for want of accommodation in the hostel₹ 600/- per month",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/lkdss",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "Both parents and the student must be born in Lakshadweep or have one parent from Lakshadweep.; The student and the Islander parent must reside in the Islands.; Scholars cannot receive other scholarships, must surrender any awards, and repay funds received.; Retention of concessions granted by the institution or administration is allowed.; Scholars can pursue courses in Arts, Science, Engineering, Medicine, Agriculture, Law, or Commerce in recognized Indian institutions.; Educational concessions on the mainland are only for studies not available in the Islands.; Stipends may be granted or renewed for health reasons or disability.",
+    "detailed_description": "The Lakshadweep Scholarship Scheme an initiative by the Department of Education under the Ministry of Human Resource Development, aims to provide financial assistance to students from the Lakshadweep union territory. This program will alleviate financial burdens and empower students to pursue their educational aspirations.",
+    "documents_text": "Domicile Certificate.; Income Certificate.; Educational Certificate.; Caste Certificate.; Aadhaar Card.; Bank Passbook.; Passport Size Photograph.",
+    "exclusions_text": "",
+    "references_text": "https://scholarships.gov.in/public/schemeGuidelines/Lakshadweep/Lakshadweep_3024_G.pdf; https://scholarships.gov.in/",
+    "application_process_text": "The applications are invited on the National Scholarship Portal (NSP) (https://scholarships.gov.in/) in the month of April every year. | Registration for New Applicant | - Open the official NSP website and click on New Registration under Applicant Corner. 1. Read the Instruction /Guidelines, provide the under taking by click on Check box and click on Continue. | - Start the registration by Mobile OTP and get the Registration ID. | - Submit required document.  |  Registered Applicant | - Open the official NSP website and click on Fresh Application under Applicant Corner1. Login with application ID & password. | - Select the Scholarship. | - Fill out the applicant form. | - Upload the required documents. | - Submit. | - For future reference, a system-generated registration number is sent to the students.",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-4f3af7d1f4758e9f",
+    "name": "Academic Scholarship Scheme (Labor Welfare Board Madhya Pradesh)",
+    "description": "Under this scheme, up to two children of workers employed in industrial institutions/establishments covered under the Board are eligible for scholarship benefits. The scholarship is provided to students from Class 5th to 12th and higher education, who have passed their previous class.",
+    "level": "State/ UT",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "categories": [
+      "Education & Learning",
+      "Scholarships and student finance"
+    ],
+    "benefits": "Class-wise Scholarship Amount: | - Class 5th to 8th – ₹2,000/- | - Class 9th & 10th – ₹4,450/- | - Class 11th & 12th – ₹4,700/- | - ITI (Certificate Course) – ₹5,000/- | - Polytechnic (Diploma Course) – ₹5,000/- | - General Graduate (BA, B.Com, B.Sc, BBA) – ₹7,700/- | - Engineering (BE/B.Tech) – ₹10,000/- | - MBBS/BDS – ₹12,500/- | - Pharmacy, Ayurvedic, Homeopathic (UG, PG, Diploma), Paramedical, Nursing Courses – ₹9,000/- | - Law Courses – ₹10,000/- | - General PG Courses (MA, M.Com, M.Sc, MBA) – ₹7,700/- | - ME/M.Tech – ₹11,500/- | - PGDM & Other Management Diplomas – ₹7,700/-",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/asslwbmp",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "The applicant should be a child of a worker employed in an industrial institution/establishment covered under the M.P. Labour Welfare Fund Act 1982.; The applicant should be studying as a regular student in an educational institution in Madhya Pradesh.; The applicant should have passed the previous class.; The applicant should not be receiving a scholarship from any other department.; The applicant should be studying in Class 5th to 12th, ITI, Polytechnic, General Graduate, Engineering, MBBS, BDS, Pharmacy, Paramedical, Nursing, Law, PG Courses, M.E./M.Tech, PGDM, or other management diploma courses.",
+    "detailed_description": "The Academic Scholarship Scheme is implemented under the Labour Welfare Board, Labour Department, Madhya Pradesh. Under this scheme, up to two children of workers employed in industrial institutions/establishments covered under the Board are eligible for scholarship benefits. The scholarship is provided to students from Class 5th to 12th and higher education, who have passed their previous class and are studying in Madhya Pradesh. The benefits are granted once a year, provided the applicant does not receive a scholarship from any other department and applies in the prescribed format.",
+    "documents_text": "Mark Shee; Photograph; Aadhaar Card; Bank Passbook; Parent/Guardian ID",
+    "exclusions_text": "",
+    "references_text": "https://mpedistrict.gov.in/MPL/getphoto.aspx?ViewCircular=rLL1X7ZhSn8=; https://shramkalyanmandal.mponline.gov.in/Images/pdf/%E0%A4%B6%E0%A5%88%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3%E0%A4%BF%E0%A4%95%20%E0%A4%9B%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%B5%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BF%20%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE.pdf; https://mpedistrict.gov.in/MPL/getphoto.aspx?ViewCircular=rLL1X7ZhSn8=",
+    "application_process_text": "Register on the Portal | Step 1: Visit the Lok Seva Guarantee Madhya Pradesh Portal. | Step 2: Click on \"Citizen Registration\" and fill in the required details. | Step 3: Verify your mobile number by clicking \"Click here to Verify your Mobile No.\" | Step 4: After verification, you will receive a Registration Number on your registered mobile and email. | Login to the Portal | Step 1: Go to the Lok Seva Guarantee Madhya Pradesh Portal again. | Step 2: Click on \"Login\", enter your Email/Mobile/User ID and Password, and log in. | Step 3: Select \"Labour Department\" and choose the scheme name. | Step 4: Complete the form by entering all required details (marked with ). | Step 5: Upload all necessary documents, such as ID proof and other relevant certificates. | Step 6: After completing the form and uploading the documents, click Submit  |  Fee Structure | - No administrative fee is charged by the Board for availing this service. | - If the application is submitted through a Public Service Centre, the applicant is required to pay the prescribed service fee as determined by the e-Governance/Public Service Centre. | Appeal Process | First Appeal | - The first appeal must be submitted to the Assistant Welfare Commissioner, M.P. Labour Welfare Board. | - The appeal will be reviewed and resolved within 30 working days. | Second Appeal** | - If the applicant is dissatisfied with the decision of the First Appellate Authority, a Second Appeal can be filed. | - The second appeal must be submitted to the Welfare Commissioner, M.P. Labour Welfare Board for final resolution.",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-71d3c495cf038b10",
+    "name": "Post-Matric Scholarship To VJNT Students - Maharashtra",
+    "description": "The Government of Maharashtra has introduced a scheme namely “Post-Matric Scholarship to VJNT students” to encourage the students of the Vimukta Jatis & Nomadic Tribes (VJNT) to undergo Post-Matric Courses.",
+    "level": "State",
+    "states": [
+      "Maharashtra"
+    ],
+    "categories": [
+      "Education & Learning",
+      "Universities and higher education",
+      "Scholarships and student finance"
+    ],
+    "benefits": "",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/pmsvs-maharashtra",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "Applicants have to pass the previous year&#39;s examination.; In the case of VJNT, if the applicant fails for a year then the applicant is not paid any reimbursement for that particular year.; For Group A – If an applicant pursuing the Group-A course fails in the examination for the 1st time the award may be renewed. For second &amp; sub sequent failure in any class, the Applicant shall bear his / her own expenses until he/she secures promotion to the next higher class.; For Group B,C,D,E - he/she has to secure promotion to a higher class (For second &amp; subsequent failure in any class the applicant shall bear his / her own expenses until he/she secures promotion to the next higher class.); If due to any medical condition or due to any unforeseeable event the Applicant cannot appear in the annual examination, the headmaster of the college can approve or certify that if the Applicant would have appeared in the annual examination, he would have been able to pass the examination. This will be only allowed if the head of the institution is satisfied by the submission of medical proof or any other required sufficient proof that the Applicant presents to the college.",
+    "detailed_description": "The Government of Maharashtra launched a scheme namely “Post-Matric Scholarship to VJNT students” vide G.R. No. EBC 1068/83567/57 dated 24.12.1970 in 1970. This scheme was started by the Government to encourage the student of the Vimukta Jatis &amp; Nomadic Tribes (VJNT) to undergo Post-Matric higher education. | Objective: | - To encourage the VJNT students to undergo Post-Matric Courses. | - Providing financial assistance for education. | - Creating a passion for higher education. | - Providing students the opportunity to go to the mainstream of education through education. | Under this scheme, benefits of Tuition Fees, Exam Fees, and Maintenance Allowance are paid to only VJNT category students. All the eligible VJNT students are paid maintenance allowance from ₹ 90 to ₹ 190 per month for hostellers and ₹ 150 to ₹ 425 per month for day scholar students.",
+    "documents_text": "",
+    "exclusions_text": "",
+    "references_text": "https://sjsa.maharashtra.gov.in/en/scheme-category/education-training?&Submit=Submit&page=1; https://mahadbt.maharashtra.gov.in/; https://sjsa.maharashtra.gov.in/sites/default/files/vjntscheme/eng/2-01.pdf",
+    "application_process_text": "",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-f88cdb39f7c0a2f1",
+    "name": "Chief Ministergi Shotharabasingi Tengbang (CMST): Scholarship Of Students With Disabilities",
+    "description": "\"CMST: Scholarship of Students with Disabilities\" is a Scholarship Scheme by the Govt. of Manipur. In this scheme, the Students with Disability who are a domicile of the State of Manipur, and are studying in Class 1st and and above are awarded with scholarship of upto ₹ 8,000/-.",
+    "level": "State",
+    "states": [
+      "Manipur"
+    ],
+    "categories": [
+      "Social welfare & Empowerment",
+      "Education & Learning",
+      "Financial assistance",
+      "Scholarships and student finance"
+    ],
+    "benefits": "",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/cmstsswd",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "The applicant should be a Person with Disability (PwD).; The applicant should be a Student.; The applicant should be a domicile of the State of Manipur.; The applicant should be studying in Class 1st and above.; The applicant should be enrolled in a school/college/university/institution recognized by the Govt. of Manipur.; The applicant should not be availing scholarship under any other similar scheme from any source.",
+    "detailed_description": "\"Chief Ministergi Shotharabasingi Tengbang (CMST): Scholarship of Students with Disabilities\" is a Scholarship Scheme by the Social Welfare Department, Govt. of Manipur. In this scheme, the Students with Disability (SwD) who are a domicile of the State of Manipur, and are studying in Class 1st and above are awarded with scholarship of upto ₹ 8,000/-. The student must be enrolled in a school/college/university/institution recognized by the Govt. of Manipur. The amount of the scholarhip shall be disbursed directly into the bank account of the beneficiary.",
+    "documents_text": "",
+    "exclusions_text": "",
+    "references_text": "https://ukhrul.nic.in/scheme/chief-ministergi-shotharabasingi-tengbang-cmst/; https://socialwelfare.mn.gov.in/media/filer_public/b6/cc/b6cceaf1-4162-45aa-80dc-5568908138ee/cmst_schoolership.pdf",
+    "application_process_text": "",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-cc9fa8a98cb88dc9",
+    "name": "Border Areas Scholarship",
+    "description": "The scheme aims to provide annual scholarships to economically weaker students from border areas, supporting them in pursuing education up to the degree level.",
+    "level": "State",
+    "states": [
+      "Meghalaya"
+    ],
+    "categories": [
+      "Education & Learning",
+      "Scholarships and student finance"
+    ],
+    "benefits": "- Financial assistance in the form of annual scholarships/subsidies. | - Awarded year-wise based on promotion examination results. | - Intended to support education up to the Degree level for students from notified border area villages.",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/bas",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "The applicant should be a student residing in a village notified as a Border Area village by the Border Areas Department.; The applicant&#39;s father and mother should have income derived entirely from the Border Area.; The applicant should pass year-wise promotion examinations to continue receiving the scholarship.; The applicant should maintain good conduct, regular attendance, and satisfactory academic progress.; The applicant should not leave studies before completing the course.",
+    "detailed_description": "The scheme &quot;Border Areas Scholarship&quot; was launched by the Border Areas Development Department, Government of Meghalaya, aims to provide financial assistance to students from notified international border areas who face economic hardship. Under this scheme, year-wise scholarships or subsidies are provided to students studying in higher secondary schools and Colleges up to the Degree level. The Border Areas Development Department implements the scheme to help students continue their education without interruption due to financial constraints.",
+    "documents_text": "Aadhar Card; Date of Birth Certificate; Residential Certificate (showing residence in a notified Border Area village); Educational Certificates; Previous Year’s Academic Certificates; Latest Passport Size Photograph; Admission Proof; Bank Account Details; Photo ID Proof; Email ID and Mobile Number",
+    "exclusions_text": "- The applicant whose parents are in government service is not eligible. | - Students pursuing a Ph.D. or M.Phil. are not entitled to the subsidy/scholarship. | - The scholarship will be lost if the applicant participates in government political activities or demonstrations. | - B.Ed and M.Ed students currently pursuing the course are eligible, but those already in service are not entitled to the scholarship.",
+    "references_text": "https://megbad.gov.in/guidelines/scholarship%20guidelines.pdf; https://megeducation.gov.in/; https://meghalaya.gov.in/sites/default/files/forms/5border_area.pdf; https://meghalaya.gov.in/index.php/schemes/content/37489",
+    "application_process_text": "- Students may contact the Head of their respective educational institutions to avail the benefits of the scheme. | Note: To download the application form, click here.",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-e7fe3ddff4e0cc14",
+    "name": "Post Matric Merit Scholarship",
+    "description": "The objective of the Scheme is to provide financial assistance to permanent residents of Mizoram States securing 60% marks in Board/University Examination. The scheme is 100% funded by the State Plan Fund.",
+    "level": "State",
+    "states": [
+      "Mizoram"
+    ],
+    "categories": [
+      "Education & Learning"
+    ],
+    "benefits": "- Tuition fees | - Maintenance allowance (for boarding and lodging expenses) | - Other related expenses like books, stationery, etc.",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/pmms",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "The applicant should be a bonafide permanent resident of Mizoram, or the child/ward of a bonafide permanent resident of Mizoram.; The applicant should be pursuing regular studies in a recognized post-matric institution in India.; The applicant should have secured at least 60% marks or a first division/class in the last Board or University examination.; The applicant pursuing postgraduate courses in Medicine will be eligible only if they are not allowed to practice during the course duration.",
+    "detailed_description": "The “Post Matric Merit Scholarship” is a scheme implemented by the Mizoram Scholarship Board, Higher and Technical Education Department, Government of Mizoram. The objective of the Scheme is to provide financial assistance to permanent residents of Mizoram State securing 60% marks in Board/University Examination. The scheme is 100% funded by the State Plan Fund.",
+    "documents_text": "Aadhaar Card; Bank Account (self-account); Previous year examination mark sheet; Permanent Residential Certificate (up to date); Caste certificate (If applicable); Any other documents as required",
+    "exclusions_text": "- The applicant should not be found guilty of misconduct or breach of discipline. | - The applicant who has already passed one stage of post-matric education and is studying in the same stage again (even in a different subject or faculty) will not be eligible. | - The applicant who has completed their educational career in one professional course and is now pursuing a course in another professional line of the same level (e.g., Bachelor of Teaching and Bachelor of Education, and vice versa) will not be eligible. | - The applicant pursuing their studies through correspondence courses will not be eligible. | - The applicant should not hold any other scholarship or stipend of higher value. | - If awarded such a scholarship or stipend, the applicant must choose one and inform the awarding authority through the Principal. | - No scholarship under this scheme will be paid from the date the applicant accepts another scholarship or stipend of higher value.",
+    "references_text": "https://msb.mizoram.gov.in/uploads/attachments/2022/10/a507f5ed5a716eec8d2570e22cd4ed8c/scholarship-scheme-to-be-upload.pdf; https://msb.mizoram.gov.in/",
+    "application_process_text": "- Normally application is open during July - September through offline, where the application form is available in the Mizoram Scholarship Board during Office working hours. | - Application Form, duly filled in along with all the necessary documents, must be submitted to the Mizoram Scholarship Board for verification and payment.",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-5cebbee53b647e00",
+    "name": "Nagaland State Merit Scholarship",
+    "description": "The Directorate of Higher Education has launched the Nagaland State Merit Scholarship for the students of classes from 11th to 12th and UG Degree to PG degree so that they will be able to secure their scholarship rights or seats after getting online registration under this scholarship.",
+    "level": "State",
+    "states": [
+      "Nagaland"
+    ],
+    "categories": [
+      "Education & Learning",
+      "Scholarships and student finance"
+    ],
+    "benefits": "Benefits | - Nagaland State Merit Scholarship will provide social security provisions to the students of Nagaland state. | - This will proven to be an amazing opportunity. | - Students of post-matric classes will be able to secure their scholarship rights. | - Students will be given the scholarship amount either on a monthly basis or a yearly basis. | - The only selection criteria will be that the student will need to secure at least 70% to 80% marks in the previous year’s exam. | - One can also get a scholarship renewal after submitting his or her Marksheet. | - This will provide an equal amount of educational opportunities to the students. | - Students belonging to the ST categories will also be given the same scholarship references. | - Students can apply online under the Nagaland State Merit Scholarship before the last date of online form submission for getting registration on a time. | - Students will be given the scholarship amount in the DBT mode",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/nsms",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "The student must be a permanent resident or citizen of Nagaland state.; The applicant must be a student in a Post-matric class.; The student must secure 70% or 80% marks in the last year’s exam for getting a scholarship renewal.; Students in the ST category will also be given scholarship enrollment.",
+    "detailed_description": "Details | All those students who have secured 80% marks in the class 10th exam while holding the domicile of Nagaland state can apply online under the Nagaland State Merit Scholarship for getting the scholarship amount. This scholarship will not be provided to students who have failed the previous year’s exam.  |  The DHE has launched the Nagaland State Merit Scholarship for providing socio-economic welfare to the students belonging to the residentship of Nagaland state. The student must be studying or getting admission to the post-matric class (class 11th, 12, UG, PG Degree). The students will also need to secure minimum marks in the previous year’s exam.  |  Objective | - The primary objective of launching the Nagaland State Merit Scholarship is to provide financial stability to the students studying or undertaking post-matric classes from the Nagaland government schools and colleges. The students will need to secure at least 70% to 80% marks in the previous year’s exam. In case of the scholarship renewal, the students can submit their last year’s Marksheet. | - The Nagaland State Merit Scholarship is to provide scholarship amounts to students belonging to the citizenship of Nagaland state so that they will be able to avail the best educational opportunities or facilities after getting this scholarship amount. The Department of Higher Education will be delegated with the task of carrying out scholarship operations.",
+    "documents_text": "",
+    "exclusions_text": "Exclusions | - Students who have failed the last year’s exam. | - Students have 2 years of gap in their studies. | - Beneficiaries already getting the scholarship from another program. | - The employee of the government or semi-government organization",
+    "references_text": "https://highereducation.nagaland.gov.in/wp-content/uploads/2017/07/Merit2021-22.pdf",
+    "application_process_text": "Application Process | - First of all the applicant will need to visit and open the Official Website of the Common Scholarship Portal.1. Then you will be able to see the homepage on your screen. | - Look at the top right-hand side of your screen. | - Click on the Register button. | - A registration form will be displayed on your screen. | - Fill this form correctly after reading each column carefully such as:- Name, Gender, Aadhar No, Mobile No, Password, Confirm Password | - Then click on the Register button",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-8185d5e4c340bf13",
+    "name": "Banishree Scholarship",
+    "description": "The aim provides assistance and encourages them to study as well as acquire technical/ professional/ vocational training.",
+    "level": "State",
+    "states": [
+      "Odisha"
+    ],
+    "categories": [
+      "Education & Learning",
+      "Skills & Employment",
+      "Scholarships and student finance",
+      "Training and Skill Up-gradation"
+    ],
+    "benefits": "Rates of Scholarship | A. Inside the State: | - Primary (Standard I to V): ₹400/- | - Middle and High School (Standard VI to VIII and IX to XI) (Not covered by the Government of India Scholarship) : ₹500/- | - College (+2 &amp; +3) (Not covered by the Government of India Scholarship) : ₹600/- | - College (P.G.) (Not covered by the Government of India Scholarship) : ₹700/- | - Technical and vocational training (Not covered by Govt. of India Scholarship) : ₹700/- | B. Outside the State: | - Students prosecuting normal course of study or technical/vocational/professional education/training not available in the State and not covered by Govt. of India Scholarship shall get ₹250 per month. | - In case of visually challenged candidates, Reader’s Allowance shall be paid at ₹200 per month for primary classes and ₹300 per month for middle and high school classes and ₹400 per month for other studies, if it is certified by the head of the institution that the candidate has continuously employed a reader during the period of study, subject to the condition that such assistance is not availed of from Govt. of India. | - In case of orthopedically handicapped student who has 75% or above disabilities requiring special arrangements for transport, an additional monthly allowance of ₹200 per month may be sanctioned for transport, if it is not covered by the scheme of integrated education.",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/bs",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "Pursuing primary education (Std. I to V).; Reading in middle &amp; high schools (std. VI to X),; Not covered by Govt. of India Scholarship.; Reading in colleges/universities, not covered by Government of India Scholarship.; Reading in special schools registered under PWD, Act 1995, but not receiving grant-in-aid from State/ Central Govt.; Pursuing distance education through recognized universities/Govt. institutes.; Pursuing technical/ vocational/ professional education in any of the recognized institutes.; The applicant must be a bonafide resident of Odisha.; The applicant should be a regular student of an educational institution.; The parental/family income of the applicant is not more than ₹60,000/- per annum.; The applicant is not receiving any financial assistance/stipend/scholarship from State Government/ Central Government under any other scheme.; The student will continue to get the scholarship if he enrolls and regularly attends any recognized institution irrespective of whether he has passed or not in a particular year.",
+    "detailed_description": "A Scheme of Scholarship for Students with special needs in the name of &quot;Banishree Scheme&quot; has been introduced by the Social Security and Empowerment of Persons with Disabilities Department, Government of Odisha, to assist and encourage students to study as well as acquire technical/ professional/ vocational training. This scheme aims to offer some special allowances to disabled children so that they can pursue their education without any financial crunch.",
+    "documents_text": "",
+    "exclusions_text": "- The applicant cannot receive financial assistance, stipends, or scholarships from the state or central government under any other program.",
+    "references_text": "https://ssepd.odisha.gov.in/sites/default/files/2024-04/Banishree_Scholarship_merged.pdf",
+    "application_process_text": "Step 1: Visit the official website of the department i.e https://ssepd.odisha.gov.in/ | Step 2: In the &quot;Beneficiary Services&quot; section, click &quot;Banishree Scholarship&quot;. | Step 3: You will be redirected to the Online Application Form. | Step 4: Choose the relevant option out of : New Application/ Recommended Application from Principal/Head of the Institution | Step 5: On clicking one of the options, click proceed. On proceeding initially it is mandatory that applicant may get his/her Aadhaar details first. After verifying the application form will open. | Step 6: Fill in the application form including UDID Certificate Number, upload the signature of your spouse and yourself, and click &quot;Submit&quot;. | Step 7: The applicants may take printout of the system-generated application on complete documentation for his/her record.",
+    "scheme_close_date": "",
+    "verified": false
+  },
+  {
+    "scheme_id": "myscheme-3ede6e653be8b65e",
+    "name": "Award of Attendance Scholarship to Girl Students in the Middle Stage of Education",
+    "description": "\"Award of Attendance Scholarship to Girl Students in the Middle Stage of Education\" was launched by the Directorate of School Education, UT of Puducherry aims to raise the enrolment of girls in schools in the age group of 11-14 years in the middle stage of education, and to avoid dropout.",
+    "level": "State/ UT",
+    "states": [
+      "Puducherry"
+    ],
+    "categories": [
+      "Education & Learning",
+      "Scholarships and student finance"
+    ],
+    "benefits": "- Scholarship Amount: ₹200/- per annum per student.- Mode of Disbursement: Disbursed directly into Aadhaar-seeded bank account of the applicant through Direct Benefit Transfer (DBT) and Public Financial Management System (PFMS).",
+    "eligibility_rules": [],
+    "required_documents": [],
+    "application_url": null,
+    "official_source_url": "https://www.myscheme.gov.in/schemes/aasgsmse",
+    "dataset_source_url": "https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes",
+    "eligibility_text": "The applicant should be a citizen of India.; The applicant should be a native of the Union Territory of Puducherry by birth or by continuous residence for not less than five years.; The applicant should be a Girl.; The applicant should be a Student.; The applicant should be in the age group of 11 to 14 years.; The applicant should be studying in a Government, Government Aided or a Government-recognized Private School in Puducherry.; The applicant should not belong to the Scheduled Caste or Scheduled Tribes Category.; The applicant should have an annual family income of ₹75,000/- or below.; The applicant must have secured 97% (or above) attendance in the preceding year.",
+    "detailed_description": "The \"Award of Attendance Scholarship to Girl Students in the Middle Stage of Education\" was launched by the Department of Information & Publicity, Union Territory of Puducherry. The objective of the scheme is to raise the enrolment of girls in the schools between the age group of 11-14 years in the middle stage of education and also to avoid dropouts among girl students.",
+    "documents_text": "Nativity/Citizenship/Residential Certificate, issued by the Officer of the Revenue Department not below the rank of a Deputy Tahsildar.; Income Certificate.; Birth Certificate for Proof of Age.; Stamp-sized Photograph.; Aadhaar Card.; Secondary School Leaving Certificate (SSLC) Certificate.; Public Information Certificate (PIC).; Attendance Sheet, signed by the competent authority.",
+    "exclusions_text": "",
+    "references_text": "https://schooledn.py.gov.in/Welfare/InnerPages/edu_AttendanceScholarship.html; https://edistrict.py.gov.in/Help.rar; https://edistrict.py.gov.in/User/TrackApplication.aspx",
+    "application_process_text": "Step 1: The interested applicant should take print of the prescribed format of the application form. | Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required). | Step 3: The interested applicant should visit the Head of the Institution of his/her respective school and submit the duly filled and signed application form and the documents. The Heads of the Institutions then send the applications to the Directorate of School Education through Google Forms. | Step 1: Visit the Official Website of the e-District Portal of the Government of Puducherry. | Step 2: At the top right corner of the home page, click \"Login\". In the login screen, click \"Register a New Membership\". | Step 3: On the Registration Page, fill in all the mandatory fields: Username, Password, Confirm Password, Personal Details (Full Name, First Name, Email Address, Address, Current Address, Gender, Date of Birth, Mobile Number). Agree to the declaration. Fill in the Captcha Code, and click \"Signup\". | Step 4: Visit the Official Website of the e-District Portal of the Government of Puducherry. | Step 5: At the top right corner of the home page, click \"Login\". In the login screen, provide your Username and Password, fill in the Captcha Code, and click \"Sign In\". | Step 6: On the next screen, a list of schemes by the Government of Puducherry will be displayed Department-wise. | Step 7: Click on the scheme you wish to apply for. You will be taken to its online application form. | Step 8: In the application form, fill in all the mandatory fields (marked with a red asterisk) and upload all the mandatory documents (self-attest if required). | Step 9: Tick the declaration stating \"I hereby declare that the above-mentioned details are true and correct as per the best of my Knowledge\". Submit the application and note the application number for tracking your application. The application number will also be received on your Registered Mobile Number / Registered Email ID. | Track Your Application here | Access the User Manual for Online Application here",
+    "scheme_close_date": "",
+    "verified": false
+  }
+]

@@ -47,6 +47,8 @@ class SchemeSetuService:
                     readiness_score=(readiness_score if scheme.required_documents else None),
                     source_url=scheme.official_source_url,
                     verified=scheme.verified,
+                    eligibility_text=scheme.eligibility_text,
+                    documents_text=scheme.documents_text,
                 )
             )
 
