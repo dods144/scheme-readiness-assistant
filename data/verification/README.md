@@ -11,9 +11,12 @@ any rule as executable ground truth.
 
 ## Observed access constraint (2026-09-28)
 
-Automated fetches of `www.myscheme.gov.in/schemes/...` currently receive **HTTP 403**.
-Assisted reviews therefore rely on linked guideline URLs from `references_text` when those
-URLs respond. Humans should still open the myScheme page in a normal browser during dual-check.
+A normal HTTP fetch of one myScheme scheme URL returned HTTP 200 but only the JavaScript
+site shell, without scheme eligibility text. The browser's scheme detail request showed 403.
+The fetcher attempts the page, rejects shell-only content as evidence, and uses linked
+guideline URLs from `references_text` when available. The stored `fetch_report.json` predates
+this change; rerun the assist tool to get a fresh report. A human should still inspect
+the official page or guideline in a normal browser during dual-check.
 
 ## Process
 

@@ -98,7 +98,7 @@ PYTHONPATH=src python -m schemesetu.verify_sources \
   --reviewer "your-id"
 ```
 
-Assisted output lands in `data/verification/reviews/assisted/` with `human_confirmed: false`. Human-final reviews belong in `data/verification/reviews/`. The evaluation set under `data/evaluation/` stays empty until human-confirmed reviews exist. Note: automated myScheme page fetches currently receive HTTP 403; guideline links from `references_text` are used when available.
+Assisted output lands in `data/verification/reviews/assisted/` with `human_confirmed: false`. Human-final reviews belong in `data/verification/reviews/`. The evaluation set under `data/evaluation/` stays empty until human-confirmed reviews exist. The fetcher tries myScheme URLs normally and records the actual response. An HTTP 200 page containing only the site's JavaScript shell has no usable scheme clauses; linked guideline documents remain the fallback. Use `--force-fetch` to refresh previously cached responses.
 
 ## Next implementation steps
 

@@ -1,11 +1,13 @@
 import json
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
+from urllib.error import HTTPError
 
 from schemesetu.models import Scheme
 from schemesetu.verification import ReviewDecision, list_completed_reviews, load_review
-from schemesetu.verify_sources import _best_supporting_source, _split_clauses, draft_review
+from schemesetu.verify_sources import _best_supporting_source, _split_clauses, draft_review, fetch_url, extract_text
 
 
 class VerifySourcesTest(unittest.TestCase):
@@ -57,7 +59,33 @@ class VerifySourcesTest(unittest.TestCase):
         ]
         review = draft_review(scheme, sources, reviewer="test", review_date="2026-09-28")
         self.assertEqual(review.overall_decision, ReviewDecision.INSUFFICIENT)
-        self.assertIn("403", review.notes)
+        self.assertIn("unavailable", review.notes)
+
+    def test_myscheme_request_is_attempted_and_real_403_recorded(self):
+        url = "https://www.myscheme.gov.in/schemes/demo"
+        with tempfile.TemporaryDirectory() as directory:
+            with patch("schemesetu.verify_sources.urlopen", side_effect=HTTPError(url, 403, "Forbidden", {}, None)) as mocked:
+                meta, data = fetch_url(url, Path(directory))
+                self.assertEqual(meta["status"], 403)
+                self.assertEqual(data, b"")
+                self.assertNotIn("Skipped automated fetch", meta["error"])
+                mocked.assert_called_once()
+
+            # A legacy synthetic 403 cache entry must not suppress a retry.
+            from schemesetu.verify_sources import _cache_paths
+            meta_path, _ = _cache_paths(Path(directory), url)
+            meta_path.write_text(json.dumps({**meta, "error": "Skipped automated fetch: old shortcut"}))
+            with patch("schemesetu.verify_sources.urlopen", side_effect=HTTPError(url, 404, "Not Found", {}, None)) as mocked:
+                fresh, _ = fetch_url(url, Path(directory))
+                self.assertEqual(fresh["status"], 404)
+                mocked.assert_called_once()
+
+    def test_myscheme_page_shell_is_not_scheme_evidence(self):
+        meta = {"url": "https://www.myscheme.gov.in/schemes/demo", "status": 200,
+                "content_type": "text/html"}
+        body = b"<html><body><h1>myScheme</h1><footer>Get in touch</footer></body></html>"
+        self.assertEqual(extract_text(meta, body), "")
+        self.assertIn("page shell", meta["error"])
 
     def test_human_confirmed_filter(self):
         with tempfile.TemporaryDirectory() as directory:

@@ -1,8 +1,8 @@
 """Assist human verification by fetching linked sources and drafting review shells.
 
 Does not invent confirmation outcomes. Decisions are set to `insufficient` unless
-extracted official text clearly supports a catalog clause (then `confirmed`) or
-clearly differs (`amended`). myScheme pages that return HTTP errors are recorded
+extracted official text appears to support a catalog clause (then `amended`).
+myScheme pages that return HTTP errors or only the site shell are recorded
 as inaccessible rather than fabricated.
 """
 
@@ -19,6 +19,7 @@ from io import BytesIO
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
+from urllib.parse import urlparse
 
 from .models import Scheme
 from .repository import SchemeRepository
@@ -71,37 +72,30 @@ def _cache_paths(cache_dir: Path, url: str) -> tuple[Path, Path]:
 MAX_DOWNLOAD_BYTES = 4_000_000
 
 
+def _is_myscheme(url: str) -> bool:
+    host = (urlparse(url).hostname or "").lower()
+    return host == "myscheme.gov.in" or host.endswith(".myscheme.gov.in")
+
+
 def fetch_url(url: str, cache_dir: Path, force: bool = False) -> tuple[dict, bytes]:
     url = _clean_url(url)
     meta_path, body_path = _cache_paths(cache_dir, url)
     if not force and meta_path.exists() and body_path.exists():
         meta = json.loads(meta_path.read_text(encoding="utf-8"))
-        data = body_path.read_bytes()
-        if len(data) > MAX_DOWNLOAD_BYTES:
-            meta = {
-                **meta,
-                "skipped_large": True,
-                "error": meta.get("error")
-                or f"Cached body {len(data)} exceeds {MAX_DOWNLOAD_BYTES} bytes; skipped extraction",
-                "bytes": len(data),
-            }
-            return meta, b""
-        return meta, data
-
-    # myScheme scheme pages currently reject automated clients with HTTP 403.
-    if "myscheme.gov.in" in url:
-        meta = {
-            "url": url,
-            "final_url": url,
-            "status": 403,
-            "content_type": "",
-            "error": "Skipped automated fetch: myScheme currently returns HTTP 403 to non-browser clients.",
-            "bytes": 0,
-        }
-        cache_dir.mkdir(parents=True, exist_ok=True)
-        body_path.write_bytes(b"")
-        meta_path.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
-        return meta, b""
+        # Older versions stored a synthetic 403 without making a request.
+        # Refresh that entry so the report reflects a real HTTP response.
+        if not (meta.get("error") or "").startswith("Skipped automated fetch:"):
+            data = body_path.read_bytes()
+            if len(data) > MAX_DOWNLOAD_BYTES:
+                meta = {
+                    **meta,
+                    "skipped_large": True,
+                    "error": meta.get("error")
+                    or f"Cached body {len(data)} exceeds {MAX_DOWNLOAD_BYTES} bytes; skipped extraction",
+                    "bytes": len(data),
+                }
+                return meta, b""
+            return meta, data
 
     req = Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
     data = b""
@@ -201,7 +195,14 @@ def extract_text(meta: dict, data: bytes) -> str:
     ):
         parser = _HTMLText()
         parser.feed(data.decode("utf-8", errors="replace"))
-        return "\n".join(parser.parts)
+        text = "\n".join(parser.parts)
+        if _is_myscheme(meta.get("final_url") or meta.get("url") or ""):
+            # A 200 response can be the JavaScript app shell, whose footer
+            # has no scheme clauses. It cannot support an assisted review.
+            if not re.search(r"\b(eligibility|documents required|application process)\b", text, re.I):
+                meta["error"] = "myScheme returned a page shell without scheme details"
+                return ""
+        return text
     try:
         return data.decode("utf-8", errors="replace")
     except Exception:
@@ -256,7 +257,8 @@ def draft_review(
 ) -> SchemeVerificationReview:
     usable = [s for s in sources if (s.get("extracted_chars") or 0) > 80]
     myscheme_blocked = any(
-        "myscheme.gov.in" in (s.get("url") or "") and s.get("status") not in {200}
+        _is_myscheme(s.get("url") or "") and
+        (s.get("status") != 200 or not s.get("text"))
         for s in sources
     )
 
@@ -320,7 +322,7 @@ def draft_review(
 
     notes = []
     if myscheme_blocked:
-        notes.append("myScheme page fetch failed (often HTTP 403); guideline links were used when available.")
+        notes.append("myScheme scheme details were unavailable; guideline links were used when available.")
     if not usable:
         notes.append("No usable extracted text from linked sources at review time.")
     notes.append(
