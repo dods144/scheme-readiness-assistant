@@ -77,6 +77,32 @@ class EligibilityStatus(str, Enum):
     POSSIBLY_ELIGIBLE = "possibly_eligible"
 
 
+class SourcePassage(BaseModel):
+    scheme_id: str
+    scheme_name: str
+    section: str
+    text: str
+    source_url: str | None = None
+
+
+class RetrievedEvidence(BaseModel):
+    scheme_id: str
+    scheme_name: str
+    section: str
+    text: str
+    source_url: str | None = None
+    score: float
+    retrieval_method: str
+
+
+class Explanation(BaseModel):
+    summary: str
+    confidence: str
+    citations: list[RetrievedEvidence] = Field(default_factory=list)
+    caveats: list[str] = Field(default_factory=list)
+    provider: str = "none"
+
+
 class SchemeAssessment(BaseModel):
     scheme_id: str
     scheme_name: str
@@ -91,14 +117,20 @@ class SchemeAssessment(BaseModel):
     verified: bool = False
     eligibility_text: str = ""
     documents_text: str = ""
+    evidence: list[RetrievedEvidence] = Field(default_factory=list)
+    explanation: Explanation | None = None
 
 
 class AnalysisRequest(BaseModel):
     query: str
     profile: UserProfile
     top_k: int = Field(default=5, ge=1, le=20)
+    include_explanation: bool = False
+    retrieval_method: str | None = None
 
 
 class AnalysisResponse(BaseModel):
     query: str
     assessments: list[SchemeAssessment]
+    retrieval_method: str = "keyword"
+    comparison: dict[str, object] | None = None

@@ -1,23 +1,38 @@
 from __future__ import annotations
 
+import os
+
 from .eligibility import EligibilityEngine
+from .explain import ExplanationService
 from .models import AnalysisRequest, AnalysisResponse, SchemeAssessment
 from .repository import SchemeRepository
-from .retrieval import KeywordRetriever
+from .retrieval import HybridSchemeRetriever, KeywordRetriever, compare_retrieval_methods
 
 
 class SchemeSetuService:
     def __init__(
         self,
         repository: SchemeRepository,
-        retriever: KeywordRetriever | None = None,
+        retriever: HybridSchemeRetriever | KeywordRetriever | None = None,
         eligibility_engine: EligibilityEngine | None = None,
+        explanation_service: ExplanationService | None = None,
     ):
         self.repository = repository
-        self.retriever = retriever or KeywordRetriever()
+        self.retriever = retriever or HybridSchemeRetriever()
         self.eligibility_engine = eligibility_engine or EligibilityEngine()
+        self.explanation_service = explanation_service or ExplanationService()
+        if hasattr(self.retriever, "prepare"):
+            self.retriever.prepare(self.repository.all())
 
     def analyze(self, request: AnalysisRequest) -> AnalysisResponse:
+        method = request.retrieval_method or getattr(self.retriever, "method", None) or os.environ.get(
+            "SCHEMESETU_RETRIEVAL", "keyword"
+        )
+        if isinstance(self.retriever, HybridSchemeRetriever) and request.retrieval_method:
+            self.retriever.method = request.retrieval_method.casefold()
+            if self.retriever.method.startswith("embedding"):
+                self.retriever.prepare(self.repository.all())
+
         retrieved = self.retriever.search(
             query=request.query,
             profile=request.profile,
@@ -34,22 +49,42 @@ class SchemeSetuService:
             missing_documents, readiness_score = self.eligibility_engine.document_readiness(
                 scheme, request.profile
             )
-            assessments.append(
-                SchemeAssessment(
-                    scheme_id=scheme.scheme_id,
-                    scheme_name=scheme.name,
-                    retrieval_score=item.score,
-                    eligibility_status=status,
-                    rule_results=rule_results,
-                    missing_information=missing_fields,
-                    clarification_questions=questions,
-                    missing_documents=missing_documents,
-                    readiness_score=(readiness_score if scheme.required_documents else None),
-                    source_url=scheme.official_source_url,
-                    verified=scheme.verified,
-                    eligibility_text=scheme.eligibility_text,
-                    documents_text=scheme.documents_text,
+            evidence = list(getattr(item, "evidence", ()) or ())
+            assessment = SchemeAssessment(
+                scheme_id=scheme.scheme_id,
+                scheme_name=scheme.name,
+                retrieval_score=item.score,
+                eligibility_status=status,
+                rule_results=rule_results,
+                missing_information=missing_fields,
+                clarification_questions=questions,
+                missing_documents=missing_documents,
+                readiness_score=(readiness_score if scheme.required_documents else None),
+                source_url=scheme.official_source_url,
+                verified=scheme.verified,
+                eligibility_text=scheme.eligibility_text,
+                documents_text=scheme.documents_text,
+                evidence=evidence,
+            )
+            if request.include_explanation:
+                assessment.explanation = self.explanation_service.explain(
+                    assessment,
+                    evidence=evidence,
+                    use_llm=bool(os.environ.get("OPENAI_API_KEY")),
                 )
+            assessments.append(assessment)
+
+        comparison = None
+        if os.environ.get("SCHEMESETU_COMPARE_RETRIEVAL", "").lower() in {"1", "true", "yes"}:
+            comparison = compare_retrieval_methods(
+                request.query,
+                self.repository.all(),
+                top_k=request.top_k,
             )
 
-        return AnalysisResponse(query=request.query, assessments=assessments)
+        return AnalysisResponse(
+            query=request.query,
+            assessments=assessments,
+            retrieval_method=method,
+            comparison=comparison,
+        )

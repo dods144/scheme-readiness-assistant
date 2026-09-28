@@ -162,7 +162,18 @@ def main() -> None:
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps([s.model_dump(mode="json") for s in schemes],
                                       ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({**report, "output": str(args.output)}, indent=2))
+    digest = hashlib.sha256(args.input.read_bytes()).hexdigest()
+    report_path = Path("data/import_report.json")
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    full_report = {
+        **report,
+        "source_sha256": digest,
+        "dataset_url": DATASET_URL,
+        "verified_schemes": sum(1 for scheme in schemes if scheme.verified),
+        "output": str(args.output),
+    }
+    report_path.write_text(json.dumps(full_report, indent=2) + "\n", encoding="utf-8")
+    print(json.dumps(full_report, indent=2))
 
 
 if __name__ == "__main__":

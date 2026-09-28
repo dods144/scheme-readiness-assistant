@@ -30,7 +30,8 @@ class SchemeSetuServiceTest(unittest.TestCase):
         self.assertGreater(len(response.assessments), 0)
         first = response.assessments[0]
         self.assertEqual(first.scheme_id, "maha-girls-engineering-demo")
-        self.assertEqual(first.eligibility_status, EligibilityStatus.ELIGIBLE)
+        self.assertEqual(first.eligibility_status, EligibilityStatus.POSSIBLY_ELIGIBLE)
+        self.assertFalse(first.verified)
         self.assertIn("income_certificate", first.missing_documents)
 
 

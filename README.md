@@ -14,12 +14,15 @@ Public datasets are treated as retrieval sources, not as unquestioned ground tru
 
 - Canonical Pydantic models for schemes and user profiles
 - JSON repository with a small illustrative dataset
-- Keyword and metadata retrieval baseline
-- Deterministic eligibility evaluation
+- Keyword and embedding passage retrieval (configurable provider)
+- Source passages attributed by scheme ID, section, and source URL
+- Deterministic eligibility evaluation (unverified schemes never return definite eligible)
+- Optional grounded explanations (`include_explanation`; OpenAI when `OPENAI_API_KEY` is set)
 - Missing-information questions
 - Required-document readiness calculation
+- Manual verification workflow under `data/verification/`
 - FastAPI endpoint for analysis
-- Unit tests for boundary conditions and end-to-end analysis
+- Unit tests for boundary conditions, attribution, and false-eligibility guards
 
 ## Run locally
 
@@ -45,9 +48,18 @@ curl -X POST http://127.0.0.1:8000/v1/analyze \
       "course": "engineering",
       "family_income": 350000,
       "available_documents": ["aadhaar_card", "marksheet"]
-    }
+    },
+    "include_explanation": true,
+    "retrieval_method": "keyword"
   }'
 ```
+
+Retrieval configuration:
+
+- `SCHEMESETU_RETRIEVAL=keyword|embedding` (default `keyword`)
+- `SCHEMESETU_EMBEDDING_PROVIDER=local|openai` (default `local` hashed bag-of-words; use `openai` with `OPENAI_API_KEY`)
+- `SCHEMESETU_COMPARE_RETRIEVAL=true` adds a keyword-vs-embedding overlap report to the response (not an evaluation score)
+- `OPENAI_API_KEY` enables optional LLM explanations; without it, template explanations are used
 
 ## Run tests without installing FastAPI
 
@@ -59,7 +71,7 @@ PYTHONPATH=src python -m unittest discover -s tests -v
 
 ## Import the public myScheme dataset
 
-The default API catalog contains 25 real, unverified scholarship records from [MyScheme India: 4670 Govt Welfare Schemes](https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes), one per state/UT where possible. It is a pilot for browsing, not an evaluation set. The publisher lists the dataset under CC0 and describes 4,670 schemes and a separate `schemes_faqs.csv`. The original CSV is not committed to this repository. The FAQ file is reserved for the next RAG milestone.
+The default API catalog contains 25 real, unverified scholarship records from [MyScheme India: 4670 Govt Welfare Schemes](https://www.kaggle.com/datasets/elchemist/myscheme-india-govt-welfare-schemes), one per state/UT where possible. It is a pilot for browsing, not an evaluation set. The publisher lists the dataset under CC0 and describes 4,670 schemes and a separate `schemes_faqs.csv`. The original CSV is not committed to this repository. The FAQ file is reserved for a later RAG expansion.
 
 To use the full education catalog, download `schemes.csv` and run:
 
@@ -69,15 +81,18 @@ PYTHONPATH=src python -m schemesetu.import_myscheme /path/to/schemes.csv
 SCHEMESETU_CATALOG=data/imported/education_schemes.json uvicorn schemesetu.api:app --reload
 ```
 
-The importer reports rows read, education schemes imported, mapped columns, and government source links. If the publisher uses different headers, pass `--map mapping.json`, for example `{"name": "Scheme Title", "category": "Sector", "eligibility": "Who Can Apply", "url": "Scheme Link"}`. The API automatically uses the full imported catalog when it exists; otherwise it uses the 25-record pilot. The filter includes the dataset's `Education & Learning` category plus schemes explicitly named as scholarships, education loans, or student stipends. Eligibility and document text is retained for discovery, but no numerical rules or document checklist is inferred automatically; imported records have `verified: false` and cannot be marked eligible solely because the dataset mentioned them. Review each scheme against the linked government page before adding rule objects and an evaluation case.
+The importer reports rows read, education schemes imported, mapped columns, government source links, and writes `data/import_report.json` with the input SHA-256. If the publisher uses different headers, pass `--map mapping.json`, for example `{"name": "Scheme Title", "category": "Sector", "eligibility": "Who Can Apply", "url": "Scheme Link"}`. The API automatically uses the full imported catalog when it exists; otherwise it uses the 25-record pilot. The filter includes the dataset's `Education & Learning` category plus schemes explicitly named as scholarships, education loans, or student stipends. Eligibility and document text is retained for discovery, but no numerical rules or document checklist is inferred automatically; imported records have `verified: false` and cannot be marked eligible solely because the dataset mentioned them. Review each scheme against the linked government page before adding rule objects and an evaluation case.
 
-The supplied CSV produced **1,104** records from 4,670 source rows. See `data/import_report.json` for the column mapping and SHA-256 of that input. The pilot is derived from the same file; it contains unverified source material and must not be used as an evaluation set. A locally generated full catalog stays under `data/imported/`, which is excluded from Git.
+The supplied CSV produced **1,104** records from 4,670 source rows. See `data/import_report.json` for the column mapping and SHA-256 of that input. The pilot is derived from the same file; it contains unverified source material and must not be used as an evaluation set. A locally generated full catalog stays under `data/imported/`, which is excluded from Git. Raw downloads stay under `data/raw/`, also excluded from Git.
+
+## Manual verification
+
+Use `data/verification/README.md` and `data/verification/review_template.json` to record clause-level reviews (exact clause, URL, review date, reviewer decision). Do not invent verification outcomes. Completed reviews belong in `data/verification/reviews/`.
 
 ## Next implementation steps
 
-- Inspect the downloaded dataset schema and validate the adapter mapping against it
-- Normalize state, category, document and eligibility fields
-- Add embedding retrieval and reranking
-- Store source passages and clause-level citations
-- Create the independently reviewed evaluation set
+- Complete 25–40 human clause reviews and promote only confirmed rules
+- Add `schemes_faqs.csv` passages once available locally
+- Build an independently reviewed evaluation set, then measure keyword vs embedding retrieval
 - Add source-conflict detection across dataset and official documents
+- Optional reranking after passage retrieval

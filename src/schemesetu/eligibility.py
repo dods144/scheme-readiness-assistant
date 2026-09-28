@@ -101,6 +101,11 @@ class EligibilityEngine:
         else:
             status = EligibilityStatus.ELIGIBLE
 
+        # Unverified schemes must never produce a definite eligible claim,
+        # even when illustrative or provisional rules currently pass.
+        if status == EligibilityStatus.ELIGIBLE and not scheme.verified:
+            status = EligibilityStatus.POSSIBLY_ELIGIBLE
+
         missing_fields = list(dict.fromkeys(result.rule.field for result in unknown))
         questions = [
             QUESTION_TEMPLATES.get(field, f"Please provide {field.replace('_', ' ')}.")

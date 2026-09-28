@@ -1,0 +1,22 @@
+{
+  "scheme_id": "REPLACE_WITH_CATALOG_SCHEME_ID",
+  "scheme_name": "REPLACE_WITH_SCHEME_NAME",
+  "catalog_source_url": "https://www.myscheme.gov.in/schemes/REPLACE_SLUG",
+  "reviewer": "REPLACE_WITH_REVIEWER_NAME",
+  "review_date": "YYYY-MM-DD",
+  "overall_decision": "insufficient",
+  "notes": "Leave empty until a real review is completed. overall_decision must be one of: confirmed, amended, rejected, insufficient.",
+  "clause_reviews": [
+    {
+      "field_target": "family_income",
+      "dataset_passage": "Paste the exact eligibility/document sentence from the catalog or dataset.",
+      "official_clause": "Paste the exact clause from the current official page or guideline.",
+      "official_url": "https://example.gov.in/path-to-guideline",
+      "section": "eligibility",
+      "review_date": "YYYY-MM-DD",
+      "decision": "insufficient",
+      "reviewer": "REPLACE_WITH_REVIEWER_NAME",
+      "rationale": "Explain why the clause was confirmed, amended, rejected, or left insufficient."
+    }
+  ]
+}

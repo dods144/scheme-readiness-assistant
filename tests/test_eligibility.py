@@ -29,11 +29,27 @@ class EligibilityEngineTest(unittest.TestCase):
                 description="Income must not exceed INR 400,000.",
             )
         )
+        scheme.verified = True
         status, results, _, _ = self.engine.evaluate(
             scheme, UserProfile(family_income=400000)
         )
         self.assertEqual(status, EligibilityStatus.ELIGIBLE)
         self.assertEqual(results[0].status.value, "passed")
+
+    def test_unverified_scheme_cannot_be_marked_eligible(self):
+        scheme = scheme_with(
+            Rule(
+                field="family_income",
+                operator=Operator.LTE,
+                value=400000,
+                description="Income must not exceed INR 400,000.",
+            )
+        )
+        self.assertFalse(scheme.verified)
+        status, _, _, _ = self.engine.evaluate(
+            scheme, UserProfile(family_income=400000)
+        )
+        self.assertEqual(status, EligibilityStatus.POSSIBLY_ELIGIBLE)
 
     def test_missing_value_requests_clarification(self):
         scheme = scheme_with(
